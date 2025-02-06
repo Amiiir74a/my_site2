@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ویرایش حرکت ورزشی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ویرایش حرکت ورزشی</h1>
+
+    <form id="workout-form">
+        <div class="form-group">
+            <label for="name">نام حرکت:</label>
+            <input type="text" id="name" placeholder="نام حرکت را وارد کنید" required>
+        </div>
+
+        <div class="form-group">
+            <label for="reps">تعداد حرکت:</label>
+            <input type="number" id="reps" placeholder="تعداد حرکت" required>
+        </div>
+
+        <div class="form-group">
+            <label for="sets">تعداد ست:</label>
+            <input type="number" id="sets" placeholder="تعداد ست" required>
+        </div>
+
+        <div class="form-group">
+            <label for="weight">وزن (کیلوگرم):</label>
+            <input type="number" id="weight" placeholder="وزن به کیلوگرم" required>
+        </div>
+
+        <div class="buttons">
+            <button type="button" onclick="saveWorkout()">ذخیره</button>
+            <button type="button" onclick="deleteWorkout()">حذف حرکت</button>
+            <button type="button" onclick="cancelEdit()">انصراف</button>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
