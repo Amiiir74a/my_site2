@@ -1,3 +1,3 @@
 [build]
   command = "echo 'No build command necessary'"  # نیازی به دستور build نیست
-  publish = "MY_SITE"  # پوشه‌ای که فایل‌های استاتیک شما در آن قرار دارند
+  publish = "/"  # مسیر دایرکتوری اصلی پروژه (که در اینجا پوشه اصلی پروژه است)
