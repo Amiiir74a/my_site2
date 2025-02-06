@@ -94,19 +94,6 @@ function cancelEdit() {
     window.location.href = `${day}.html?day=${day}`;
 }
 
-// Check if the browser supports service workers
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker
-            .register('/service-worker.js')
-            .then((registration) => {
-                console.log('Service Worker Registered:', registration);
-            })
-            .catch((error) => {
-                console.error('Service Worker Registration Failed:', error);
-            });
-    });
-}
 
 // جلوگیری از رفتار پیش‌فرض لینک‌ها
 document.addEventListener('DOMContentLoaded', function () {
