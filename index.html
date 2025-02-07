@@ -40,9 +40,8 @@
         let dayToDelete = null;
 
         function openAddDayModal() {
-            const buttonContainer = document.querySelector('.button-container');
-            const dayCount = buttonContainer.querySelectorAll('button').length - 1; // Exclude the add-day button
-            if (dayCount >= 10) {
+            const days = JSON.parse(localStorage.getItem('days')) || [];
+            if (days.length >= 10) {
                 alert('به حداکثر روزهای ممکن رسیده‌ایم.');
             } else {
                 document.getElementById('add-day-modal').style.display = 'block';
@@ -66,7 +65,6 @@
         function addNewDay() {
             const dayName = document.getElementById('day-name').value;
             if (dayName) {
-                const buttonContainer = document.querySelector('.button-container');
                 const dayNumber = getNextAvailableDayNumber();
                 createDayButton(dayName, dayNumber);
                 saveDay(dayName, dayNumber);
