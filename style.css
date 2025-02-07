@@ -127,3 +127,24 @@ button:hover {
 .add-day-button:hover {
     background-color: #218838;
 }
+
+.title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.title-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+hr {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
