@@ -9,7 +9,7 @@
 <body>
     <div class="button-container">
         <button onclick="location.href='day1.html'">day1</button>
-        <button onclick="openAddDayModal()">افزودن روز</button>
+        <button class="add-day-button" onclick="openAddDayModal()">افزودن روز</button>
     </div>
 
     <div id="add-day-modal" class="modal">
@@ -42,7 +42,7 @@
                 const dayNumber = buttonContainer.querySelectorAll('button').length;
                 newButton.textContent = dayName;
                 newButton.onclick = () => location.href = `day${dayNumber}.html`;
-                buttonContainer.insertBefore(newButton, buttonContainer.lastElementChild);
+                buttonContainer.insertBefore(newButton, buttonContainer.querySelector('.add-day-button'));
                 saveDay(dayName, dayNumber);
                 closeAddDayModal();
             }
@@ -61,7 +61,7 @@
                 const newButton = document.createElement('button');
                 newButton.textContent = day.name;
                 newButton.onclick = () => location.href = `day${day.number}.html`;
-                buttonContainer.insertBefore(newButton, buttonContainer.lastElementChild);
+                buttonContainer.insertBefore(newButton, buttonContainer.querySelector('.add-day-button'));
             });
         }
 
