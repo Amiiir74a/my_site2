@@ -69,9 +69,9 @@
             deleteButton.className = 'delete-button';
             deleteButton.onclick = () => deleteDay(dayNumber);
 
-            dayDiv.appendChild(newButton);
             dayDiv.appendChild(renameButton);
             dayDiv.appendChild(deleteButton);
+            dayDiv.appendChild(newButton);
             buttonContainer.insertBefore(dayDiv, buttonContainer.querySelector('.add-day-button'));
         }
 
