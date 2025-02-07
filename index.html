@@ -24,7 +24,21 @@
         </div>
     </div>
 
+    <div id="delete-day-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDeleteDayModal()">&times;</span>
+            <h2>حذف روز</h2>
+            <p>آیا مطمئن هستید که می‌خواهید این روز را حذف کنید؟</p>
+            <div class="modal-buttons">
+                <button id="confirm-delete-button">حذف</button>
+                <button onclick="closeDeleteDayModal()">انصراف</button>
+            </div>
+        </div>
+    </div>
+
     <script>
+        let dayToDelete = null;
+
         function openAddDayModal() {
             const buttonContainer = document.querySelector('.button-container');
             const dayCount = buttonContainer.querySelectorAll('button').length - 1; // Exclude the add-day button
@@ -37,6 +51,16 @@
 
         function closeAddDayModal() {
             document.getElementById('add-day-modal').style.display = 'none';
+        }
+
+        function openDeleteDayModal(dayNumber) {
+            dayToDelete = dayNumber;
+            document.getElementById('delete-day-modal').style.display = 'block';
+        }
+
+        function closeDeleteDayModal() {
+            document.getElementById('delete-day-modal').style.display = 'none';
+            dayToDelete = null;
         }
 
         function addNewDay() {
@@ -67,7 +91,7 @@
             const deleteButton = document.createElement('button');
             deleteButton.textContent = 'X';
             deleteButton.className = 'delete-button';
-            deleteButton.onclick = () => deleteDay(dayNumber);
+            deleteButton.onclick = () => openDeleteDayModal(dayNumber);
 
             dayDiv.appendChild(renameButton);
             dayDiv.appendChild(deleteButton);
@@ -103,13 +127,18 @@
             }
         }
 
-        function deleteDay(dayNumber) {
-            const days = JSON.parse(localStorage.getItem('days')) || [];
-            const updatedDays = days.filter(d => d.number !== dayNumber);
-            localStorage.setItem('days', JSON.stringify(updatedDays));
-            localStorage.removeItem(`day${dayNumber}`);
-            loadDays();
+        function deleteDay() {
+            if (dayToDelete !== null) {
+                const days = JSON.parse(localStorage.getItem('days')) || [];
+                const updatedDays = days.filter(d => d.number !== dayToDelete);
+                localStorage.setItem('days', JSON.stringify(updatedDays));
+                localStorage.removeItem(`day${dayToDelete}`);
+                loadDays();
+                closeDeleteDayModal();
+            }
         }
+
+        document.getElementById('confirm-delete-button').onclick = deleteDay;
 
         document.addEventListener('DOMContentLoaded', loadDays);
     </script>
