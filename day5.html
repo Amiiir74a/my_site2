@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>برنامه دوشنبه</title>
+    <title>day5</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>day5</h1>
     <div class="container">
         <ul id="activity-list">
             <!-- لیست فعالیت‌ها اینجا اضافه می‌شود -->
         </ul>
         <div class="button-row">
             <button onclick="location.href='index.html'">بازگشت به صفحه اصلی</button>
-            <button onclick="location.href='edit_workout.html?day=monday'">افزودن فعالیت</button>
+            <button onclick="location.href='edit_workout.html?day=day5'">افزودن فعالیت</button>
         </div>
     </div>
     <script>
-        const day = 'monday';
+        const day = 'day5';
         const activityList = document.getElementById('activity-list');
 
         function loadActivities() {
