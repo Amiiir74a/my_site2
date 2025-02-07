@@ -11,11 +11,13 @@
         <ul id="activity-list">
             <!-- لیست فعالیت‌ها اینجا اضافه می‌شود -->
         </ul>
-        <button onclick="location.href='index.html'">بازگشت به صفحه اصلی</button>
-        <button onclick="location.href='edit_workout.html?day=saturday'">افزودن فعالیت</button>
+        <div class="button-row">
+            <button onclick="location.href='index.html'">بازگشت به صفحه اصلی</button>
+            <button onclick="location.href='edit_workout.html?day=sunday'">افزودن فعالیت</button>
+        </div>
     </div>
     <script>
-        const day = 'saturday';
+        const day = 'sunday';
         const activities = JSON.parse(localStorage.getItem(day)) || [];
         const activityList = document.getElementById('activity-list');
 
@@ -23,6 +25,13 @@
             const li = document.createElement('li');
             li.textContent = activity;
             li.onclick = () => location.href = `edit_workout.html?day=${day}&index=${index}`;
+            li.style.cursor = 'pointer';
+            li.style.padding = '10px';
+            li.style.border = '1px solid #ccc';
+            li.style.marginBottom = '5px';
+            li.style.borderRadius = '5px';
+            li.style.backgroundColor = '#f9f9f9';
+            li.style.textAlign = 'right';
             activityList.appendChild(li);
         });
     </script>
