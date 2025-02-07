@@ -22,9 +22,9 @@
             <input type="number" id="weight" name="weight">
         </form>
         <div class="button-row">
-                        <button type="button" onclick="history.back()">انصراف</button>
+            <button type="submit" form="activity-form" onclick="saveActivity(event)">ذخیره</button>
+            <button type="button" onclick="history.back()">انصراف</button>
             <button type="button" onclick="deleteActivity()">حذف</button>
-<button type="submit" form="activity-form" onclick="saveActivity(event)">ذخیره</button>
         </div>
     </div>
     <script>
@@ -65,6 +65,7 @@
             }
 
             localStorage.setItem(day, JSON.stringify(activities));
+            sessionStorage.setItem('updated', 'true');
             history.back();
         }
 
@@ -78,6 +79,7 @@
                 localStorage.setItem(day, JSON.stringify(activities));
             }
 
+            sessionStorage.setItem('updated', 'true');
             history.back();
         }
     </script>

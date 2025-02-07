@@ -18,21 +18,32 @@
     </div>
     <script>
         const day = 'sunday';
-        const activities = JSON.parse(localStorage.getItem(day)) || [];
         const activityList = document.getElementById('activity-list');
 
-        activities.forEach((activity, index) => {
-            const li = document.createElement('li');
-            li.textContent = activity;
-            li.onclick = () => location.href = `edit_workout.html?day=${day}&index=${index}`;
-            li.style.cursor = 'pointer';
-            li.style.padding = '10px';
-            li.style.border = '1px solid #ccc';
-            li.style.marginBottom = '5px';
-            li.style.borderRadius = '5px';
-            li.style.backgroundColor = '#f9f9f9';
-            li.style.textAlign = 'right';
-            activityList.appendChild(li);
+        function loadActivities() {
+            const activities = JSON.parse(localStorage.getItem(day)) || [];
+            activityList.innerHTML = '';
+            activities.forEach((activity, index) => {
+                const li = document.createElement('li');
+                li.textContent = activity;
+                li.onclick = () => location.href = `edit_workout.html?day=${day}&index=${index}`;
+                li.style.cursor = 'pointer';
+                li.style.padding = '10px';
+                li.style.border = '1px solid #ccc';
+                li.style.marginBottom = '5px';
+                li.style.borderRadius = '5px';
+                li.style.backgroundColor = '#f9f9f9';
+                li.style.textAlign = 'right';
+                activityList.appendChild(li);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadActivities();
+            if (sessionStorage.getItem('updated') === 'true') {
+                sessionStorage.removeItem('updated');
+                loadActivities();
+            }
         });
     </script>
 </body>
