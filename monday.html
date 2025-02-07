@@ -12,14 +12,18 @@
             <!-- لیست فعالیت‌ها اینجا اضافه می‌شود -->
         </ul>
         <button onclick="location.href='index.html'">بازگشت به صفحه اصلی</button>
-        <button onclick="location.href='edit_workout.html'">افزودن فعالیت</button>
+        <button onclick="location.href='edit_workout.html?day=saturday'">افزودن فعالیت</button>
     </div>
     <script>
-        // کد جاوااسکریپت برای مدیریت لیست فعالیت‌ها
-        document.getElementById('activity-list').addEventListener('click', function(event) {
-            if (event.target.tagName === 'LI') {
-                location.href = 'edit_workout.html';
-            }
+        const day = 'saturday';
+        const activities = JSON.parse(localStorage.getItem(day)) || [];
+        const activityList = document.getElementById('activity-list');
+
+        activities.forEach((activity, index) => {
+            const li = document.createElement('li');
+            li.textContent = activity;
+            li.onclick = () => location.href = `edit_workout.html?day=${day}&index=${index}`;
+            activityList.appendChild(li);
         });
     </script>
 </body>

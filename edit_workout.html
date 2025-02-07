@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form class="activity-form">
+        <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
             <input type="text" id="activity" name="activity">
             
@@ -22,16 +22,43 @@
             <input type="number" id="weight" name="weight">
         </form>
         <div class="button-row">
-            
+            <button type="submit" form="activity-form" onclick="saveActivity(event)">ذخیره</button>
             <button type="button" onclick="history.back()">انصراف</button>
             <button type="button" onclick="deleteActivity()">حذف</button>
-            <button type="submit" form="activity-form">ذخیره</button>
         </div>
     </div>
     <script>
+        function saveActivity(event) {
+            event.preventDefault();
+            const activity = document.getElementById('activity').value;
+            const reps = document.getElementById('reps').value;
+            const sets = document.getElementById('sets').value;
+            const weight = document.getElementById('weight').value;
+
+            if (!activity) {
+                alert('لطفا نام فعالیت را وارد کنید');
+                return;
+            }
+
+            const activityText = `${activity} - ${reps} حرکت - ${sets} ست - ${weight} کیلوگرم`;
+            const day = new URLSearchParams(window.location.search).get('day');
+            const activities = JSON.parse(localStorage.getItem(day)) || [];
+            activities.push(activityText);
+            localStorage.setItem(day, JSON.stringify(activities));
+
+            history.back();
+        }
+
         function deleteActivity() {
-            // کد برای حذف فعالیت
-            alert('فعالیت حذف شد');
+            const day = new URLSearchParams(window.location.search).get('day');
+            const activities = JSON.parse(localStorage.getItem(day)) || [];
+            const activityIndex = new URLSearchParams(window.location.search).get('index');
+            if (activityIndex !== null) {
+                activities.splice(activityIndex, 1);
+                localStorage.setItem(day, JSON.stringify(activities));
+            }
+
+            history.back();
         }
     </script>
 </body>
