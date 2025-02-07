@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صفحه با دکمه‌ها</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            button {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <button>شنبه</button>
-    <button>یکشنبه</button>
-    <button>دوشنبه</button>
+    <div class="button-container">
+        <button>شنبه</button>
+        <button>یکشنبه</button>
+        <button>دوشنبه</button>
+    </div>
 </body>
 </html>
