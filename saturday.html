@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برنامه شنبه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <ul id="activity-list">
+            <!-- لیست فعالیت‌ها اینجا اضافه می‌شود -->
+        </ul>
+        <button onclick="location.href='index.html'">بازگشت به صفحه اصلی</button>
+        <button onclick="location.href='edit_workout.html'">افزودن فعالیت</button>
+    </div>
+    <script>
+        // کد جاوااسکریپت برای مدیریت لیست فعالیت‌ها
+        document.getElementById('activity-list').addEventListener('click', function(event) {
+            if (event.target.tagName === 'LI') {
+                location.href = 'edit_workout.html';
+            }
+        });
+    </script>
+</body>
+</html>
