@@ -1,6 +1,6 @@
 function getCurrentDay() {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('day'); // حذف مقدار پیش‌فرض: شنبه
+    return urlParams.get('day'); // استفاده از پارامتر 'day'
 }
 
 function saveWorkout() {
