@@ -22,12 +22,25 @@
             <input type="number" id="weight" name="weight">
         </form>
         <div class="button-row">
-            <button type="submit" form="activity-form" onclick="saveActivity(event)">ذخیره</button>
-            <button type="button" onclick="history.back()">انصراف</button>
+                        <button type="button" onclick="history.back()">انصراف</button>
             <button type="button" onclick="deleteActivity()">حذف</button>
+<button type="submit" form="activity-form" onclick="saveActivity(event)">ذخیره</button>
         </div>
     </div>
     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const day = new URLSearchParams(window.location.search).get('day');
+            const index = new URLSearchParams(window.location.search).get('index');
+            if (index !== null) {
+                const activities = JSON.parse(localStorage.getItem(day)) || [];
+                const activity = activities[index].split(' - ');
+                document.getElementById('activity').value = activity[0];
+                document.getElementById('reps').value = activity[1].split(' ')[0];
+                document.getElementById('sets').value = activity[2].split(' ')[0];
+                document.getElementById('weight').value = activity[3].split(' ')[0];
+            }
+        });
+
         function saveActivity(event) {
             event.preventDefault();
             const activity = document.getElementById('activity').value;
@@ -42,19 +55,26 @@
 
             const activityText = `${activity} - ${reps} حرکت - ${sets} ست - ${weight} کیلوگرم`;
             const day = new URLSearchParams(window.location.search).get('day');
+            const index = new URLSearchParams(window.location.search).get('index');
             const activities = JSON.parse(localStorage.getItem(day)) || [];
-            activities.push(activityText);
-            localStorage.setItem(day, JSON.stringify(activities));
 
+            if (index !== null) {
+                activities[index] = activityText;
+            } else {
+                activities.push(activityText);
+            }
+
+            localStorage.setItem(day, JSON.stringify(activities));
             history.back();
         }
 
         function deleteActivity() {
             const day = new URLSearchParams(window.location.search).get('day');
+            const index = new URLSearchParams(window.location.search).get('index');
             const activities = JSON.parse(localStorage.getItem(day)) || [];
-            const activityIndex = new URLSearchParams(window.location.search).get('index');
-            if (activityIndex !== null) {
-                activities.splice(activityIndex, 1);
+
+            if (index !== null) {
+                activities.splice(index, 1);
                 localStorage.setItem(day, JSON.stringify(activities));
             }
 
