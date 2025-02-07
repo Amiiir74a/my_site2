@@ -31,10 +31,10 @@
     <script>
         let activitiesData = [];
 
-        fetch('sheet1.json')
+        fetch('alldata.json')
             .then(response => response.json())
             .then(data => {
-                activitiesData = data.Sheet1;
+                activitiesData = data.alldata;
                 const activityList = document.getElementById('activity-list');
                 activitiesData.forEach(activity => {
                     const option = document.createElement('option');
