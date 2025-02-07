@@ -34,10 +34,10 @@
             if (index !== null) {
                 const activities = JSON.parse(localStorage.getItem(day)) || [];
                 const activity = activities[index].split(' - ');
-                document.getElementById('activity').value = activity[0];
-                document.getElementById('reps').value = activity[1].split(' ')[0];
-                document.getElementById('sets').value = activity[2].split(' ')[0];
-                document.getElementById('weight').value = activity[3].split(' ')[0];
+                document.getElementById('activity').value = activity[1];
+                document.getElementById('reps').value = activity[2].split(' ')[0];
+                document.getElementById('sets').value = activity[3].split(' ')[0];
+                document.getElementById('weight').value = activity[4].split(' ')[0];
             }
         });
 
@@ -53,10 +53,11 @@
                 return;
             }
 
-            const activityText = `${activity} - ${reps} حرکت - ${sets} ست - ${weight} کیلوگرم`;
             const day = new URLSearchParams(window.location.search).get('day');
             const index = new URLSearchParams(window.location.search).get('index');
             const activities = JSON.parse(localStorage.getItem(day)) || [];
+            const checked = index !== null ? activities[index].split(' - ')[0] : 'false';
+            const activityText = `${checked} - ${activity} - ${reps} حرکت - ${sets} ست - ${weight} کیلوگرم`;
 
             if (index !== null) {
                 activities[index] = activityText;
