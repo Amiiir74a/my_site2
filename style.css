@@ -151,3 +151,35 @@ hr {
     border: 1px solid #ccc;
     margin-bottom: 20px;
 }
+
+.day-div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rename-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.rename-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
