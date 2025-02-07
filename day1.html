@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>day1</h1>
     <div class="container">
-        <ul id="activity-list">
-            <!-- لیست فعالیت‌ها اینجا اضافه می‌شود -->
-        </ul>
+        <table id="activity-table">
+            <thead>
+                <tr>
+                    <th>نام فعالیت</th>
+                    <th>تعداد حرکت</th>
+                    <th>تعداد ست</th>
+                    <th>کیلوگرم</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- لیست فعالیت‌ها اینجا اضافه می‌شود -->
+            </tbody>
+        </table>
         <div class="button-row">
             <button onclick="location.href='index.html'">بازگشت به صفحه اصلی</button>
             <button onclick="location.href='edit_workout.html?day=day1'">افزودن فعالیت</button>
@@ -19,23 +28,23 @@
     </div>
     <script>
         const day = 'day1';
-        const activityList = document.getElementById('activity-list');
+        const activityTableBody = document.getElementById('activity-table').querySelector('tbody');
 
         function loadActivities() {
             const activities = JSON.parse(localStorage.getItem(day)) || [];
-            activityList.innerHTML = '';
+            activityTableBody.innerHTML = '';
             activities.forEach((activity, index) => {
-                const li = document.createElement('li');
-                li.textContent = activity;
-                li.onclick = () => location.href = `edit_workout.html?day=${day}&index=${index}`;
-                li.style.cursor = 'pointer';
-                li.style.padding = '10px';
-                li.style.border = '1px solid #ccc';
-                li.style.marginBottom = '5px';
-                li.style.borderRadius = '5px';
-                li.style.backgroundColor = '#f9f9f9';
-                li.style.textAlign = 'right';
-                activityList.appendChild(li);
+                const [name, reps, sets, weight] = activity.split(' - ');
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${name}</td>
+                    <td>${reps.split(' ')[0]}</td>
+                    <td>${sets.split(' ')[0]}</td>
+                    <td>${weight.split(' ')[0]}</td>
+                `;
+                row.onclick = () => location.href = `edit_workout.html?day=${day}&index=${index}`;
+                row.style.cursor = 'pointer';
+                activityTableBody.appendChild(row);
             });
         }
 
