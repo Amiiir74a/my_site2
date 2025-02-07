@@ -25,11 +25,13 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    direction: rtl; /* اضافه کردن این خط برای راست‌چین کردن */
 }
 
 .activity-form label {
     font-size: 16px;
     margin-bottom: 5px;
+    text-align: right; /* اضافه کردن این خط برای راست‌چین کردن */
 }
 
 .activity-form input {
@@ -37,6 +39,7 @@ body {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    text-align: right; /* اضافه کردن این خط برای راست‌چین کردن */
 }
 
 .button-row {
