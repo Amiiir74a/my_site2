@@ -43,9 +43,29 @@
                 newButton.textContent = dayName;
                 newButton.onclick = () => location.href = `day${dayNumber}.html`;
                 buttonContainer.insertBefore(newButton, buttonContainer.lastElementChild);
+                saveDay(dayName, dayNumber);
                 closeAddDayModal();
             }
         }
+
+        function saveDay(dayName, dayNumber) {
+            const days = JSON.parse(localStorage.getItem('days')) || [];
+            days.push({ name: dayName, number: dayNumber });
+            localStorage.setItem('days', JSON.stringify(days));
+        }
+
+        function loadDays() {
+            const days = JSON.parse(localStorage.getItem('days')) || [];
+            const buttonContainer = document.querySelector('.button-container');
+            days.forEach(day => {
+                const newButton = document.createElement('button');
+                newButton.textContent = day.name;
+                newButton.onclick = () => location.href = `day${day.number}.html`;
+                buttonContainer.insertBefore(newButton, buttonContainer.lastElementChild);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', loadDays);
     </script>
 </body>
 </html>
