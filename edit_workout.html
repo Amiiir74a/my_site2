@@ -8,12 +8,30 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <form class="activity-form">
             <label for="activity">نام فعالیت:</label>
             <input type="text" id="activity" name="activity">
-            <button type="submit">ذخیره</button>
+            
+            <label for="reps">تعداد حرکت:</label>
+            <input type="number" id="reps" name="reps">
+            
+            <label for="sets">تعداد ست:</label>
+            <input type="number" id="sets" name="sets">
+            
+            <label for="weight">کیلوگرم:</label>
+            <input type="number" id="weight" name="weight">
         </form>
-        <button onclick="history.back()">بازگشت</button>
+        <div class="button-row">
+            <button type="submit" form="activity-form">ذخیره</button>
+            <button type="button" onclick="deleteActivity()">حذف</button>
+            <button type="button" onclick="history.back()">انصراف</button>
+        </div>
     </div>
+    <script>
+        function deleteActivity() {
+            // کد برای حذف فعالیت
+            alert('فعالیت حذف شد');
+        }
+    </script>
 </body>
 </html>
