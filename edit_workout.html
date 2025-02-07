@@ -10,7 +10,8 @@
     <div class="container">
         <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
-            <input type="text" id="activity" name="activity">
+            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateBackground()">
+            <datalist id="activity-list"></datalist>
             
             <label for="reps">تعداد حرکت:</label>
             <input type="number" id="reps" name="reps">
@@ -28,6 +29,20 @@
         </div>
     </div>
     <script>
+        let activitiesData = [];
+
+        fetch('sheet1.json')
+            .then(response => response.json())
+            .then(data => {
+                activitiesData = data.Sheet1;
+                const activityList = document.getElementById('activity-list');
+                activitiesData.forEach(activity => {
+                    const option = document.createElement('option');
+                    option.value = activity.text;
+                    activityList.appendChild(option);
+                });
+            });
+
         document.addEventListener('DOMContentLoaded', () => {
             const day = new URLSearchParams(window.location.search).get('day');
             const index = new URLSearchParams(window.location.search).get('index');
@@ -38,8 +53,19 @@
                 document.getElementById('reps').value = activity[2].split(' ')[0];
                 document.getElementById('sets').value = activity[3].split(' ')[0];
                 document.getElementById('weight').value = activity[4].split(' ')[0];
+                updateBackground();
             }
         });
+
+        function updateBackground() {
+            const activityName = document.getElementById('activity').value;
+            const activity = activitiesData.find(a => a.text === activityName);
+            if (activity) {
+                document.body.style.backgroundImage = `url(${activity.pic})`;
+            } else {
+                document.body.style.backgroundImage = '';
+            }
+        }
 
         function saveActivity(event) {
             event.preventDefault();
