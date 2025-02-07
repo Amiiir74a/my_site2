@@ -189,12 +189,13 @@ table {
     max-width: 600px;
     border-collapse: collapse;
     margin-bottom: 20px;
+    direction: rtl;
 }
 
 th, td {
     border: 1px solid #ccc;
     padding: 10px;
-    text-align: right;
+    text-align: center;
 }
 
 th {

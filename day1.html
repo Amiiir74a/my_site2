@@ -11,6 +11,7 @@
         <table id="activity-table">
             <thead>
                 <tr>
+                    <th>انتخاب</th>
                     <th>نام فعالیت</th>
                     <th>تعداد حرکت</th>
                     <th>تعداد ست</th>
@@ -34,18 +35,26 @@
             const activities = JSON.parse(localStorage.getItem(day)) || [];
             activityTableBody.innerHTML = '';
             activities.forEach((activity, index) => {
-                const [name, reps, sets, weight] = activity.split(' - ');
+                const [checked, name, reps, sets, weight] = activity.split(' - ');
                 const row = document.createElement('tr');
                 row.innerHTML = `
+                    <td><input type="checkbox" ${checked === 'true' ? 'checked' : ''} onchange="toggleCheckbox(${index})"></td>
                     <td>${name}</td>
                     <td>${reps.split(' ')[0]}</td>
                     <td>${sets.split(' ')[0]}</td>
                     <td>${weight.split(' ')[0]}</td>
                 `;
-                row.onclick = () => location.href = `edit_workout.html?day=${day}&index=${index}`;
                 row.style.cursor = 'pointer';
                 activityTableBody.appendChild(row);
             });
+        }
+
+        function toggleCheckbox(index) {
+            const activities = JSON.parse(localStorage.getItem(day)) || [];
+            const activity = activities[index].split(' - ');
+            activity[0] = activity[0] === 'true' ? 'false' : 'true';
+            activities[index] = activity.join(' - ');
+            localStorage.setItem(day, JSON.stringify(activities));
         }
 
         document.addEventListener('DOMContentLoaded', () => {
