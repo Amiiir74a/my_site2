@@ -67,11 +67,21 @@
             const dayName = document.getElementById('day-name').value;
             if (dayName) {
                 const buttonContainer = document.querySelector('.button-container');
-                const dayNumber = buttonContainer.querySelectorAll('button').length;
+                const dayNumber = getNextAvailableDayNumber();
                 createDayButton(dayName, dayNumber);
                 saveDay(dayName, dayNumber);
                 closeAddDayModal();
             }
+        }
+
+        function getNextAvailableDayNumber() {
+            const days = JSON.parse(localStorage.getItem('days')) || [];
+            for (let i = 1; i <= 10; i++) {
+                if (!days.some(day => day.number === i)) {
+                    return i;
+                }
+            }
+            return null;
         }
 
         function createDayButton(dayName, dayNumber) {
