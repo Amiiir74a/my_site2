@@ -51,11 +51,13 @@
             if (newName) {
                 document.getElementById('day-title').textContent = newName;
                 updateDayNameInStorage(newName);
+                updateDayNameInMainPage(newName);
             }
         }
 
         function deleteDay() {
             if (confirm('آیا مطمئن هستید که می‌خواهید این روز را حذف کنید؟')) {
+                localStorage.removeItem(day);
                 const days = JSON.parse(localStorage.getItem('days')) || [];
                 const updatedDays = days.filter(d => d.number !== 1);
                 localStorage.setItem('days', JSON.stringify(updatedDays));
@@ -69,6 +71,16 @@
             if (dayIndex !== -1) {
                 days[dayIndex].name = newName;
                 localStorage.setItem('days', JSON.stringify(days));
+            }
+        }
+
+        function updateDayNameInMainPage(newName) {
+            const days = JSON.parse(localStorage.getItem('days')) || [];
+            const dayIndex = days.findIndex(d => d.number === 1);
+            if (dayIndex !== -1) {
+                days[dayIndex].name = newName;
+                localStorage.setItem('days', JSON.stringify(days));
+                window.opener.loadDays();
             }
         }
 

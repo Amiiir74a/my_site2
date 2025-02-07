@@ -57,6 +57,7 @@
         function loadDays() {
             const days = JSON.parse(localStorage.getItem('days')) || [];
             const buttonContainer = document.querySelector('.button-container');
+            buttonContainer.innerHTML = '<button onclick="location.href=\'day1.html\'">day1</button><button class="add-day-button" onclick="openAddDayModal()">افزودن روز</button>';
             days.forEach(day => {
                 const newButton = document.createElement('button');
                 newButton.textContent = day.name;
