@@ -94,7 +94,6 @@ function cancelEdit() {
     window.location.href = `${day}.html?day=${day}`;
 }
 
-
 // جلوگیری از رفتار پیش‌فرض لینک‌ها
 document.addEventListener('DOMContentLoaded', function () {
     const links = document.querySelectorAll('a');
