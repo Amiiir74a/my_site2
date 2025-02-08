@@ -36,7 +36,12 @@
 
         <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
-            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo(); updateInfoBoxes();">
+            <div style="display: flex; align-items: center;">
+                <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo(); updateInfoBoxes();" style="flex: 1;">
+                <button type="button" onclick="searchGoogle()" style="height: 100%; display: flex; align-items: center; justify-content: center; background-color: #4285F4; border: none; cursor: pointer;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" style="height: 24px;">
+                </button>
+            </div>
             <datalist id="activity-list"></datalist>
             
             <label for="reps">تعداد حرکت:</label>
@@ -194,6 +199,16 @@
             const modal = document.getElementById('info-modal');
             if (event.target === modal) {
                 modal.style.display = 'none';
+            }
+        }
+
+        function searchGoogle() {
+            const activityName = document.getElementById('activity').value;
+            if (activityName) {
+                const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(activityName)}`;
+                window.open(searchUrl, '_blank');
+            } else {
+                alert('لطفا نام فعالیت را وارد کنید');
             }
         }
     </script>
