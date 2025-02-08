@@ -8,7 +8,10 @@
 </head>
 <body>
     <div class="container">
-        <video id="activity-video" controls style="width: 100%; max-width: 600px; margin-bottom: 20px; display: none;"></video>
+        <video id="activity-video" width="640" height="360" autoplay muted style="margin-bottom: 20px; display: none;">
+            <source id="activity-video-source" type="video/mp4">
+            مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+        </video>
         <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
             <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo()">
@@ -62,9 +65,11 @@
             const activityName = document.getElementById('activity').value;
             const activity = activitiesData.find(a => a.text === activityName);
             const videoElement = document.getElementById('activity-video');
+            const videoSource = document.getElementById('activity-video-source');
             if (activity && activity.vid) {
-                videoElement.src = activity.vid;
+                videoSource.src = activity.vid;
                 videoElement.style.display = 'block';
+                videoElement.load();
             } else {
                 videoElement.style.display = 'none';
             }
