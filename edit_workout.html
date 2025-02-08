@@ -8,11 +8,18 @@
 </head>
 <body>
     <div class="container">
-        <video id="activity-video" autoplay muted loop style="width: 100%; max-width: 600px; margin-bottom: 20px; display: none;">
+        <video id="activity-video" autoplay muted loop style="width: 100%; max-width: 600px; margin-bottom: 20px; display: none;" onclick="openModal()">
             <source id="activity-video-source" type="video/mp4">
             مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
         </video> 
         
+        <div id="info-modal" class="modal" onclick="closeModal(event)">
+            <div class="modal-content">
+                <h2 id="modal-activity-name">نام فعالیت</h2>
+                <p id="modal-activity-info">توضیحات تمرین ورزشی</p>
+            </div>
+        </div>
+
         <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
             <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo()">
@@ -127,6 +134,27 @@
         }
 
         document.getElementById('activity').addEventListener('input', updateVideo);
+
+        // Modal functionality
+        function openModal() {
+            const activityName = document.getElementById('activity').value;
+            const activity = activitiesData.find(a => a.text === activityName);
+            const modal = document.getElementById('info-modal');
+            const modalActivityName = document.getElementById('modal-activity-name');
+            const modalActivityInfo = document.getElementById('modal-activity-info');
+            if (activity) {
+                modalActivityName.textContent = activity.text;
+                modalActivityInfo.textContent = activity.info;
+            }
+            modal.style.display = 'flex';
+        }
+
+        function closeModal(event) {
+            const modal = document.getElementById('info-modal');
+            if (event.target === modal || event.target.closest('.modal-content')) {
+                modal.style.display = 'none';
+            }
+        }
     </script>
 </body>
 </html>
