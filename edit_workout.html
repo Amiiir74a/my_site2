@@ -8,9 +8,10 @@
 </head>
 <body>
     <div class="container">
+        <video id="activity-video" controls style="width: 100%; max-width: 600px; margin-bottom: 20px; display: none;"></video>
         <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
-            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateBackground()">
+            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo()">
             <datalist id="activity-list"></datalist>
             
             <label for="reps">تعداد حرکت:</label>
@@ -53,17 +54,19 @@
                 document.getElementById('reps').value = activity[2].split(' ')[0];
                 document.getElementById('sets').value = activity[3].split(' ')[0];
                 document.getElementById('weight').value = activity[4].split(' ')[0];
-                updateBackground();
+                updateVideo();
             }
         });
 
-        function updateBackground() {
+        function updateVideo() {
             const activityName = document.getElementById('activity').value;
             const activity = activitiesData.find(a => a.text === activityName);
-            if (activity) {
-                document.body.style.backgroundImage = `url(${activity.pic})`;
+            const videoElement = document.getElementById('activity-video');
+            if (activity && activity.vid) {
+                videoElement.src = activity.vid;
+                videoElement.style.display = 'block';
             } else {
-                document.body.style.backgroundImage = '';
+                videoElement.style.display = 'none';
             }
         }
 
@@ -114,6 +117,8 @@
             const day = new URLSearchParams(window.location.search).get('day');
             window.location.href = `${day}.html`;
         }
+
+        document.getElementById('activity').addEventListener('input', updateVideo);
     </script>
 </body>
 </html>
