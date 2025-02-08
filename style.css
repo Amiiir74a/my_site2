@@ -1,8 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -205,4 +206,14 @@ th {
 tr:hover {
     background-color: #f9f9f9;
     cursor: pointer;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
