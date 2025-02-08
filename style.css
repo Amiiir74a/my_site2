@@ -1,7 +1,6 @@
 body {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
@@ -206,22 +205,4 @@ th {
 tr:hover {
     background-color: #f9f9f9;
     cursor: pointer;
-}
-
-/* Add styles for footer */
-footer {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    background-color: #f0f0f0;
-    position: absolute;
-    bottom: 0;
-}
-
-footer hr {
-    margin: 20px 0;
-}
-
-footer p {
-    margin: 0;
 }
