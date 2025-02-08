@@ -144,7 +144,7 @@
             const modalActivityInfo = document.getElementById('modal-activity-info');
             if (activity) {
                 modalActivityName.textContent = activity.text;
-                modalActivityInfo.textContent = activity.info;
+                modalActivityInfo.innerHTML = activity.info.replace(/؛/g, '<br>');
             }
             modal.style.display = 'flex';
         }
