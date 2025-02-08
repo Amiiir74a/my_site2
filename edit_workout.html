@@ -12,10 +12,13 @@
             <source id="activity-video-source" type="video/mp4">
             مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
         </video> 
-        
+        <div class="tooltip-container">
+            <span id="info-icon" class="info-icon">ℹ️</span>
+            <div id="tooltip" class="tooltip">توضیحات تمرین ورزشی</div>
+        </div>
         <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
-            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo()">
+            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo(); updateTooltip();">
             <datalist id="activity-list"></datalist>
             
             <label for="reps">تعداد حرکت:</label>
@@ -46,8 +49,9 @@
                     option.value = activity.text;
                     activityList.appendChild(option);
                 });
-                // Update video if activity is already set
+                // Update video and tooltip if activity is already set
                 updateVideo();
+                updateTooltip();
             });
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -61,6 +65,7 @@
                 document.getElementById('sets').value = activity[3].split(' ')[0];
                 document.getElementById('weight').value = activity[4].split(' ')[0];
                 updateVideo();
+                updateTooltip();
             }
         });
 
@@ -75,6 +80,17 @@
                 videoElement.load();
             } else {
                 videoElement.style.display = 'none';
+            }
+        }
+
+        function updateTooltip() {
+            const activityName = document.getElementById('activity').value;
+            const activity = activitiesData.find(a => a.text === activityName);
+            const tooltip = document.getElementById('tooltip');
+            if (activity && activity.info) {
+                tooltip.textContent = activity.info;
+            } else {
+                tooltip.textContent = 'توضیحات تمرین ورزشی';
             }
         }
 
@@ -126,7 +142,36 @@
             window.location.href = `${day}.html`;
         }
 
-        document.getElementById('activity').addEventListener('input', updateVideo);
+        document.getElementById('activity').addEventListener('input', () => {
+            updateVideo();
+            updateTooltip();
+        });
+
+        // Tooltip functionality
+        const infoIcon = document.getElementById('info-icon');
+        const tooltip = document.getElementById('tooltip');
+
+        infoIcon.addEventListener('mouseover', () => {
+            tooltip.style.opacity = 1;
+            tooltip.style.visibility = 'visible';
+        });
+
+        infoIcon.addEventListener('mouseout', () => {
+            tooltip.style.opacity = 0;
+            tooltip.style.visibility = 'hidden';
+        });
+
+        infoIcon.addEventListener('click', () => {
+            tooltip.style.opacity = tooltip.style.opacity == 1 ? 0 : 1;
+            tooltip.style.visibility = tooltip.style.visibility == 'visible' ? 'hidden' : 'visible';
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!infoIcon.contains(event.target) && !tooltip.contains(event.target)) {
+                tooltip.style.opacity = 0;
+                tooltip.style.visibility = 'hidden';
+            }
+        });
     </script>
 </body>
 </html>

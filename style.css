@@ -217,3 +217,37 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.info-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.tooltip {
+    position: absolute;
+    top: -5px;
+    left: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1;
+}
+
+@media (max-width: 600px) {
+    .tooltip {
+        left: 0;
+        top: 30px;
+    }
+}
