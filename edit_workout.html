@@ -27,12 +27,16 @@
             <div class="modal-content" onclick="event.stopPropagation()">
                 <h2 id="modal-activity-name">نام فعالیت</h2>
                 <p id="modal-activity-info">توضیحات تمرین ورزشی</p>
+                <div class="info-boxes">
+                    <div class="info-box" id="level-box"></div>
+                    <div class="info-box" id="muscle-box"></div>
+                </div>
             </div>
         </div>
 
         <form class="activity-form" id="activity-form">
             <label for="activity">نام فعالیت:</label>
-            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo()">
+            <input type="text" id="activity" name="activity" list="activity-list" oninput="updateVideo(); updateInfoBoxes();">
             <datalist id="activity-list"></datalist>
             
             <label for="reps">تعداد حرکت:</label>
@@ -78,6 +82,7 @@
                 document.getElementById('sets').value = activity[3].split(' ')[0];
                 document.getElementById('weight').value = activity[4].split(' ')[0];
                 updateVideo();
+                updateInfoBoxes();
             }
         });
 
@@ -92,6 +97,21 @@
                 videoElement.load();
             } else {
                 videoElement.style.display = 'none';
+            }
+        }
+
+        function updateInfoBoxes() {
+            const activityName = document.getElementById('activity').value;
+            const activity = activitiesData.find(a => a.text === activityName);
+            const levelBox = document.getElementById('level-box');
+            const muscleBox = document.getElementById('muscle-box');
+            if (activity) {
+                const difficultyLevels = ['مبتدی', 'متوسط', 'پیشرفته'];
+                levelBox.textContent = difficultyLevels[activity.level - 1] || 'نامشخص';
+                muscleBox.textContent = activity.muscle || 'نامشخص';
+            } else {
+                levelBox.textContent = '';
+                muscleBox.textContent = '';
             }
         }
 
@@ -158,9 +178,14 @@
             const modal = document.getElementById('info-modal');
             const modalActivityName = document.getElementById('modal-activity-name');
             const modalActivityInfo = document.getElementById('modal-activity-info');
+            const levelBox = document.getElementById('level-box');
+            const muscleBox = document.getElementById('muscle-box');
             if (activity) {
                 modalActivityName.textContent = activity.text;
                 modalActivityInfo.innerHTML = activity.info.replace(/؛/g, '<br>');
+                const difficultyLevels = ['مبتدی', 'متوسط', 'پیشرفته'];
+                levelBox.textContent = difficultyLevels[activity.level - 1] || 'نامشخص';
+                muscleBox.textContent = activity.muscle || 'نامشخص';
             }
             modal.style.display = 'flex';
         }
