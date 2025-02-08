@@ -46,7 +46,7 @@
         </form>
         <div class="button-row" style="direction: rtl; justify-content: center;">
             <button type="submit" form="activity-form" onclick="saveActivity(event)" style="background-color: #28a745;">ذخیره</button>
-            <button type="button" onclick="deleteActivity()" style="background-color: #dc3545;">حذف</button>
+            <button type="button" onclick="confirmDelete()" style="background-color: #dc3545;">حذف</button>
             <button type="button" onclick="goBack()">انصراف</button>
         </div>
     </div>
@@ -122,6 +122,12 @@
             localStorage.setItem(day, JSON.stringify(activities));
             sessionStorage.setItem('updated', 'true');
             goBack();
+        }
+
+        function confirmDelete() {
+            if (confirm('آیا مطمئن هستید که می‌خواهید این فعالیت را حذف کنید؟')) {
+                deleteActivity();
+            }
         }
 
         function deleteActivity() {
