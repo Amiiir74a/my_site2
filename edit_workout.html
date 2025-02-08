@@ -46,6 +46,8 @@
                     option.value = activity.text;
                     activityList.appendChild(option);
                 });
+                // Update video if activity is already set
+                updateVideo();
             });
 
         document.addEventListener('DOMContentLoaded', () => {
