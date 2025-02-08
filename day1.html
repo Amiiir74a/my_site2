@@ -11,7 +11,7 @@
         <table id="activity-table">
             <thead>
                 <tr>
-                    <th><input type="checkbox" id="select-all" onclick="toggleSelectAll()"></th>
+                    <th><input type="checkbox" id="select-all" onclick="toggleSelectAll(event)"></th>
                     <th>نام فعالیت</th>
                     <th>تعداد حرکت</th>
                     <th>تعداد ست</th>
@@ -38,7 +38,7 @@
                 const [checked, name, reps, sets, weight] = activity.split(' - ');
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td><input type="checkbox" ${checked === 'true' ? 'checked' : ''} onchange="toggleCheckbox(${index})"></td>
+                    <td onclick="toggleCheckbox(${index})"><input type="checkbox" ${checked === 'true' ? 'checked' : ''} onchange="toggleCheckbox(${index}, event)"></td>
                     <td>${name}</td>
                     <td>${reps.split(' ')[0]}</td>
                     <td>${sets.split(' ')[0]}</td>
@@ -49,21 +49,28 @@
             });
         }
 
-        function toggleCheckbox(index) {
+        function toggleCheckbox(index, event) {
+            if (event) event.stopPropagation();
             const activities = JSON.parse(localStorage.getItem(day)) || [];
             const activity = activities[index].split(' - ');
             activity[0] = activity[0] === 'true' ? 'false' : 'true';
             activities[index] = activity.join(' - ');
             localStorage.setItem(day, JSON.stringify(activities));
+            loadActivities();
         }
 
-        function toggleSelectAll() {
+        function toggleSelectAll(event) {
+            if (event) event.stopPropagation();
             const selectAllCheckbox = document.getElementById('select-all');
             const checkboxes = activityTableBody.querySelectorAll('input[type="checkbox"]');
+            const activities = JSON.parse(localStorage.getItem(day)) || [];
             checkboxes.forEach((checkbox, index) => {
                 checkbox.checked = selectAllCheckbox.checked;
-                toggleCheckbox(index);
+                const activity = activities[index].split(' - ');
+                activity[0] = selectAllCheckbox.checked ? 'true' : 'false';
+                activities[index] = activity.join(' - ');
             });
+            localStorage.setItem(day, JSON.stringify(activities));
         }
 
         document.addEventListener('DOMContentLoaded', () => {
