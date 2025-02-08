@@ -39,10 +39,10 @@
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td onclick="toggleCheckbox(${index})"><input type="checkbox" ${checked === 'true' ? 'checked' : ''} onchange="toggleCheckbox(${index}, event)"></td>
-                    <td>${name}</td>
-                    <td>${reps.split(' ')[0]}</td>
-                    <td>${sets.split(' ')[0]}</td>
-                    <td>${weight.split(' ')[0]}</td>
+                    <td onclick="editActivity(${index})">${name}</td>
+                    <td onclick="editActivity(${index})">${reps.split(' ')[0]}</td>
+                    <td onclick="editActivity(${index})">${sets.split(' ')[0]}</td>
+                    <td onclick="editActivity(${index})">${weight.split(' ')[0]}</td>
                 `;
                 row.style.cursor = 'pointer';
                 activityTableBody.appendChild(row);
@@ -64,12 +64,16 @@
             const checkboxes = activityTableBody.querySelectorAll('input[type="checkbox"]');
             const activities = JSON.parse(localStorage.getItem(day)) || [];
             checkboxes.forEach((checkbox, index) => {
-            checkbox.checked = selectAllCheckbox.checked;
-            const activity = activities[index].split(' - ');
-            activity[0] = selectAllCheckbox.checked ? 'true' : 'false';
-            activities[index] = activity.join(' - ');
+                checkbox.checked = selectAllCheckbox.checked;
+                const activity = activities[index].split(' - ');
+                activity[0] = selectAllCheckbox.checked ? 'true' : 'false';
+                activities[index] = activity.join(' - ');
             });
             localStorage.setItem(day, JSON.stringify(activities));
+        }
+
+        function editActivity(index) {
+            window.location.href = `edit_workout.html?day=${day}&index=${index}`;
         }
 
         document.addEventListener('DOMContentLoaded', () => {
