@@ -11,7 +11,7 @@
         <table id="activity-table">
             <thead>
                 <tr>
-                    <th><input type="checkbox" id="select-all" onclick="toggleSelectAll(event)"></th>
+                    <th><input type="checkbox" id="select-all" onclick="toggleSelectAll()"></th>
                     <th>نام فعالیت</th>
                     <th>تعداد حرکت</th>
                     <th>تعداد ست</th>
@@ -59,16 +59,15 @@
             loadActivities();
         }
 
-        function toggleSelectAll(event) {
-            if (event) event.stopPropagation();
+        function toggleSelectAll() {
             const selectAllCheckbox = document.getElementById('select-all');
             const checkboxes = activityTableBody.querySelectorAll('input[type="checkbox"]');
             const activities = JSON.parse(localStorage.getItem(day)) || [];
             checkboxes.forEach((checkbox, index) => {
-                checkbox.checked = selectAllCheckbox.checked;
-                const activity = activities[index].split(' - ');
-                activity[0] = selectAllCheckbox.checked ? 'true' : 'false';
-                activities[index] = activity.join(' - ');
+            checkbox.checked = selectAllCheckbox.checked;
+            const activity = activities[index].split(' - ');
+            activity[0] = selectAllCheckbox.checked ? 'true' : 'false';
+            activities[index] = activity.join(' - ');
             });
             localStorage.setItem(day, JSON.stringify(activities));
         }
