@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <style>
         @font-face {
-            font-family: 'Bmitra';
-            src: url('Bmitra.ttf') format('truetype');
+            font-family: 'Broya';
+            src: url('Broya.ttf') format('truetype');
         }
         .modal-content {
-            font-family: 'Bmitra', sans-serif;
+            font-family: 'Broya', sans-serif;
             text-align: right;
         }
     </style>
@@ -23,8 +23,8 @@
             مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
         </video> 
         
-        <div id="info-modal" class="modal">
-            <div class="modal-content">
+        <div id="info-modal" class="modal" onclick="closeModal(event)">
+            <div class="modal-content" onclick="event.stopPropagation()">
                 <h2 id="modal-activity-name">نام فعالیت</h2>
                 <p id="modal-activity-info">توضیحات تمرین ورزشی</p>
             </div>
