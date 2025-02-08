@@ -44,10 +44,10 @@
             <label for="weight">کیلوگرم:</label>
             <input type="number" id="weight" name="weight">
         </form>
-        <div class="button-row">
-            <button type="submit" form="activity-form" onclick="saveActivity(event)">ذخیره</button>
+        <div class="button-row" style="direction: rtl; justify-content: center;">
+            <button type="submit" form="activity-form" onclick="saveActivity(event)" style="background-color: #28a745;">ذخیره</button>
+            <button type="button" onclick="deleteActivity()" style="background-color: #dc3545;">حذف</button>
             <button type="button" onclick="goBack()">انصراف</button>
-            <button type="button" onclick="deleteActivity()">حذف</button>
         </div>
     </div>
     <script>
