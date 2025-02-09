@@ -62,7 +62,7 @@
     <script>
         let activitiesData = [];
 
-        fetch('alldata.json')
+        fetch('b.json')
             .then(response => response.json())
             .then(data => {
                 activitiesData = data.Sheet1;
@@ -96,8 +96,8 @@
             const activity = activitiesData.find(a => a.text === activityName);
             const videoElement = document.getElementById('activity-video');
             const videoSource = document.getElementById('activity-video-source');
-            if (activity && activity.vid) {
-                videoSource.src = activity.vid;
+            if (activity && activity.newurl) {
+                videoSource.src = activity.newurl;
                 videoElement.style.display = 'block';
                 videoElement.load();
             } else {
