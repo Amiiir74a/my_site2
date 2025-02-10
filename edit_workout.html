@@ -10,16 +10,6 @@
             font-family: 'Broya';
             src: url('Broya.ttf') format('truetype');
         }
-        body {
-            background-size: cover;
-            background-position: center;
-        }
-        .container {
-            backdrop-filter: blur(10px);
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 10px;
-        }
         .modal-content {
             font-family: 'Broya', sans-serif;
             text-align: right;
@@ -88,7 +78,6 @@
             });
 
         document.addEventListener('DOMContentLoaded', () => {
-            setRandomBackground();
             const day = new URLSearchParams(window.location.search).get('day');
             const index = new URLSearchParams(window.location.search).get('index');
             if (index !== null) {
@@ -224,32 +213,22 @@
             }
         }
 
-        function setRandomBackground() {
-            fetch('backs.txt')
-                .then(response => response.text())
-                .then(data => {
-                    const lines = data.split('\n').filter(line => line.trim() !== '');
-                    const randomLine = lines[Math.floor(Math.random() * lines.length)];
-                    document.body.style.backgroundImage = `url(${randomLine})`;
-                });
-        }
-
         document.getElementById('activity').addEventListener('input', function() {
-            const query = this.value.toLowerCase().trim().split(' '); // تبدیل ورودی به لیست کلمات
-            const activityList = document.getElementById('activity-list');
-            activityList.innerHTML = '';
+    const query = this.value.toLowerCase().trim().split(' '); // تبدیل ورودی به لیست کلمات
+    const activityList = document.getElementById('activity-list');
+    activityList.innerHTML = '';
 
-            activitiesData.forEach(activity => {
-                const mainNameWords = activity.text.toLowerCase().split(' '); // تبدیل نام فعالیت به لیست کلمات
-                const allWordsExist = query.every(word => mainNameWords.includes(word)); // بررسی وجود همه‌ی کلمات
+    activitiesData.forEach(activity => {
+        const mainNameWords = activity.text.toLowerCase().split(' '); // تبدیل نام فعالیت به لیست کلمات
+        const allWordsExist = query.every(word => mainNameWords.includes(word)); // بررسی وجود همه‌ی کلمات
 
-                if (allWordsExist) {
-                    const option = document.createElement('option');
-                    option.value = activity.text;
-                    activityList.appendChild(option);
-                }
-            });
-        });
+        if (allWordsExist) {
+            const option = document.createElement('option');
+            option.value = activity.text;
+            activityList.appendChild(option);
+        }
+    });
+});
 
     </script>
 </body>

@@ -5,18 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>day1</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background-size: cover;
-            background-position: center;
-        }
-        .container {
-            backdrop-filter: blur(10px);
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 10px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -88,19 +76,8 @@
             window.location.href = `edit_workout.html?day=${day}&index=${index}`;
         }
 
-        function setRandomBackground() {
-            fetch('backs.txt')
-                .then(response => response.text())
-                .then(data => {
-                    const lines = data.split('\n').filter(line => line.trim() !== '');
-                    const randomLine = lines[Math.floor(Math.random() * lines.length)];
-                    document.body.style.backgroundImage = `url(${randomLine})`;
-                });
-        }
-
         document.addEventListener('DOMContentLoaded', () => {
             loadActivities();
-            setRandomBackground();
             if (sessionStorage.getItem('updated') === 'true') {
                 sessionStorage.removeItem('updated');
                 loadActivities();
