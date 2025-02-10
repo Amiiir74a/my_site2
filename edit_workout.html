@@ -212,19 +212,6 @@
                 alert('لطفا نام فعالیت را وارد کنید');
             }
         }
-
-        document.getElementById('activity').addEventListener('input', function() {
-            const query = this.value.toLowerCase();
-            const activityList = document.getElementById('activity-list');
-            activityList.innerHTML = '';
-            activitiesData.forEach(activity => {
-                if (activity.text.toLowerCase().includes(query) || activity.synonyms.some(synonym => synonym.toLowerCase().includes(query))) {
-                    const option = document.createElement('option');
-                    option.value = activity.text;
-                    activityList.appendChild(option);
-                }
-            });
-        });
     </script>
 </body>
 </html>
