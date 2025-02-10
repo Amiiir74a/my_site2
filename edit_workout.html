@@ -219,15 +219,14 @@
             activityList.innerHTML = '';
             activitiesData.forEach(activity => {
             const mainName = activity.text.toLowerCase().split(' ').sort().join(' ');
-            const synonyms = activity.synonyms.map(synonym => synonym.toLowerCase().split(' ').sort().join(' '));
-            if (mainName.includes(query) || synonyms.some(synonym => synonym.includes(query))) {
+            if (mainName.includes(query)) {
                 const option = document.createElement('option');
                 option.value = activity.text;
                 activityList.appendChild(option);
             }
             });
-        
         });
+        
     </script>
 </body>
 </html>
