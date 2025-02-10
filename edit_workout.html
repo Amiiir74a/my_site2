@@ -214,22 +214,21 @@
         }
 
         document.getElementById('activity').addEventListener('input', function() {
-    const queryWords = new Set(this.value.toLowerCase().trim().split(' '));
-    const activityList = document.getElementById('activity-list');
-    activityList.innerHTML = '';
+            const queryWords = new Set(this.value.toLowerCase().trim().split(' '));
+            const activityList = document.getElementById('activity-list');
+            activityList.innerHTML = '';
 
-    activitiesData.forEach(activity => {
-        const mainNameWords = new Set(activity.text.toLowerCase().split(' '));
+            activitiesData.forEach(activity => {
+                const mainNameWords = new Set(activity.text.toLowerCase().split(' '));
 
-        // بررسی کنید که همه کلمات ورودی در مجموعه کلمات نام اصلی وجود دارند
-        if ([...queryWords].every(word => mainNameWords.has(word))) {
-            const option = document.createElement('option');
-            option.value = activity.text;
-            activityList.appendChild(option);
-        }
-    });
-});
-
+                // Check if all query words exist in the main name words
+                if ([...queryWords].every(word => mainNameWords.has(word))) {
+                    const option = document.createElement('option');
+                    option.value = activity.text;
+                    activityList.appendChild(option);
+                }
+            });
+        });
         
     </script>
 </body>
