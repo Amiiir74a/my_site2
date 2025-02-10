@@ -1,6 +1,6 @@
 [
     {
-        "main_name": "اچ تک دست ایستاده",
+        "text": "اچ تک دست ایستاده",
         "synonyms": [],
         "code": 1,
         "level": 2,
@@ -9,7 +9,7 @@
         "url2": null
     },
     {
-        "main_name": "اچ دست باز",
+        "text": "اچ دست باز",
         "synonyms": [],
         "code": 2,
         "level": 2,
@@ -18,7 +18,7 @@
         "url2": null
     },
     {
-        "main_name": "اچ دست باز تناوبی",
+        "text": "اچ دست باز تناوبی",
         "synonyms": [],
         "code": 3,
         "level": 2,
@@ -27,7 +27,7 @@
         "url2": null
     },
     {
-        "main_name": "اچ دست جمع",
+        "text": "اچ دست جمع",
         "synonyms": [],
         "code": 4,
         "level": 1,
@@ -36,7 +36,7 @@
         "url2": null
     },
     {
-        "main_name": "اچ دست جمع تناوبی",
+        "text": "اچ دست جمع تناوبی",
         "synonyms": [],
         "code": 5,
         "level": 1,
@@ -45,7 +45,7 @@
         "url2": null
     },
     {
-        "main_name": "استپ",
+        "text": "استپ",
         "synonyms": [],
         "code": 6,
         "level": 1,
@@ -54,7 +54,7 @@
         "url2": null
     },
     {
-        "main_name": "استپ آپ تک پا با اسمیت",
+        "text": "استپ آپ تک پا با اسمیت",
         "synonyms": [],
         "code": 7,
         "level": 1,
@@ -63,7 +63,7 @@
         "url2": null
     },
     {
-        "main_name": "استپ تک پا دمبل",
+        "text": "استپ تک پا دمبل",
         "synonyms": [],
         "code": 8,
         "level": 1,
@@ -72,7 +72,7 @@
         "url2": null
     },
     {
-        "main_name": "استپ دمبل",
+        "text": "استپ دمبل",
         "synonyms": [],
         "code": 9,
         "level": 1,
@@ -81,7 +81,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات",
+        "text": "اسکوات",
         "synonyms": [
             "اسکات ",
             "  اسکوات وزن بدن ",
@@ -94,7 +94,7 @@
         "url2": "https://fitshim.com/workouts/leg/squat/"
     },
     {
-        "main_name": "اسکوات Tبار",
+        "text": "اسکوات Tبار",
         "synonyms": [],
         "code": 11,
         "level": 3,
@@ -103,7 +103,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات اسمیت",
+        "text": "اسکوات اسمیت",
         "synonyms": [
             "اسکات اسمیت  "
         ],
@@ -114,7 +114,7 @@
         "url2": "https://fitshim.com/workouts/leg/smith-machine-squat/"
     },
     {
-        "main_name": "اسکوات اسمیت از جلو",
+        "text": "اسکوات اسمیت از جلو",
         "synonyms": [],
         "code": 13,
         "level": 2,
@@ -123,7 +123,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات اسمیت پا جمع",
+        "text": "اسکوات اسمیت پا جمع",
         "synonyms": [],
         "code": 14,
         "level": 2,
@@ -132,7 +132,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات اسمیت جعبه",
+        "text": "اسکوات اسمیت جعبه",
         "synonyms": [],
         "code": 15,
         "level": 2,
@@ -141,7 +141,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات ایستا",
+        "text": "اسکوات ایستا",
         "synonyms": [],
         "code": 16,
         "level": 1,
@@ -150,7 +150,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات ایستا با کش",
+        "text": "اسکوات ایستا با کش",
         "synonyms": [],
         "code": 17,
         "level": 1,
@@ -159,7 +159,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات ایستا پا باز و جمع راه رفتن روی دست‌ها",
+        "text": "اسکوات ایستا پا باز و جمع راه رفتن روی دست‌ها",
         "synonyms": [],
         "code": 18,
         "level": 2,
@@ -168,7 +168,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات ایستا تکیه به دیوار",
+        "text": "اسکوات ایستا تکیه به دیوار",
         "synonyms": [],
         "code": 19,
         "level": 1,
@@ -177,7 +177,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات با کش",
+        "text": "اسکوات با کش",
         "synonyms": [],
         "code": 20,
         "level": 1,
@@ -186,7 +186,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات با کش به همراه باز کردن زانوها",
+        "text": "اسکوات با کش به همراه باز کردن زانوها",
         "synonyms": [],
         "code": 21,
         "level": 2,
@@ -195,7 +195,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات با کش نیمه بالا",
+        "text": "اسکوات با کش نیمه بالا",
         "synonyms": [],
         "code": 22,
         "level": 1,
@@ -204,7 +204,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات با کش نیمه پایین",
+        "text": "اسکوات با کش نیمه پایین",
         "synonyms": [],
         "code": 23,
         "level": 1,
@@ -213,7 +213,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات پا جمع با هالتر",
+        "text": "اسکوات پا جمع با هالتر",
         "synonyms": [],
         "code": 24,
         "level": 2,
@@ -222,7 +222,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات پانچ",
+        "text": "اسکوات پانچ",
         "synonyms": [],
         "code": 25,
         "level": 1,
@@ -231,7 +231,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات پرشی",
+        "text": "اسکوات پرشی",
         "synonyms": [
             "جامپ اسکوات"
         ],
@@ -242,7 +242,7 @@
         "url2": "https://fitshim.com/workouts/leg/jumping-squat/"
     },
     {
-        "main_name": "اسکوات پرشی پا باز و پا جمع",
+        "text": "اسکوات پرشی پا باز و پا جمع",
         "synonyms": [],
         "code": 27,
         "level": 2,
@@ -251,7 +251,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات پرشی چرخشی",
+        "text": "اسکوات پرشی چرخشی",
         "synonyms": [],
         "code": 28,
         "level": 3,
@@ -260,7 +260,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات پرشی روی استپ",
+        "text": "اسکوات پرشی روی استپ",
         "synonyms": [],
         "code": 29,
         "level": 1,
@@ -269,7 +269,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات تکپا (پیستول)",
+        "text": "اسکوات تکپا (پیستول)",
         "synonyms": [],
         "code": 30,
         "level": 3,
@@ -278,7 +278,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات جعبه تک پا",
+        "text": "اسکوات جعبه تک پا",
         "synonyms": [],
         "code": 31,
         "level": 3,
@@ -287,7 +287,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات جعبه هالتر",
+        "text": "اسکوات جعبه هالتر",
         "synonyms": [],
         "code": 32,
         "level": 1,
@@ -296,7 +296,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات جلو دست ضربدری",
+        "text": "اسکوات جلو دست ضربدری",
         "synonyms": [],
         "code": 33,
         "level": 1,
@@ -305,7 +305,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات جلو دست ضربدری و لمس پاشنه",
+        "text": "اسکوات جلو دست ضربدری و لمس پاشنه",
         "synonyms": [],
         "code": 34,
         "level": 1,
@@ -314,7 +314,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات جلو دمبل ضربدری",
+        "text": "اسکوات جلو دمبل ضربدری",
         "synonyms": [],
         "code": 35,
         "level": 2,
@@ -323,7 +323,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات جلو دمبل و لمس پاشنه",
+        "text": "اسکوات جلو دمبل و لمس پاشنه",
         "synonyms": [],
         "code": 36,
         "level": 1,
@@ -332,7 +332,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات چرخش لگن به بیرون تناوبی",
+        "text": "اسکوات چرخش لگن به بیرون تناوبی",
         "synonyms": [],
         "code": 37,
         "level": 1,
@@ -341,7 +341,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات خرچنگی با دمبل",
+        "text": "اسکوات خرچنگی با دمبل",
         "synonyms": [],
         "code": 38,
         "level": 2,
@@ -350,7 +350,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات دمبل",
+        "text": "اسکوات دمبل",
         "synonyms": [],
         "code": 39,
         "level": 3,
@@ -359,7 +359,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات دمبل دبل پالس",
+        "text": "اسکوات دمبل دبل پالس",
         "synonyms": [],
         "code": 40,
         "level": 3,
@@ -368,7 +368,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات راه رفتنی از پهلو",
+        "text": "اسکوات راه رفتنی از پهلو",
         "synonyms": [],
         "code": 41,
         "level": 3,
@@ -377,7 +377,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات راه رفتنی با سیمکش",
+        "text": "اسکوات راه رفتنی با سیمکش",
         "synonyms": [],
         "code": 42,
         "level": 3,
@@ -386,7 +386,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات راه رفتنی با کش",
+        "text": "اسکوات راه رفتنی با کش",
         "synonyms": [],
         "code": 43,
         "level": 2,
@@ -395,7 +395,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات رو به دیوار",
+        "text": "اسکوات رو به دیوار",
         "synonyms": [],
         "code": 44,
         "level": 3,
@@ -404,7 +404,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات سیمکش",
+        "text": "اسکوات سیمکش",
         "synonyms": [],
         "code": 45,
         "level": 2,
@@ -413,7 +413,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات سیمکش باز کردن زانوها",
+        "text": "اسکوات سیمکش باز کردن زانوها",
         "synonyms": [],
         "code": 46,
         "level": 3,
@@ -422,7 +422,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات سیمکش دبل پالس",
+        "text": "اسکوات سیمکش دبل پالس",
         "synonyms": [],
         "code": 47,
         "level": 2,
@@ -431,7 +431,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات لیفت پشت پا",
+        "text": "اسکوات لیفت پشت پا",
         "synonyms": [],
         "code": 48,
         "level": 1,
@@ -440,7 +440,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات نیمه ایستا لانگ به عقب",
+        "text": "اسکوات نیمه ایستا لانگ به عقب",
         "synonyms": [],
         "code": 49,
         "level": 2,
@@ -449,7 +449,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات نیمه بالا دمبل",
+        "text": "اسکوات نیمه بالا دمبل",
         "synonyms": [],
         "code": 50,
         "level": 1,
@@ -458,7 +458,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات نیمه پایین دمبل",
+        "text": "اسکوات نیمه پایین دمبل",
         "synonyms": [],
         "code": 51,
         "level": 2,
@@ -467,7 +467,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات و لیفت پشت پا دمبل",
+        "text": "اسکوات و لیفت پشت پا دمبل",
         "synonyms": [],
         "code": 52,
         "level": 2,
@@ -476,7 +476,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات و مورب ایستاده",
+        "text": "اسکوات و مورب ایستاده",
         "synonyms": [],
         "code": 53,
         "level": 2,
@@ -485,7 +485,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات هالتر از پشت",
+        "text": "اسکوات هالتر از پشت",
         "synonyms": [],
         "code": 54,
         "level": 2,
@@ -494,7 +494,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات هالتر از جلو",
+        "text": "اسکوات هالتر از جلو",
         "synonyms": [
             "اسکات هالتر از جلو"
         ],
@@ -505,7 +505,7 @@
         "url2": "https://fitshim.com/workouts/leg/fl-barbell-squat/"
     },
     {
-        "main_name": "اسکوات هالتر دبل پالس",
+        "text": "اسکوات هالتر دبل پالس",
         "synonyms": [],
         "code": 56,
         "level": 2,
@@ -514,7 +514,7 @@
         "url2": null
     },
     {
-        "main_name": "اسکوات هالتر نیمه پایین",
+        "text": "اسکوات هالتر نیمه پایین",
         "synonyms": [],
         "code": 57,
         "level": 2,
@@ -523,7 +523,7 @@
         "url2": null
     },
     {
-        "main_name": "اسنپ جامپ و شنا به طرفین",
+        "text": "اسنپ جامپ و شنا به طرفین",
         "synonyms": [],
         "code": 58,
         "level": 2,
@@ -532,7 +532,7 @@
         "url2": null
     },
     {
-        "main_name": "انقباض ران پشت میز",
+        "text": "انقباض ران پشت میز",
         "synonyms": [],
         "code": 59,
         "level": 1,
@@ -541,7 +541,7 @@
         "url2": null
     },
     {
-        "main_name": "انقباض سینه و شانه پشت میز",
+        "text": "انقباض سینه و شانه پشت میز",
         "synonyms": [],
         "code": 60,
         "level": 1,
@@ -550,7 +550,7 @@
         "url2": null
     },
     {
-        "main_name": "انقباض عضلات چهارسر",
+        "text": "انقباض عضلات چهارسر",
         "synonyms": [],
         "code": 61,
         "level": 1,
@@ -559,7 +559,7 @@
         "url2": null
     },
     {
-        "main_name": "انقباض کتف پشت میز",
+        "text": "انقباض کتف پشت میز",
         "synonyms": [],
         "code": 62,
         "level": 1,
@@ -568,7 +568,7 @@
         "url2": null
     },
     {
-        "main_name": "اینچ ورم",
+        "text": "اینچ ورم",
         "synonyms": [],
         "code": 63,
         "level": 1,
@@ -577,7 +577,7 @@
         "url2": null
     },
     {
-        "main_name": "اینچ ورم معکوس",
+        "text": "اینچ ورم معکوس",
         "synonyms": [],
         "code": 64,
         "level": 1,
@@ -586,7 +586,7 @@
         "url2": null
     },
     {
-        "main_name": "بارفیکس اسمیت نشسته",
+        "text": "بارفیکس اسمیت نشسته",
         "synonyms": [],
         "code": 65,
         "level": 1,
@@ -595,7 +595,7 @@
         "url2": null
     },
     {
-        "main_name": "باز و بسته کردن پاها و جامپ زانو بلند جفت",
+        "text": "باز و بسته کردن پاها و جامپ زانو بلند جفت",
         "synonyms": [],
         "code": 66,
         "level": 2,
@@ -604,7 +604,7 @@
         "url2": null
     },
     {
-        "main_name": "بازکردن پا درحالت خوابیده به پهلو",
+        "text": "بازکردن پا درحالت خوابیده به پهلو",
         "synonyms": [],
         "code": 67,
         "level": 1,
@@ -613,7 +613,7 @@
         "url2": null
     },
     {
-        "main_name": "بازکردن پا عقب",
+        "text": "بازکردن پا عقب",
         "synonyms": [],
         "code": 68,
         "level": 2,
@@ -622,7 +622,7 @@
         "url2": null
     },
     {
-        "main_name": "باکس شافل",
+        "text": "باکس شافل",
         "synonyms": [],
         "code": 69,
         "level": 2,
@@ -631,7 +631,7 @@
         "url2": null
     },
     {
-        "main_name": "بالا کشیدن شانه پشت میز",
+        "text": "بالا کشیدن شانه پشت میز",
         "synonyms": [],
         "code": 70,
         "level": 1,
@@ -640,7 +640,7 @@
         "url2": null
     },
     {
-        "main_name": "بالاسینه دمبل",
+        "text": "بالاسینه دمبل",
         "synonyms": [],
         "code": 71,
         "level": 2,
@@ -649,7 +649,7 @@
         "url2": null
     },
     {
-        "main_name": "بالاسینه دمبل تک",
+        "text": "بالاسینه دمبل تک",
         "synonyms": [],
         "code": 72,
         "level": 2,
@@ -658,7 +658,7 @@
         "url2": null
     },
     {
-        "main_name": "بالاسینه دمبل تناوبی",
+        "text": "بالاسینه دمبل تناوبی",
         "synonyms": [],
         "code": 73,
         "level": 2,
@@ -667,7 +667,7 @@
         "url2": null
     },
     {
-        "main_name": "بالاسینه دمبل جمع",
+        "text": "بالاسینه دمبل جمع",
         "synonyms": [],
         "code": 74,
         "level": 2,
@@ -676,7 +676,7 @@
         "url2": null
     },
     {
-        "main_name": "بالاسینه دمبل موازی",
+        "text": "بالاسینه دمبل موازی",
         "synonyms": [],
         "code": 75,
         "level": 2,
@@ -685,7 +685,7 @@
         "url2": null
     },
     {
-        "main_name": "بالاسینه صفحه",
+        "text": "بالاسینه صفحه",
         "synonyms": [],
         "code": 76,
         "level": 2,
@@ -694,7 +694,7 @@
         "url2": null
     },
     {
-        "main_name": "بالاسینه کراس دمبل",
+        "text": "بالاسینه کراس دمبل",
         "synonyms": [],
         "code": 77,
         "level": 2,
@@ -703,7 +703,7 @@
         "url2": null
     },
     {
-        "main_name": "بلند کردن پا تناوبی نشسته",
+        "text": "بلند کردن پا تناوبی نشسته",
         "synonyms": [],
         "code": 78,
         "level": 2,
@@ -712,7 +712,7 @@
         "url2": null
     },
     {
-        "main_name": "بلند کردن دست زانو خم زیر بدن",
+        "text": "بلند کردن دست زانو خم زیر بدن",
         "synonyms": [],
         "code": 79,
         "level": 2,
@@ -721,7 +721,7 @@
         "url2": null
     },
     {
-        "main_name": "بورپی",
+        "text": "بورپی",
         "synonyms": [],
         "code": 80,
         "level": 3,
@@ -730,7 +730,7 @@
         "url2": null
     },
     {
-        "main_name": "بورپی سرشانه دمبل موازی",
+        "text": "بورپی سرشانه دمبل موازی",
         "synonyms": [],
         "code": 81,
         "level": 2,
@@ -739,7 +739,7 @@
         "url2": null
     },
     {
-        "main_name": "بورپی نیمه بدون پرش",
+        "text": "بورپی نیمه بدون پرش",
         "synonyms": [],
         "code": 82,
         "level": 1,
@@ -748,7 +748,7 @@
         "url2": null
     },
     {
-        "main_name": "بورپی نیمه تک دست",
+        "text": "بورپی نیمه تک دست",
         "synonyms": [],
         "code": 83,
         "level": 3,
@@ -757,7 +757,7 @@
         "url2": null
     },
     {
-        "main_name": "بورپی و پرش با یک دست تناوبی",
+        "text": "بورپی و پرش با یک دست تناوبی",
         "synonyms": [],
         "code": 84,
         "level": 2,
@@ -766,7 +766,7 @@
         "url2": null
     },
     {
-        "main_name": "بورپی و پرش جفت زانوبلند",
+        "text": "بورپی و پرش جفت زانوبلند",
         "synonyms": [],
         "code": 85,
         "level": 3,
@@ -775,7 +775,7 @@
         "url2": null
     },
     {
-        "main_name": "پارالل سینه",
+        "text": "پارالل سینه",
         "synonyms": [],
         "code": 86,
         "level": 2,
@@ -784,7 +784,7 @@
         "url2": null
     },
     {
-        "main_name": "پاورکلین",
+        "text": "پاورکلین",
         "synonyms": [],
         "code": 87,
         "level": 2,
@@ -793,7 +793,7 @@
         "url2": null
     },
     {
-        "main_name": "پای کرال",
+        "text": "پای کرال",
         "synonyms": [],
         "code": 88,
         "level": 2,
@@ -802,7 +802,7 @@
         "url2": null
     },
     {
-        "main_name": "پتک زدن",
+        "text": "پتک زدن",
         "synonyms": [],
         "code": 89,
         "level": 1,
@@ -811,7 +811,7 @@
         "url2": null
     },
     {
-        "main_name": "پرچم با کش",
+        "text": "پرچم با کش",
         "synonyms": [],
         "code": 90,
         "level": 1,
@@ -820,7 +820,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس بالاسینه اسمیت",
+        "text": "پرس بالاسینه اسمیت",
         "synonyms": [],
         "code": 91,
         "level": 2,
@@ -829,7 +829,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس بالاسینه اسمیت مچ برعکس",
+        "text": "پرس بالاسینه اسمیت مچ برعکس",
         "synonyms": [],
         "code": 92,
         "level": 2,
@@ -838,7 +838,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس بالاسینه دستگاه",
+        "text": "پرس بالاسینه دستگاه",
         "synonyms": [],
         "code": 93,
         "level": 2,
@@ -847,7 +847,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس بالاسینه دستگاه به پهلو",
+        "text": "پرس بالاسینه دستگاه به پهلو",
         "synonyms": [],
         "code": 94,
         "level": 2,
@@ -856,7 +856,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس بالاسینه دستگاه تک",
+        "text": "پرس بالاسینه دستگاه تک",
         "synonyms": [],
         "code": 95,
         "level": 2,
@@ -865,7 +865,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس بالاسینه هالتر",
+        "text": "پرس بالاسینه هالتر",
         "synonyms": [],
         "code": 96,
         "level": 2,
@@ -874,7 +874,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا (بالای صفحه)",
+        "text": "پرس پا (بالای صفحه)",
         "synonyms": [],
         "code": 97,
         "level": 2,
@@ -883,7 +883,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا (پا باز)",
+        "text": "پرس پا (پا باز)",
         "synonyms": [],
         "code": 98,
         "level": 2,
@@ -892,7 +892,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا (پا جمع)",
+        "text": "پرس پا (پا جمع)",
         "synonyms": [],
         "code": 99,
         "level": 2,
@@ -901,7 +901,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا (پایین صفحه)",
+        "text": "پرس پا (پایین صفحه)",
         "synonyms": [],
         "code": 100,
         "level": 2,
@@ -910,7 +910,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا ایستاده سیمکش",
+        "text": "پرس پا ایستاده سیمکش",
         "synonyms": [],
         "code": 101,
         "level": 2,
@@ -919,7 +919,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا تک",
+        "text": "پرس پا تک",
         "synonyms": [],
         "code": 102,
         "level": 3,
@@ -928,7 +928,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا تک به پهلو",
+        "text": "پرس پا تک به پهلو",
         "synonyms": [],
         "code": 103,
         "level": 3,
@@ -937,7 +937,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس پا دستگاه",
+        "text": "پرس پا دستگاه",
         "synonyms": [
             "پرس پا ماشین  ",
             "  پرس پا دستگاه پا متوسط"
@@ -949,7 +949,7 @@
         "url2": "https://fitshim.com/workouts/leg/machine-leg-press/"
     },
     {
-        "main_name": "پرس زیر سینه دستگاه",
+        "text": "پرس زیر سینه دستگاه",
         "synonyms": [],
         "code": 105,
         "level": 2,
@@ -958,7 +958,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس زیرسینه دستگاه",
+        "text": "پرس زیرسینه دستگاه",
         "synonyms": [],
         "code": 106,
         "level": 2,
@@ -967,7 +967,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس زیرسینه دمبل موازی",
+        "text": "پرس زیرسینه دمبل موازی",
         "synonyms": [],
         "code": 107,
         "level": 2,
@@ -976,7 +976,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس زیرسینه هالتر",
+        "text": "پرس زیرسینه هالتر",
         "synonyms": [],
         "code": 108,
         "level": 2,
@@ -985,7 +985,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه اسمیت از پشت",
+        "text": "پرس سرشانه اسمیت از پشت",
         "synonyms": [],
         "code": 109,
         "level": 3,
@@ -994,7 +994,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/rear-sm-shoulder-press/"
     },
     {
-        "main_name": "پرس سرشانه اسمیت ایستاده",
+        "text": "پرس سرشانه اسمیت ایستاده",
         "synonyms": [],
         "code": 110,
         "level": 2,
@@ -1003,7 +1003,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه اسمیت نشسته",
+        "text": "پرس سرشانه اسمیت نشسته",
         "synonyms": [],
         "code": 111,
         "level": 2,
@@ -1012,7 +1012,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه اسمیت نشسته از پشت",
+        "text": "پرس سرشانه اسمیت نشسته از پشت",
         "synonyms": [],
         "code": 112,
         "level": 3,
@@ -1021,7 +1021,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه با کش ایستاده",
+        "text": "پرس سرشانه با کش ایستاده",
         "synonyms": [],
         "code": 113,
         "level": 2,
@@ -1030,7 +1030,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه تناوبی با کش",
+        "text": "پرس سرشانه تناوبی با کش",
         "synonyms": [],
         "code": 114,
         "level": 3,
@@ -1039,7 +1039,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه خم هالتر",
+        "text": "پرس سرشانه خم هالتر",
         "synonyms": [],
         "code": 115,
         "level": 2,
@@ -1048,7 +1048,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه خوابیده با کش",
+        "text": "پرس سرشانه خوابیده با کش",
         "synonyms": [],
         "code": 116,
         "level": 2,
@@ -1057,7 +1057,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دستگاه",
+        "text": "پرس سرشانه دستگاه",
         "synonyms": [
             "پرس سرشانه ماشین"
         ],
@@ -1068,7 +1068,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/machine-shoulder-press/"
     },
     {
-        "main_name": "پرس سرشانه دستگاه تک",
+        "text": "پرس سرشانه دستگاه تک",
         "synonyms": [],
         "code": 118,
         "level": 3,
@@ -1077,7 +1077,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل ارنولدی نشسته",
+        "text": "پرس سرشانه دمبل ارنولدی نشسته",
         "synonyms": [],
         "code": 119,
         "level": 2,
@@ -1086,7 +1086,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل ایستاده",
+        "text": "پرس سرشانه دمبل ایستاده",
         "synonyms": [],
         "code": 120,
         "level": 2,
@@ -1095,7 +1095,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/shoulder-press-dbs-st/"
     },
     {
-        "main_name": "پرس سرشانه دمبل آرنولدی",
+        "text": "پرس سرشانه دمبل آرنولدی",
         "synonyms": [],
         "code": 121,
         "level": 3,
@@ -1104,7 +1104,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل تک دست ایستاده",
+        "text": "پرس سرشانه دمبل تک دست ایستاده",
         "synonyms": [],
         "code": 122,
         "level": 2,
@@ -1113,7 +1113,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/db-shoulder-press-hn-st/"
     },
     {
-        "main_name": "پرس سرشانه دمبل تک مچ معکوس",
+        "text": "پرس سرشانه دمبل تک مچ معکوس",
         "synonyms": [],
         "code": 123,
         "level": 2,
@@ -1122,7 +1122,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل تناوبی ایستاده",
+        "text": "پرس سرشانه دمبل تناوبی ایستاده",
         "synonyms": [],
         "code": 124,
         "level": 2,
@@ -1131,7 +1131,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل جفت دست",
+        "text": "پرس سرشانه دمبل جفت دست",
         "synonyms": [],
         "code": 125,
         "level": 2,
@@ -1140,7 +1140,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل خم",
+        "text": "پرس سرشانه دمبل خم",
         "synonyms": [],
         "code": 126,
         "level": 2,
@@ -1149,7 +1149,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل موازی چرخشی",
+        "text": "پرس سرشانه دمبل موازی چرخشی",
         "synonyms": [],
         "code": 127,
         "level": 2,
@@ -1158,7 +1158,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه دمبل موازی نشسته",
+        "text": "پرس سرشانه دمبل موازی نشسته",
         "synonyms": [],
         "code": 128,
         "level": 2,
@@ -1167,7 +1167,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/shoulder-press-dbs-sd-ng/"
     },
     {
-        "main_name": "پرس سرشانه دمبل نشسته",
+        "text": "پرس سرشانه دمبل نشسته",
         "synonyms": [
             "پرس سرشانه جفت دمبل نشسته"
         ],
@@ -1178,7 +1178,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/seated-dumbbell-shoulder-press/"
     },
     {
-        "main_name": "پرس سرشانه سیمکش دوبل",
+        "text": "پرس سرشانه سیمکش دوبل",
         "synonyms": [],
         "code": 130,
         "level": 3,
@@ -1187,7 +1187,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه کوبایی با دمبل",
+        "text": "پرس سرشانه کوبایی با دمبل",
         "synonyms": [],
         "code": 131,
         "level": 3,
@@ -1196,7 +1196,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه لندماین تک دست",
+        "text": "پرس سرشانه لندماین تک دست",
         "synonyms": [],
         "code": 132,
         "level": 3,
@@ -1205,7 +1205,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه نشسته تناوبی با کش",
+        "text": "پرس سرشانه نشسته تناوبی با کش",
         "synonyms": [],
         "code": 133,
         "level": 2,
@@ -1214,7 +1214,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه هالتر از پشت",
+        "text": "پرس سرشانه هالتر از پشت",
         "synonyms": [],
         "code": 134,
         "level": 3,
@@ -1223,7 +1223,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/standing-barbell-shoulder-press/"
     },
     {
-        "main_name": "پرس سرشانه هالتر بردفورد",
+        "text": "پرس سرشانه هالتر بردفورد",
         "synonyms": [],
         "code": 135,
         "level": 3,
@@ -1232,7 +1232,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه هالتر دست باز",
+        "text": "پرس سرشانه هالتر دست باز",
         "synonyms": [],
         "code": 136,
         "level": 2,
@@ -1241,7 +1241,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه هالتر دست جمع",
+        "text": "پرس سرشانه هالتر دست جمع",
         "synonyms": [],
         "code": 137,
         "level": 2,
@@ -1250,7 +1250,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سرشانه هالتر نشسته",
+        "text": "پرس سرشانه هالتر نشسته",
         "synonyms": [],
         "code": 138,
         "level": 2,
@@ -1259,7 +1259,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه اسمیت",
+        "text": "پرس سینه اسمیت",
         "synonyms": [
             "پرس سینه اسمیت روی تخت"
         ],
@@ -1270,7 +1270,7 @@
         "url2": "https://fitshim.com/workouts/chest/smith-machine-bench-press/"
     },
     {
-        "main_name": "پرس سینه دستگاه",
+        "text": "پرس سینه دستگاه",
         "synonyms": [
             "پرس سینه ماشین  ",
             "  پرس سینه دستگاه نشسته جفت ",
@@ -1283,7 +1283,7 @@
         "url2": "https://fitshim.com/workouts/chest/machine-chest-press/"
     },
     {
-        "main_name": "پرس سینه دمبل",
+        "text": "پرس سینه دمبل",
         "synonyms": [
             "پرس سینه دمبل  جفت"
         ],
@@ -1294,7 +1294,7 @@
         "url2": "https://fitshim.com/workouts/chest/dumbbell-bench-press/"
     },
     {
-        "main_name": "پرس سینه دمبل تک",
+        "text": "پرس سینه دمبل تک",
         "synonyms": [],
         "code": 142,
         "level": 2,
@@ -1303,7 +1303,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه دمبل تناوبی",
+        "text": "پرس سینه دمبل تناوبی",
         "synonyms": [],
         "code": 143,
         "level": 2,
@@ -1312,7 +1312,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه دمبل تناوبی روی زمین",
+        "text": "پرس سینه دمبل تناوبی روی زمین",
         "synonyms": [],
         "code": 144,
         "level": 2,
@@ -1321,7 +1321,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه دمبل جفت دست روی زمین",
+        "text": "پرس سینه دمبل جفت دست روی زمین",
         "synonyms": [],
         "code": 145,
         "level": 1,
@@ -1330,7 +1330,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه دمبل جمع روی زمین",
+        "text": "پرس سینه دمبل جمع روی زمین",
         "synonyms": [],
         "code": 146,
         "level": 2,
@@ -1339,7 +1339,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه دمبل جمع روی نیمکت",
+        "text": "پرس سینه دمبل جمع روی نیمکت",
         "synonyms": [],
         "code": 147,
         "level": 2,
@@ -1348,7 +1348,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه دمبل روی زمین",
+        "text": "پرس سینه دمبل روی زمین",
         "synonyms": [],
         "code": 148,
         "level": 2,
@@ -1357,7 +1357,7 @@
         "url2": "https://fitshim.com/workouts/chest/dumbbells-floor-press/"
     },
     {
-        "main_name": "پرس سینه دمبل موازی",
+        "text": "پرس سینه دمبل موازی",
         "synonyms": [
             "پرس سینه دمبل چکشی"
         ],
@@ -1368,7 +1368,7 @@
         "url2": "https://fitshim.com/workouts/chest/dumbbells-bench-press-ng/"
     },
     {
-        "main_name": "پرس سینه دمبل موازی روی زمین",
+        "text": "پرس سینه دمبل موازی روی زمین",
         "synonyms": [],
         "code": 150,
         "level": 2,
@@ -1377,7 +1377,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه صفحه ایستاده",
+        "text": "پرس سینه صفحه ایستاده",
         "synonyms": [],
         "code": 151,
         "level": 2,
@@ -1386,7 +1386,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه صفحه جمع",
+        "text": "پرس سینه صفحه جمع",
         "synonyms": [],
         "code": 152,
         "level": 2,
@@ -1395,7 +1395,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه نشسته با کش",
+        "text": "پرس سینه نشسته با کش",
         "synonyms": [],
         "code": 153,
         "level": 2,
@@ -1404,7 +1404,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه هالتر",
+        "text": "پرس سینه هالتر",
         "synonyms": [],
         "code": 154,
         "level": 2,
@@ -1413,7 +1413,7 @@
         "url2": "https://fitshim.com/workouts/chest/barbell-chest-press/"
     },
     {
-        "main_name": "پرس سینه هالتر روی زمین",
+        "text": "پرس سینه هالتر روی زمین",
         "synonyms": [],
         "code": 155,
         "level": 2,
@@ -1422,7 +1422,7 @@
         "url2": null
     },
     {
-        "main_name": "پرس سینه هالتر مچ برعکس",
+        "text": "پرس سینه هالتر مچ برعکس",
         "synonyms": [],
         "code": 156,
         "level": 2,
@@ -1431,7 +1431,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش از روی زانو و اسکوات",
+        "text": "پرش از روی زانو و اسکوات",
         "synonyms": [],
         "code": 157,
         "level": 2,
@@ -1440,7 +1440,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش به جلو",
+        "text": "پرش به جلو",
         "synonyms": [],
         "code": 158,
         "level": 2,
@@ -1449,7 +1449,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش به جلو اسکوات و زانوبلند پاصاف پرش به عقب",
+        "text": "پرش به جلو اسکوات و زانوبلند پاصاف پرش به عقب",
         "synonyms": [],
         "code": 159,
         "level": 2,
@@ -1458,7 +1458,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش به طرفین از روی مانع",
+        "text": "پرش به طرفین از روی مانع",
         "synonyms": [],
         "code": 160,
         "level": 2,
@@ -1467,7 +1467,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش پا باز و جمع آرنج زانوی مخالف",
+        "text": "پرش پا باز و جمع آرنج زانوی مخالف",
         "synonyms": [],
         "code": 161,
         "level": 2,
@@ -1476,7 +1476,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش جفت به جلو اسکوات زانوبلند پا صاف پرش به عقب",
+        "text": "پرش جفت به جلو اسکوات زانوبلند پا صاف پرش به عقب",
         "synonyms": [],
         "code": 162,
         "level": 3,
@@ -1485,7 +1485,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش جفت زانو جمع",
+        "text": "پرش جفت زانو جمع",
         "synonyms": [],
         "code": 163,
         "level": 2,
@@ -1494,7 +1494,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش روی استپ و اسکوات",
+        "text": "پرش روی استپ و اسکوات",
         "synonyms": [],
         "code": 164,
         "level": 1,
@@ -1503,7 +1503,7 @@
         "url2": null
     },
     {
-        "main_name": "پرش روی پله",
+        "text": "پرش روی پله",
         "synonyms": [],
         "code": 165,
         "level": 2,
@@ -1512,7 +1512,7 @@
         "url2": null
     },
     {
-        "main_name": "پروانه از کنار پروانه از جلو",
+        "text": "پروانه از کنار پروانه از جلو",
         "synonyms": [],
         "code": 166,
         "level": 1,
@@ -1521,7 +1521,7 @@
         "url2": null
     },
     {
-        "main_name": "پروانه و جامپ عمود",
+        "text": "پروانه و جامپ عمود",
         "synonyms": [],
         "code": 167,
         "level": 1,
@@ -1530,7 +1530,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو از پشت سر با کش",
+        "text": "پشت بازو از پشت سر با کش",
         "synonyms": [],
         "code": 168,
         "level": 2,
@@ -1539,7 +1539,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو از پشت سر تک با کش",
+        "text": "پشت بازو از پشت سر تک با کش",
         "synonyms": [],
         "code": 169,
         "level": 2,
@@ -1548,7 +1548,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو از پشت سر طنابی",
+        "text": "پشت بازو از پشت سر طنابی",
         "synonyms": [],
         "code": 170,
         "level": 2,
@@ -1557,7 +1557,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو ایستاده هالتر",
+        "text": "پشت بازو ایستاده هالتر",
         "synonyms": [],
         "code": 171,
         "level": 2,
@@ -1566,7 +1566,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو با کش",
+        "text": "پشت بازو با کش",
         "synonyms": [],
         "code": 172,
         "level": 2,
@@ -1575,7 +1575,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو با کش تک دست",
+        "text": "پشت بازو با کش تک دست",
         "synonyms": [],
         "code": 173,
         "level": 2,
@@ -1584,7 +1584,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو بالای سر با سیمکش",
+        "text": "پشت بازو بالای سر با سیمکش",
         "synonyms": [],
         "code": 174,
         "level": 2,
@@ -1593,7 +1593,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو بالای سر با کش",
+        "text": "پشت بازو بالای سر با کش",
         "synonyms": [],
         "code": 175,
         "level": 2,
@@ -1602,7 +1602,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو بالای سر تک با کش",
+        "text": "پشت بازو بالای سر تک با کش",
         "synonyms": [],
         "code": 176,
         "level": 2,
@@ -1611,7 +1611,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو بالای سر طنابی",
+        "text": "پشت بازو بالای سر طنابی",
         "synonyms": [],
         "code": 177,
         "level": 3,
@@ -1620,7 +1620,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو پرسی",
+        "text": "پشت بازو پرسی",
         "synonyms": [],
         "code": 178,
         "level": 2,
@@ -1629,7 +1629,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو پرسی با اسمیت",
+        "text": "پشت بازو پرسی با اسمیت",
         "synonyms": [],
         "code": 179,
         "level": 2,
@@ -1638,7 +1638,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو پرسی مچ معکوس",
+        "text": "پشت بازو پرسی مچ معکوس",
         "synonyms": [],
         "code": 180,
         "level": 2,
@@ -1647,7 +1647,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده با کش",
+        "text": "پشت بازو خوابیده با کش",
         "synonyms": [],
         "code": 181,
         "level": 2,
@@ -1656,7 +1656,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده دمبل تک روی زمین",
+        "text": "پشت بازو خوابیده دمبل تک روی زمین",
         "synonyms": [],
         "code": 182,
         "level": 2,
@@ -1665,7 +1665,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده دمبل تک روی نیمکت",
+        "text": "پشت بازو خوابیده دمبل تک روی نیمکت",
         "synonyms": [],
         "code": 183,
         "level": 2,
@@ -1674,7 +1674,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده دمبل تک ضربدری روی نیمکت",
+        "text": "پشت بازو خوابیده دمبل تک ضربدری روی نیمکت",
         "synonyms": [],
         "code": 184,
         "level": 2,
@@ -1683,7 +1683,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده دمبل تک ضربدری زمین",
+        "text": "پشت بازو خوابیده دمبل تک ضربدری زمین",
         "synonyms": [],
         "code": 185,
         "level": 2,
@@ -1692,7 +1692,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده سیمکش",
+        "text": "پشت بازو خوابیده سیمکش",
         "synonyms": [],
         "code": 186,
         "level": 2,
@@ -1701,7 +1701,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده شیب مثبت میله EZ",
+        "text": "پشت بازو خوابیده شیب مثبت میله EZ",
         "synonyms": [],
         "code": 187,
         "level": 2,
@@ -1710,7 +1710,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده شیب مثبت هالتر",
+        "text": "پشت بازو خوابیده شیب مثبت هالتر",
         "synonyms": [],
         "code": 188,
         "level": 2,
@@ -1719,7 +1719,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده شیب منفی میله EZ",
+        "text": "پشت بازو خوابیده شیب منفی میله EZ",
         "synonyms": [],
         "code": 189,
         "level": 2,
@@ -1728,7 +1728,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده شیب منفی هالتر",
+        "text": "پشت بازو خوابیده شیب منفی هالتر",
         "synonyms": [],
         "code": 190,
         "level": 2,
@@ -1737,7 +1737,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو خوابیده میله EZ",
+        "text": "پشت بازو خوابیده میله EZ",
         "synonyms": [],
         "code": 191,
         "level": 2,
@@ -1746,7 +1746,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو دمبل ایستاده",
+        "text": "پشت بازو دمبل ایستاده",
         "synonyms": [],
         "code": 192,
         "level": 2,
@@ -1755,7 +1755,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو دمبل ایستاده تک",
+        "text": "پشت بازو دمبل ایستاده تک",
         "synonyms": [],
         "code": 193,
         "level": 2,
@@ -1764,7 +1764,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو دمبل جفت خوابیده چرخشی",
+        "text": "پشت بازو دمبل جفت خوابیده چرخشی",
         "synonyms": [],
         "code": 194,
         "level": 2,
@@ -1773,7 +1773,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو دمبل خوابیده",
+        "text": "پشت بازو دمبل خوابیده",
         "synonyms": [],
         "code": 195,
         "level": 2,
@@ -1782,7 +1782,7 @@
         "url2": "https://fitshim.com/workouts/tricep/lying-dumbbell-tricep-extension/"
     },
     {
-        "main_name": "پشت بازو دمبل خوابیده روی زمین",
+        "text": "پشت بازو دمبل خوابیده روی زمین",
         "synonyms": [],
         "code": 196,
         "level": 2,
@@ -1791,7 +1791,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش",
+        "text": "پشت بازو سیمکش",
         "synonyms": [],
         "code": 197,
         "level": 1,
@@ -1800,7 +1800,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش تک",
+        "text": "پشت بازو سیمکش تک",
         "synonyms": [],
         "code": 198,
         "level": 2,
@@ -1809,7 +1809,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش تک از داخل",
+        "text": "پشت بازو سیمکش تک از داخل",
         "synonyms": [],
         "code": 199,
         "level": 2,
@@ -1818,7 +1818,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش تک چکشی",
+        "text": "پشت بازو سیمکش تک چکشی",
         "synonyms": [],
         "code": 200,
         "level": 2,
@@ -1827,7 +1827,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش تک مچ برعکس",
+        "text": "پشت بازو سیمکش تک مچ برعکس",
         "synonyms": [],
         "code": 201,
         "level": 2,
@@ -1836,7 +1836,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش دسته V",
+        "text": "پشت بازو سیمکش دسته V",
         "synonyms": [],
         "code": 202,
         "level": 2,
@@ -1845,7 +1845,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش دوبل",
+        "text": "پشت بازو سیمکش دوبل",
         "synonyms": [],
         "code": 203,
         "level": 3,
@@ -1854,7 +1854,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش طنابی",
+        "text": "پشت بازو سیمکش طنابی",
         "synonyms": [],
         "code": 204,
         "level": 2,
@@ -1863,7 +1863,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش طنابی تک دست بالای سر",
+        "text": "پشت بازو سیمکش طنابی تک دست بالای سر",
         "synonyms": [],
         "code": 205,
         "level": 2,
@@ -1872,7 +1872,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو سیمکش مچ معکوس",
+        "text": "پشت بازو سیمکش مچ معکوس",
         "synonyms": [],
         "code": 206,
         "level": 2,
@@ -1881,7 +1881,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو کش تک از داخل",
+        "text": "پشت بازو کش تک از داخل",
         "synonyms": [],
         "code": 207,
         "level": 2,
@@ -1890,7 +1890,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو کیک بک با کش تک",
+        "text": "پشت بازو کیک بک با کش تک",
         "synonyms": [],
         "code": 208,
         "level": 2,
@@ -1899,7 +1899,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو کیک بک دمبل تک",
+        "text": "پشت بازو کیک بک دمبل تک",
         "synonyms": [],
         "code": 209,
         "level": 2,
@@ -1908,7 +1908,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو کیک بک دمبل روی نیمکت",
+        "text": "پشت بازو کیک بک دمبل روی نیمکت",
         "synonyms": [],
         "code": 210,
         "level": 2,
@@ -1917,7 +1917,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو کیک بک سیمکش تک دست",
+        "text": "پشت بازو کیک بک سیمکش تک دست",
         "synonyms": [],
         "code": 211,
         "level": 2,
@@ -1926,7 +1926,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو مچ برعکس با کش",
+        "text": "پشت بازو مچ برعکس با کش",
         "synonyms": [],
         "code": 212,
         "level": 2,
@@ -1935,7 +1935,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو مچ برعکس تک با کش",
+        "text": "پشت بازو مچ برعکس تک با کش",
         "synonyms": [],
         "code": 213,
         "level": 2,
@@ -1944,7 +1944,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو میله EZ ایستاده",
+        "text": "پشت بازو میله EZ ایستاده",
         "synonyms": [],
         "code": 214,
         "level": 2,
@@ -1953,7 +1953,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو میله EZ نشسته",
+        "text": "پشت بازو میله EZ نشسته",
         "synonyms": [],
         "code": 215,
         "level": 2,
@@ -1962,7 +1962,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو نشسته دمبل",
+        "text": "پشت بازو نشسته دمبل",
         "synonyms": [],
         "code": 216,
         "level": 2,
@@ -1971,7 +1971,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو نشسته دمبل تک",
+        "text": "پشت بازو نشسته دمبل تک",
         "synonyms": [],
         "code": 217,
         "level": 2,
@@ -1980,7 +1980,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو نشسته هالتر",
+        "text": "پشت بازو نشسته هالتر",
         "synonyms": [],
         "code": 218,
         "level": 2,
@@ -1989,7 +1989,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت بازو هالتر خوابیده روی زمین",
+        "text": "پشت بازو هالتر خوابیده روی زمین",
         "synonyms": [
             "پشت بازو اسکال کراشر روی زمین"
         ],
@@ -2000,7 +2000,7 @@
         "url2": "https://fitshim.com/workouts/tricep/floor-skull-crusher/"
     },
     {
-        "main_name": "پشت بازو هالتر خوابیده روی نیمکت",
+        "text": "پشت بازو هالتر خوابیده روی نیمکت",
         "synonyms": [],
         "code": 220,
         "level": 2,
@@ -2009,7 +2009,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا ایستاده",
+        "text": "پشت پا ایستاده",
         "synonyms": [],
         "code": 221,
         "level": 1,
@@ -2018,7 +2018,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا ایستاده با کش",
+        "text": "پشت پا ایستاده با کش",
         "synonyms": [],
         "code": 222,
         "level": 2,
@@ -2027,7 +2027,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا ایستاده پشت میز",
+        "text": "پشت پا ایستاده پشت میز",
         "synonyms": [],
         "code": 223,
         "level": 1,
@@ -2036,7 +2036,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا ایستاده تک",
+        "text": "پشت پا ایستاده تک",
         "synonyms": [],
         "code": 224,
         "level": 2,
@@ -2045,7 +2045,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده با کش",
+        "text": "پشت پا خوابیده با کش",
         "synonyms": [],
         "code": 225,
         "level": 2,
@@ -2054,7 +2054,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده پا روی هم",
+        "text": "پشت پا خوابیده پا روی هم",
         "synonyms": [],
         "code": 226,
         "level": 2,
@@ -2063,7 +2063,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده تک با کش",
+        "text": "پشت پا خوابیده تک با کش",
         "synonyms": [],
         "code": 227,
         "level": 2,
@@ -2072,7 +2072,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده تناوبی",
+        "text": "پشت پا خوابیده تناوبی",
         "synonyms": [],
         "code": 228,
         "level": 3,
@@ -2081,7 +2081,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده دستگاه",
+        "text": "پشت پا خوابیده دستگاه",
         "synonyms": [
             "پشت ران دستگاه خوابیده "
         ],
@@ -2092,7 +2092,7 @@
         "url2": "https://fitshim.com/workouts/leg/lying-leg-curl/"
     },
     {
-        "main_name": "پشت پا خوابیده دستگاه ۱ و ۱/۴ تکرار",
+        "text": "پشت پا خوابیده دستگاه ۱ و ۱/۴ تکرار",
         "synonyms": [],
         "code": 230,
         "level": 3,
@@ -2101,7 +2101,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده دستگاه نیمه بالا",
+        "text": "پشت پا خوابیده دستگاه نیمه بالا",
         "synonyms": [],
         "code": 231,
         "level": 3,
@@ -2110,7 +2110,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده دمبل روی تشک",
+        "text": "پشت پا خوابیده دمبل روی تشک",
         "synonyms": [],
         "code": 232,
         "level": 2,
@@ -2119,7 +2119,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا خوابیده دمبل روی نیمکت",
+        "text": "پشت پا خوابیده دمبل روی نیمکت",
         "synonyms": [],
         "code": 233,
         "level": 3,
@@ -2128,7 +2128,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا سردادنی",
+        "text": "پشت پا سردادنی",
         "synonyms": [],
         "code": 234,
         "level": 3,
@@ -2137,7 +2137,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا کنترلی ( نوردیک)",
+        "text": "پشت پا کنترلی ( نوردیک)",
         "synonyms": [],
         "code": 235,
         "level": 3,
@@ -2146,7 +2146,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا نیم خیز",
+        "text": "پشت پا نیم خیز",
         "synonyms": [],
         "code": 236,
         "level": 1,
@@ -2155,7 +2155,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا نیم خیز با کش",
+        "text": "پشت پا نیم خیز با کش",
         "synonyms": [],
         "code": 237,
         "level": 2,
@@ -2164,7 +2164,7 @@
         "url2": null
     },
     {
-        "main_name": "پشت پا نیم خیز دمبل",
+        "text": "پشت پا نیم خیز دمبل",
         "synonyms": [],
         "code": 238,
         "level": 3,
@@ -2173,7 +2173,7 @@
         "url2": null
     },
     {
-        "main_name": "پل",
+        "text": "پل",
         "synonyms": [],
         "code": 239,
         "level": 2,
@@ -2182,7 +2182,7 @@
         "url2": null
     },
     {
-        "main_name": "پل باسن دمبل",
+        "text": "پل باسن دمبل",
         "synonyms": [],
         "code": 240,
         "level": 1,
@@ -2191,7 +2191,7 @@
         "url2": null
     },
     {
-        "main_name": "پل تک پا",
+        "text": "پل تک پا",
         "synonyms": [],
         "code": 241,
         "level": 2,
@@ -2200,7 +2200,7 @@
         "url2": null
     },
     {
-        "main_name": "پل تک پا صفحه",
+        "text": "پل تک پا صفحه",
         "synonyms": [],
         "code": 242,
         "level": 1,
@@ -2209,7 +2209,7 @@
         "url2": null
     },
     {
-        "main_name": "پل روی دست‌ها و باز کردن پاها",
+        "text": "پل روی دست‌ها و باز کردن پاها",
         "synonyms": [],
         "code": 243,
         "level": 2,
@@ -2218,7 +2218,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک",
+        "text": "پلانک",
         "synonyms": [
             "پلانک روی آرنج"
         ],
@@ -2229,7 +2229,7 @@
         "url2": "https://fitshim.com/workouts/abs/plank/"
     },
     {
-        "main_name": "پلانک پهلو",
+        "text": "پلانک پهلو",
         "synonyms": [],
         "code": 245,
         "level": 2,
@@ -2238,7 +2238,7 @@
         "url2": "https://fitshim.com/workouts/abs/side-plank/"
     },
     {
-        "main_name": "پلانک تک پا",
+        "text": "پلانک تک پا",
         "synonyms": [],
         "code": 246,
         "level": 2,
@@ -2247,7 +2247,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک جک بورپی",
+        "text": "پلانک جک بورپی",
         "synonyms": [],
         "code": 247,
         "level": 2,
@@ -2256,7 +2256,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک جک و پروانه",
+        "text": "پلانک جک و پروانه",
         "synonyms": [],
         "code": 248,
         "level": 2,
@@ -2265,7 +2265,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک جک و لمس سرشانه زانو خم",
+        "text": "پلانک جک و لمس سرشانه زانو خم",
         "synonyms": [],
         "code": 249,
         "level": 2,
@@ -2274,7 +2274,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک چرخشی",
+        "text": "پلانک چرخشی",
         "synonyms": [
             "پلانک چرخش کمر  ",
             "  پلانک چرخش لگن"
@@ -2286,7 +2286,7 @@
         "url2": "https://fitshim.com/workouts/abs/hip-dip-plank/"
     },
     {
-        "main_name": "پلانک حرکتی بالا پایین و اسنپ جامپ و زانو بلند جفت",
+        "text": "پلانک حرکتی بالا پایین و اسنپ جامپ و زانو بلند جفت",
         "synonyms": [],
         "code": 251,
         "level": 2,
@@ -2295,7 +2295,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک حرکتی به بالا و پایین",
+        "text": "پلانک حرکتی به بالا و پایین",
         "synonyms": [],
         "code": 252,
         "level": 1,
@@ -2304,7 +2304,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک رول و اسنپ جامپ",
+        "text": "پلانک رول و اسنپ جامپ",
         "synonyms": [],
         "code": 253,
         "level": 2,
@@ -2313,7 +2313,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک ستاره ایی",
+        "text": "پلانک ستاره ایی",
         "synonyms": [],
         "code": 254,
         "level": 2,
@@ -2322,7 +2322,7 @@
         "url2": null
     },
     {
-        "main_name": "پلانک معکوس",
+        "text": "پلانک معکوس",
         "synonyms": [],
         "code": 255,
         "level": 2,
@@ -2331,7 +2331,7 @@
         "url2": null
     },
     {
-        "main_name": "پلاور تک دست خوابیده با کش",
+        "text": "پلاور تک دست خوابیده با کش",
         "synonyms": [],
         "code": 256,
         "level": 2,
@@ -2340,7 +2340,7 @@
         "url2": null
     },
     {
-        "main_name": "پلاور دمبل",
+        "text": "پلاور دمبل",
         "synonyms": [],
         "code": 257,
         "level": 2,
@@ -2349,7 +2349,7 @@
         "url2": null
     },
     {
-        "main_name": "پلاور دمبل دست صاف",
+        "text": "پلاور دمبل دست صاف",
         "synonyms": [],
         "code": 258,
         "level": 1,
@@ -2358,7 +2358,7 @@
         "url2": null
     },
     {
-        "main_name": "پلاور دمبل دست صاف روی نیمکت",
+        "text": "پلاور دمبل دست صاف روی نیمکت",
         "synonyms": [],
         "code": 259,
         "level": 2,
@@ -2367,7 +2367,7 @@
         "url2": null
     },
     {
-        "main_name": "پلاور سیمکش شیب مثبت",
+        "text": "پلاور سیمکش شیب مثبت",
         "synonyms": [],
         "code": 260,
         "level": 2,
@@ -2376,7 +2376,7 @@
         "url2": null
     },
     {
-        "main_name": "پلاور نیمه تک دست خوابیده با کش",
+        "text": "پلاور نیمه تک دست خوابیده با کش",
         "synonyms": [],
         "code": 261,
         "level": 2,
@@ -2385,7 +2385,7 @@
         "url2": null
     },
     {
-        "main_name": "پلاور هالتر دست صاف روی نیمکت",
+        "text": "پلاور هالتر دست صاف روی نیمکت",
         "synonyms": [],
         "code": 262,
         "level": 2,
@@ -2394,7 +2394,7 @@
         "url2": null
     },
     {
-        "main_name": "پهلو دمبل از بالا",
+        "text": "پهلو دمبل از بالا",
         "synonyms": [],
         "code": 263,
         "level": 2,
@@ -2403,7 +2403,7 @@
         "url2": null
     },
     {
-        "main_name": "پهلو طرفین با دمبل",
+        "text": "پهلو طرفین با دمبل",
         "synonyms": [],
         "code": 264,
         "level": 2,
@@ -2412,7 +2412,7 @@
         "url2": null
     },
     {
-        "main_name": "پهلو طرفین با کش",
+        "text": "پهلو طرفین با کش",
         "synonyms": [],
         "code": 265,
         "level": 2,
@@ -2421,7 +2421,7 @@
         "url2": null
     },
     {
-        "main_name": "پهلو طرفین پشت میز",
+        "text": "پهلو طرفین پشت میز",
         "synonyms": [],
         "code": 266,
         "level": 1,
@@ -2430,7 +2430,7 @@
         "url2": null
     },
     {
-        "main_name": "تاب دادن دمبل",
+        "text": "تاب دادن دمبل",
         "synonyms": [],
         "code": 267,
         "level": 2,
@@ -2439,7 +2439,7 @@
         "url2": null
     },
     {
-        "main_name": "تنیس با کش",
+        "text": "تنیس با کش",
         "synonyms": [],
         "code": 268,
         "level": 2,
@@ -2448,7 +2448,7 @@
         "url2": null
     },
     {
-        "main_name": "تیزر",
+        "text": "تیزر",
         "synonyms": [],
         "code": 269,
         "level": 2,
@@ -2457,7 +2457,7 @@
         "url2": null
     },
     {
-        "main_name": "جابه جایی بطری زانو خم زیر بدن",
+        "text": "جابه جایی بطری زانو خم زیر بدن",
         "synonyms": [],
         "code": 270,
         "level": 2,
@@ -2466,7 +2466,7 @@
         "url2": null
     },
     {
-        "main_name": "جاگینگ",
+        "text": "جاگینگ",
         "synonyms": [],
         "code": 271,
         "level": 1,
@@ -2475,7 +2475,7 @@
         "url2": null
     },
     {
-        "main_name": "جاگینگ مشت به بالا",
+        "text": "جاگینگ مشت به بالا",
         "synonyms": [],
         "code": 272,
         "level": 1,
@@ -2484,7 +2484,7 @@
         "url2": null
     },
     {
-        "main_name": "جامپ از روی زانو و حرکت پتک",
+        "text": "جامپ از روی زانو و حرکت پتک",
         "synonyms": [],
         "code": 273,
         "level": 2,
@@ -2493,7 +2493,7 @@
         "url2": null
     },
     {
-        "main_name": "جامپ مورب در حالت شنا و لمس دستان تناوبی",
+        "text": "جامپ مورب در حالت شنا و لمس دستان تناوبی",
         "synonyms": [],
         "code": 274,
         "level": 2,
@@ -2502,7 +2502,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو از روبرو با کش",
+        "text": "جلوبازو از روبرو با کش",
         "synonyms": [],
         "code": 275,
         "level": 2,
@@ -2511,7 +2511,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو اسکوات سرشانه جلو",
+        "text": "جلوبازو اسکوات سرشانه جلو",
         "synonyms": [],
         "code": 276,
         "level": 2,
@@ -2520,7 +2520,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو اسمیت",
+        "text": "جلوبازو اسمیت",
         "synonyms": [],
         "code": 277,
         "level": 3,
@@ -2529,7 +2529,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو با کش",
+        "text": "جلوبازو با کش",
         "synonyms": [],
         "code": 278,
         "level": 2,
@@ -2538,7 +2538,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو تک به بیرون با کش",
+        "text": "جلوبازو تک به بیرون با کش",
         "synonyms": [],
         "code": 279,
         "level": 2,
@@ -2547,7 +2547,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو تک دست با کش",
+        "text": "جلوبازو تک دست با کش",
         "synonyms": [],
         "code": 280,
         "level": 2,
@@ -2556,7 +2556,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو تمرکزی با کش",
+        "text": "جلوبازو تمرکزی با کش",
         "synonyms": [],
         "code": 281,
         "level": 2,
@@ -2565,7 +2565,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو تناوبی با کش",
+        "text": "جلوبازو تناوبی با کش",
         "synonyms": [],
         "code": 282,
         "level": 2,
@@ -2574,7 +2574,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو چکشی با کش",
+        "text": "جلوبازو چکشی با کش",
         "synonyms": [],
         "code": 283,
         "level": 2,
@@ -2583,7 +2583,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو چکشی تناوبی با کش",
+        "text": "جلوبازو چکشی تناوبی با کش",
         "synonyms": [],
         "code": 284,
         "level": 2,
@@ -2592,7 +2592,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو چکشی داخل با کش",
+        "text": "جلوبازو چکشی داخل با کش",
         "synonyms": [],
         "code": 285,
         "level": 2,
@@ -2601,7 +2601,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو خوابیده با کش",
+        "text": "جلوبازو خوابیده با کش",
         "synonyms": [],
         "code": 286,
         "level": 1,
@@ -2610,7 +2610,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل ایستاده",
+        "text": "جلوبازو دمبل ایستاده",
         "synonyms": [],
         "code": 287,
         "level": 2,
@@ -2619,7 +2619,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل ایستاده تک دست",
+        "text": "جلوبازو دمبل ایستاده تک دست",
         "synonyms": [],
         "code": 288,
         "level": 3,
@@ -2628,7 +2628,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل ایستاده تناوبی",
+        "text": "جلوبازو دمبل ایستاده تناوبی",
         "synonyms": [],
         "code": 289,
         "level": 2,
@@ -2637,7 +2637,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل تمرکزی (آرنولدی)",
+        "text": "جلوبازو دمبل تمرکزی (آرنولدی)",
         "synonyms": [],
         "code": 290,
         "level": 3,
@@ -2646,7 +2646,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل تناوبی شیب مثبت",
+        "text": "جلوبازو دمبل تناوبی شیب مثبت",
         "synonyms": [],
         "code": 291,
         "level": 3,
@@ -2655,7 +2655,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل جفت به داخل",
+        "text": "جلوبازو دمبل جفت به داخل",
         "synonyms": [],
         "code": 292,
         "level": 2,
@@ -2664,7 +2664,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل جفت دست",
+        "text": "جلوبازو دمبل جفت دست",
         "synonyms": [],
         "code": 293,
         "level": 1,
@@ -2673,7 +2673,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل چرخشی ایستاده",
+        "text": "جلوبازو دمبل چرخشی ایستاده",
         "synonyms": [],
         "code": 294,
         "level": 3,
@@ -2682,7 +2682,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل چکشی",
+        "text": "جلوبازو دمبل چکشی",
         "synonyms": [],
         "code": 295,
         "level": 2,
@@ -2691,7 +2691,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل چکشی تناوبی",
+        "text": "جلوبازو دمبل چکشی تناوبی",
         "synonyms": [],
         "code": 296,
         "level": 2,
@@ -2700,7 +2700,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل چکشی تناوبی شیب مثبت",
+        "text": "جلوبازو دمبل چکشی تناوبی شیب مثبت",
         "synonyms": [],
         "code": 297,
         "level": 2,
@@ -2709,7 +2709,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل چکشی جفت دست",
+        "text": "جلوبازو دمبل چکشی جفت دست",
         "synonyms": [],
         "code": 298,
         "level": 2,
@@ -2718,7 +2718,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل چکشی شیب مثبت",
+        "text": "جلوبازو دمبل چکشی شیب مثبت",
         "synonyms": [],
         "code": 299,
         "level": 2,
@@ -2727,7 +2727,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل چکشی نشسته",
+        "text": "جلوبازو دمبل چکشی نشسته",
         "synonyms": [],
         "code": 300,
         "level": 2,
@@ -2736,7 +2736,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل دمر روی میز شیبدار",
+        "text": "جلوبازو دمبل دمر روی میز شیبدار",
         "synonyms": [],
         "code": 301,
         "level": 2,
@@ -2745,7 +2745,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل شیب مثبت",
+        "text": "جلوبازو دمبل شیب مثبت",
         "synonyms": [],
         "code": 302,
         "level": 2,
@@ -2754,7 +2754,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمبل مچ معکوس",
+        "text": "جلوبازو دمبل مچ معکوس",
         "synonyms": [],
         "code": 303,
         "level": 2,
@@ -2763,7 +2763,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو دمر روی میز شیبدار میله EZ",
+        "text": "جلوبازو دمر روی میز شیبدار میله EZ",
         "synonyms": [],
         "code": 304,
         "level": 2,
@@ -2772,7 +2772,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش",
+        "text": "جلوبازو سیمکش",
         "synonyms": [],
         "code": 305,
         "level": 2,
@@ -2781,7 +2781,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش تک",
+        "text": "جلوبازو سیمکش تک",
         "synonyms": [],
         "code": 306,
         "level": 2,
@@ -2790,7 +2790,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش تک از پشت",
+        "text": "جلوبازو سیمکش تک از پشت",
         "synonyms": [],
         "code": 307,
         "level": 3,
@@ -2799,7 +2799,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش تک به بیرون",
+        "text": "جلوبازو سیمکش تک به بیرون",
         "synonyms": [],
         "code": 308,
         "level": 3,
@@ -2808,7 +2808,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش خوابیده",
+        "text": "جلوبازو سیمکش خوابیده",
         "synonyms": [],
         "code": 309,
         "level": 3,
@@ -2817,7 +2817,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش دست باز",
+        "text": "جلوبازو سیمکش دست باز",
         "synonyms": [],
         "code": 310,
         "level": 2,
@@ -2826,7 +2826,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش دست جمع",
+        "text": "جلوبازو سیمکش دست جمع",
         "synonyms": [],
         "code": 311,
         "level": 2,
@@ -2835,7 +2835,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش طنابی",
+        "text": "جلوبازو سیمکش طنابی",
         "synonyms": [],
         "code": 312,
         "level": 2,
@@ -2844,7 +2844,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش مچ برعکس",
+        "text": "جلوبازو سیمکش مچ برعکس",
         "synonyms": [],
         "code": 313,
         "level": 2,
@@ -2853,7 +2853,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو سیمکش نشسته",
+        "text": "جلوبازو سیمکش نشسته",
         "synonyms": [],
         "code": 314,
         "level": 2,
@@ -2862,7 +2862,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو صفحه ایستاده",
+        "text": "جلوبازو صفحه ایستاده",
         "synonyms": [],
         "code": 315,
         "level": 2,
@@ -2871,7 +2871,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو صفحه مچ معکوس",
+        "text": "جلوبازو صفحه مچ معکوس",
         "synonyms": [],
         "code": 316,
         "level": 2,
@@ -2880,7 +2880,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو کراس تک",
+        "text": "جلوبازو کراس تک",
         "synonyms": [],
         "code": 317,
         "level": 3,
@@ -2889,7 +2889,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری",
+        "text": "جلوبازو لاری",
         "synonyms": [],
         "code": 318,
         "level": 3,
@@ -2898,7 +2898,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری ایستاده تک (بدون میز لاری)",
+        "text": "جلوبازو لاری ایستاده تک (بدون میز لاری)",
         "synonyms": [],
         "code": 319,
         "level": 2,
@@ -2907,7 +2907,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دست باز میله EZ",
+        "text": "جلوبازو لاری دست باز میله EZ",
         "synonyms": [],
         "code": 320,
         "level": 2,
@@ -2916,7 +2916,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دست جمع میله EZ",
+        "text": "جلوبازو لاری دست جمع میله EZ",
         "synonyms": [],
         "code": 321,
         "level": 2,
@@ -2925,7 +2925,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دستگاه",
+        "text": "جلوبازو لاری دستگاه",
         "synonyms": [],
         "code": 322,
         "level": 2,
@@ -2934,7 +2934,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دستگاه تک دست",
+        "text": "جلوبازو لاری دستگاه تک دست",
         "synonyms": [],
         "code": 323,
         "level": 2,
@@ -2943,7 +2943,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دمبل",
+        "text": "جلوبازو لاری دمبل",
         "synonyms": [],
         "code": 324,
         "level": 2,
@@ -2952,7 +2952,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دمبل تک دست",
+        "text": "جلوبازو لاری دمبل تک دست",
         "synonyms": [],
         "code": 325,
         "level": 2,
@@ -2961,7 +2961,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دمبل تک مچ معکوس",
+        "text": "جلوبازو لاری دمبل تک مچ معکوس",
         "synonyms": [],
         "code": 326,
         "level": 2,
@@ -2970,7 +2970,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری دمبل چکشی تک",
+        "text": "جلوبازو لاری دمبل چکشی تک",
         "synonyms": [],
         "code": 327,
         "level": 2,
@@ -2979,7 +2979,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری صفحه (تک)",
+        "text": "جلوبازو لاری صفحه (تک)",
         "synonyms": [],
         "code": 328,
         "level": 2,
@@ -2988,7 +2988,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری مچ برعکس",
+        "text": "جلوبازو لاری مچ برعکس",
         "synonyms": [],
         "code": 329,
         "level": 3,
@@ -2997,7 +2997,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری معکوس",
+        "text": "جلوبازو لاری معکوس",
         "synonyms": [],
         "code": 330,
         "level": 3,
@@ -3006,7 +3006,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو لاری نشسته با کش",
+        "text": "جلوبازو لاری نشسته با کش",
         "synonyms": [],
         "code": 331,
         "level": 2,
@@ -3015,7 +3015,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو مچ معکوس تک با کش",
+        "text": "جلوبازو مچ معکوس تک با کش",
         "synonyms": [],
         "code": 332,
         "level": 2,
@@ -3024,7 +3024,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو نشسته با کش",
+        "text": "جلوبازو نشسته با کش",
         "synonyms": [],
         "code": 333,
         "level": 2,
@@ -3033,7 +3033,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو نشسته تناوبی با کش",
+        "text": "جلوبازو نشسته تناوبی با کش",
         "synonyms": [],
         "code": 334,
         "level": 2,
@@ -3042,7 +3042,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو نشسته دمبل",
+        "text": "جلوبازو نشسته دمبل",
         "synonyms": [],
         "code": 335,
         "level": 2,
@@ -3051,7 +3051,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو نشسته سیمکش تک",
+        "text": "جلوبازو نشسته سیمکش تک",
         "synonyms": [],
         "code": 336,
         "level": 2,
@@ -3060,7 +3060,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر ۲۱",
+        "text": "جلوبازو هالتر ۲۱",
         "synonyms": [],
         "code": 337,
         "level": 3,
@@ -3069,7 +3069,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر ایستاده",
+        "text": "جلوبازو هالتر ایستاده",
         "synonyms": [],
         "code": 338,
         "level": 2,
@@ -3078,7 +3078,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر دست جمع",
+        "text": "جلوبازو هالتر دست جمع",
         "synonyms": [],
         "code": 339,
         "level": 2,
@@ -3087,7 +3087,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر دمر روی میز شیبدار",
+        "text": "جلوبازو هالتر دمر روی میز شیبدار",
         "synonyms": [],
         "code": 340,
         "level": 3,
@@ -3096,7 +3096,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر مچ معکوس",
+        "text": "جلوبازو هالتر مچ معکوس",
         "synonyms": [],
         "code": 341,
         "level": 2,
@@ -3105,7 +3105,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر نشسته",
+        "text": "جلوبازو هالتر نشسته",
         "synonyms": [],
         "code": 342,
         "level": 3,
@@ -3114,7 +3114,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر نیمه بالا",
+        "text": "جلوبازو هالتر نیمه بالا",
         "synonyms": [],
         "code": 343,
         "level": 3,
@@ -3123,7 +3123,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوبازو هالتر نیمه پایین",
+        "text": "جلوبازو هالتر نیمه پایین",
         "synonyms": [],
         "code": 344,
         "level": 3,
@@ -3132,7 +3132,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوپا (دو پا بالا و یک پا پایین)",
+        "text": "جلوپا (دو پا بالا و یک پا پایین)",
         "synonyms": [],
         "code": 345,
         "level": 3,
@@ -3141,7 +3141,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوپا پنجه بیرون",
+        "text": "جلوپا پنجه بیرون",
         "synonyms": [],
         "code": 346,
         "level": 3,
@@ -3150,7 +3150,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوپا پنجه داخل",
+        "text": "جلوپا پنجه داخل",
         "synonyms": [],
         "code": 347,
         "level": 3,
@@ -3159,7 +3159,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوپا تک",
+        "text": "جلوپا تک",
         "synonyms": [],
         "code": 348,
         "level": 2,
@@ -3168,7 +3168,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوپا دستگاه",
+        "text": "جلوپا دستگاه",
         "synonyms": [],
         "code": 349,
         "level": 2,
@@ -3177,7 +3177,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوپا دمبل",
+        "text": "جلوپا دمبل",
         "synonyms": [],
         "code": 350,
         "level": 2,
@@ -3186,7 +3186,7 @@
         "url2": null
     },
     {
-        "main_name": "جلوپا نشسته با کش",
+        "text": "جلوپا نشسته با کش",
         "synonyms": [],
         "code": 351,
         "level": 2,
@@ -3195,7 +3195,7 @@
         "url2": null
     },
     {
-        "main_name": "جهش به طرفین",
+        "text": "جهش به طرفین",
         "synonyms": [],
         "code": 352,
         "level": 2,
@@ -3204,7 +3204,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش به طرفین پشت میز",
+        "text": "چرخش به طرفین پشت میز",
         "synonyms": [],
         "code": 353,
         "level": 1,
@@ -3213,7 +3213,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش پهلو خوابیده پا خم با توپ",
+        "text": "چرخش پهلو خوابیده پا خم با توپ",
         "synonyms": [],
         "code": 354,
         "level": 1,
@@ -3222,7 +3222,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش تنه به بیرون دست صاف با کش",
+        "text": "چرخش تنه به بیرون دست صاف با کش",
         "synonyms": [],
         "code": 355,
         "level": 2,
@@ -3231,7 +3231,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش دستها به بیرون با دمبل",
+        "text": "چرخش دستها به بیرون با دمبل",
         "synonyms": [],
         "code": 356,
         "level": 1,
@@ -3240,7 +3240,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش دورانی شانه",
+        "text": "چرخش دورانی شانه",
         "synonyms": [],
         "code": 357,
         "level": 1,
@@ -3249,7 +3249,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش روسی",
+        "text": "چرخش روسی",
         "synonyms": [],
         "code": 358,
         "level": 2,
@@ -3258,7 +3258,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش روسی با دمبل",
+        "text": "چرخش روسی با دمبل",
         "synonyms": [],
         "code": 359,
         "level": 2,
@@ -3267,7 +3267,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش روسی با کش",
+        "text": "چرخش روسی با کش",
         "synonyms": [],
         "code": 360,
         "level": 2,
@@ -3276,7 +3276,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش روسی پا روی زمین",
+        "text": "چرخش روسی پا روی زمین",
         "synonyms": [],
         "code": 361,
         "level": 1,
@@ -3285,7 +3285,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش روسی دست باز",
+        "text": "چرخش روسی دست باز",
         "synonyms": [],
         "code": 362,
         "level": 2,
@@ -3294,7 +3294,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش روسی دمبل تناوبی",
+        "text": "چرخش روسی دمبل تناوبی",
         "synonyms": [],
         "code": 363,
         "level": 2,
@@ -3303,7 +3303,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش روسی شیبدار",
+        "text": "چرخش روسی شیبدار",
         "synonyms": [],
         "code": 364,
         "level": 3,
@@ -3312,7 +3312,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش شانه",
+        "text": "چرخش شانه",
         "synonyms": [],
         "code": 365,
         "level": 1,
@@ -3321,7 +3321,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش شانه پشت میز",
+        "text": "چرخش شانه پشت میز",
         "synonyms": [],
         "code": 366,
         "level": 1,
@@ -3330,7 +3330,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش گردن پشت میز",
+        "text": "چرخش گردن پشت میز",
         "synonyms": [],
         "code": 367,
         "level": 1,
@@ -3339,7 +3339,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش لگن به بیرون پا خم معکوس",
+        "text": "چرخش لگن به بیرون پا خم معکوس",
         "synonyms": [],
         "code": 368,
         "level": 2,
@@ -3348,7 +3348,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش لگن به بیرون خوابیده با کش",
+        "text": "چرخش لگن به بیرون خوابیده با کش",
         "synonyms": [],
         "code": 369,
         "level": 2,
@@ -3357,7 +3357,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش لگن به بیرون دانکی",
+        "text": "چرخش لگن به بیرون دانکی",
         "synonyms": [],
         "code": 370,
         "level": 2,
@@ -3366,7 +3366,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش لگن به بیرون دانکی با دمبل",
+        "text": "چرخش لگن به بیرون دانکی با دمبل",
         "synonyms": [],
         "code": 371,
         "level": 2,
@@ -3375,7 +3375,7 @@
         "url2": null
     },
     {
-        "main_name": "چرخش لگن به بیرون دانکی با کش",
+        "text": "چرخش لگن به بیرون دانکی با کش",
         "synonyms": [],
         "code": 372,
         "level": 2,
@@ -3384,7 +3384,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران ایستاده",
+        "text": "خارج ران ایستاده",
         "synonyms": [],
         "code": 373,
         "level": 1,
@@ -3393,7 +3393,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران ایستاده از پشت با کش",
+        "text": "خارج ران ایستاده از پشت با کش",
         "synonyms": [],
         "code": 374,
         "level": 2,
@@ -3402,7 +3402,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران ایستاده با کش",
+        "text": "خارج ران ایستاده با کش",
         "synonyms": [],
         "code": 375,
         "level": 2,
@@ -3411,7 +3411,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران ایستاده پا خم با کش",
+        "text": "خارج ران ایستاده پا خم با کش",
         "synonyms": [],
         "code": 376,
         "level": 2,
@@ -3420,7 +3420,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران ایستاده دستگاه",
+        "text": "خارج ران ایستاده دستگاه",
         "synonyms": [],
         "code": 377,
         "level": 2,
@@ -3429,7 +3429,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران پشت میز",
+        "text": "خارج ران پشت میز",
         "synonyms": [],
         "code": 378,
         "level": 1,
@@ -3438,7 +3438,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران سیمکش ایستاده",
+        "text": "خارج ران سیمکش ایستاده",
         "synonyms": [],
         "code": 379,
         "level": 2,
@@ -3447,7 +3447,7 @@
         "url2": null
     },
     {
-        "main_name": "خارج ران سیمکش ایستاده از پشت",
+        "text": "خارج ران سیمکش ایستاده از پشت",
         "synonyms": [],
         "code": 380,
         "level": 3,
@@ -3456,7 +3456,7 @@
         "url2": null
     },
     {
-        "main_name": "خرچنگ تناوبی",
+        "text": "خرچنگ تناوبی",
         "synonyms": [],
         "code": 381,
         "level": 2,
@@ -3465,7 +3465,7 @@
         "url2": null
     },
     {
-        "main_name": "خم کردن زانو پلانک",
+        "text": "خم کردن زانو پلانک",
         "synonyms": [],
         "code": 382,
         "level": 2,
@@ -3474,7 +3474,7 @@
         "url2": null
     },
     {
-        "main_name": "داخل ران ایستاده با کش",
+        "text": "داخل ران ایستاده با کش",
         "synonyms": [],
         "code": 383,
         "level": 2,
@@ -3483,7 +3483,7 @@
         "url2": null
     },
     {
-        "main_name": "داخل ران با توپ نشسته",
+        "text": "داخل ران با توپ نشسته",
         "synonyms": [],
         "code": 384,
         "level": 2,
@@ -3492,7 +3492,7 @@
         "url2": null
     },
     {
-        "main_name": "داخل ران پشت میز",
+        "text": "داخل ران پشت میز",
         "synonyms": [],
         "code": 385,
         "level": 1,
@@ -3501,7 +3501,7 @@
         "url2": null
     },
     {
-        "main_name": "داخل ران خوابیده",
+        "text": "داخل ران خوابیده",
         "synonyms": [],
         "code": 386,
         "level": 1,
@@ -3510,7 +3510,7 @@
         "url2": null
     },
     {
-        "main_name": "داخل ران سیمکش ایستاده",
+        "text": "داخل ران سیمکش ایستاده",
         "synonyms": [],
         "code": 387,
         "level": 2,
@@ -3519,7 +3519,7 @@
         "url2": null
     },
     {
-        "main_name": "دانکی دست و پای مخالف به داخل",
+        "text": "دانکی دست و پای مخالف به داخل",
         "synonyms": [],
         "code": 388,
         "level": 2,
@@ -3528,7 +3528,7 @@
         "url2": null
     },
     {
-        "main_name": "ددلیفت دمبل",
+        "text": "ددلیفت دمبل",
         "synonyms": [],
         "code": 389,
         "level": 2,
@@ -3537,7 +3537,7 @@
         "url2": null
     },
     {
-        "main_name": "ددلیفت و زیربغل خم هالتر",
+        "text": "ددلیفت و زیربغل خم هالتر",
         "synonyms": [],
         "code": 390,
         "level": 3,
@@ -3546,7 +3546,7 @@
         "url2": null
     },
     {
-        "main_name": "ددلیفت هالتر",
+        "text": "ددلیفت هالتر",
         "synonyms": [],
         "code": 391,
         "level": 2,
@@ -3555,7 +3555,7 @@
         "url2": "https://fitshim.com/workouts/back/barbell-deadlift/"
     },
     {
-        "main_name": "دراز نشست",
+        "text": "دراز نشست",
         "synonyms": [],
         "code": 392,
         "level": 1,
@@ -3564,7 +3564,7 @@
         "url2": "https://fitshim.com/workouts/abs/sit-up/"
     },
     {
-        "main_name": "دمبل خم جفت پشت بازو کیک بک پا تناوبی",
+        "text": "دمبل خم جفت پشت بازو کیک بک پا تناوبی",
         "synonyms": [],
         "code": 393,
         "level": 2,
@@ -3573,7 +3573,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ بین دو نیمکت",
+        "text": "دیپ بین دو نیمکت",
         "synonyms": [],
         "code": 394,
         "level": 2,
@@ -3582,7 +3582,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ پارالل",
+        "text": "دیپ پارالل",
         "synonyms": [],
         "code": 395,
         "level": 2,
@@ -3591,7 +3591,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ تک پا روی زمین",
+        "text": "دیپ تک پا روی زمین",
         "synonyms": [],
         "code": 396,
         "level": 2,
@@ -3600,7 +3600,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ دستگاه",
+        "text": "دیپ دستگاه",
         "synonyms": [],
         "code": 397,
         "level": 2,
@@ -3609,7 +3609,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ روی زمین",
+        "text": "دیپ روی زمین",
         "synonyms": [],
         "code": 398,
         "level": 2,
@@ -3618,7 +3618,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ روی زمین و بلندکردن دست ها تناوبی",
+        "text": "دیپ روی زمین و بلندکردن دست ها تناوبی",
         "synonyms": [],
         "code": 399,
         "level": 2,
@@ -3627,7 +3627,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ زیرشکم تکپا",
+        "text": "دیپ زیرشکم تکپا",
         "synonyms": [],
         "code": 400,
         "level": 2,
@@ -3636,7 +3636,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ نیمکت پا خم",
+        "text": "دیپ نیمکت پا خم",
         "synonyms": [],
         "code": 401,
         "level": 2,
@@ -3645,7 +3645,7 @@
         "url2": null
     },
     {
-        "main_name": "دیپ نیمکت پا صاف",
+        "text": "دیپ نیمکت پا صاف",
         "synonyms": [],
         "code": 402,
         "level": 1,
@@ -3654,7 +3654,7 @@
         "url2": null
     },
     {
-        "main_name": "راه رفتن روی دست ها و ایستادن",
+        "text": "راه رفتن روی دست ها و ایستادن",
         "synonyms": [],
         "code": 403,
         "level": 1,
@@ -3663,7 +3663,7 @@
         "url2": null
     },
     {
-        "main_name": "راه‌ رفتن روی دست ها و جامپ",
+        "text": "راه‌ رفتن روی دست ها و جامپ",
         "synonyms": [],
         "code": 404,
         "level": 1,
@@ -3672,7 +3672,7 @@
         "url2": null
     },
     {
-        "main_name": "راه رفتن روی دستها و شنا اسکوات",
+        "text": "راه رفتن روی دستها و شنا اسکوات",
         "synonyms": [],
         "code": 405,
         "level": 2,
@@ -3681,7 +3681,7 @@
         "url2": null
     },
     {
-        "main_name": "راه رفتن عنکبوتی",
+        "text": "راه رفتن عنکبوتی",
         "synonyms": [],
         "code": 406,
         "level": 1,
@@ -3690,7 +3690,7 @@
         "url2": null
     },
     {
-        "main_name": "رولینگ با توپ",
+        "text": "رولینگ با توپ",
         "synonyms": [],
         "code": 407,
         "level": 3,
@@ -3699,7 +3699,7 @@
         "url2": null
     },
     {
-        "main_name": "روی ساعد با دستگاه",
+        "text": "روی ساعد با دستگاه",
         "synonyms": [],
         "code": 408,
         "level": 2,
@@ -3708,7 +3708,7 @@
         "url2": null
     },
     {
-        "main_name": "روی ساعد دمبل",
+        "text": "روی ساعد دمبل",
         "synonyms": [],
         "code": 409,
         "level": 2,
@@ -3717,7 +3717,7 @@
         "url2": null
     },
     {
-        "main_name": "روی ساعد دمبل تک",
+        "text": "روی ساعد دمبل تک",
         "synonyms": [],
         "code": 410,
         "level": 2,
@@ -3726,7 +3726,7 @@
         "url2": null
     },
     {
-        "main_name": "روی ساعد میله EZ",
+        "text": "روی ساعد میله EZ",
         "synonyms": [],
         "code": 411,
         "level": 2,
@@ -3735,7 +3735,7 @@
         "url2": null
     },
     {
-        "main_name": "روی ساعد هالتر",
+        "text": "روی ساعد هالتر",
         "synonyms": [],
         "code": 412,
         "level": 2,
@@ -3744,7 +3744,7 @@
         "url2": null
     },
     {
-        "main_name": "زانو بلند با مکث",
+        "text": "زانو بلند با مکث",
         "synonyms": [],
         "code": 413,
         "level": 2,
@@ -3753,7 +3753,7 @@
         "url2": null
     },
     {
-        "main_name": "زانو بلند جفت پا",
+        "text": "زانو بلند جفت پا",
         "synonyms": [],
         "code": 414,
         "level": 2,
@@ -3762,7 +3762,7 @@
         "url2": null
     },
     {
-        "main_name": "زانو بلند و زانو بلند از پشت",
+        "text": "زانو بلند و زانو بلند از پشت",
         "synonyms": [],
         "code": 415,
         "level": 2,
@@ -3771,7 +3771,7 @@
         "url2": null
     },
     {
-        "main_name": "زانو زدن و اسکوات",
+        "text": "زانو زدن و اسکوات",
         "synonyms": [],
         "code": 416,
         "level": 2,
@@ -3780,7 +3780,7 @@
         "url2": null
     },
     {
-        "main_name": "زانوبلند با مکث",
+        "text": "زانوبلند با مکث",
         "synonyms": [],
         "code": 417,
         "level": 2,
@@ -3789,7 +3789,7 @@
         "url2": null
     },
     {
-        "main_name": "زانوبلند پله",
+        "text": "زانوبلند پله",
         "synonyms": [],
         "code": 418,
         "level": 2,
@@ -3798,7 +3798,7 @@
         "url2": null
     },
     {
-        "main_name": "زانوبلند پله دمبل",
+        "text": "زانوبلند پله دمبل",
         "synonyms": [],
         "code": 419,
         "level": 1,
@@ -3807,7 +3807,7 @@
         "url2": null
     },
     {
-        "main_name": "زانوبلند جفت پا",
+        "text": "زانوبلند جفت پا",
         "synonyms": [],
         "code": 420,
         "level": 2,
@@ -3816,7 +3816,7 @@
         "url2": null
     },
     {
-        "main_name": "زانوبلند مورب",
+        "text": "زانوبلند مورب",
         "synonyms": [],
         "code": 421,
         "level": 2,
@@ -3825,7 +3825,7 @@
         "url2": null
     },
     {
-        "main_name": "زانوبلند و زانوبلند از پشت تناوبی",
+        "text": "زانوبلند و زانوبلند از پشت تناوبی",
         "synonyms": [],
         "code": 422,
         "level": 2,
@@ -3834,7 +3834,7 @@
         "url2": null
     },
     {
-        "main_name": "زیر بغل خم هالتر",
+        "text": "زیر بغل خم هالتر",
         "synonyms": [],
         "code": 423,
         "level": 2,
@@ -3843,7 +3843,7 @@
         "url2": null
     },
     {
-        "main_name": "زیر بغل قایقی ایستاده دوبل",
+        "text": "زیر بغل قایقی ایستاده دوبل",
         "synonyms": [],
         "code": 424,
         "level": 2,
@@ -3852,7 +3852,7 @@
         "url2": null
     },
     {
-        "main_name": "زیر شکم پا صاف",
+        "text": "زیر شکم پا صاف",
         "synonyms": [],
         "code": 425,
         "level": 1,
@@ -3861,7 +3861,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل از بالا ایستاده با کش",
+        "text": "زیربغل از بالا ایستاده با کش",
         "synonyms": [],
         "code": 426,
         "level": 2,
@@ -3870,7 +3870,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل پروانه خوابیده با کش",
+        "text": "زیربغل پروانه خوابیده با کش",
         "synonyms": [],
         "code": 427,
         "level": 2,
@@ -3879,7 +3879,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل تک دست با کش",
+        "text": "زیربغل تک دست با کش",
         "synonyms": [],
         "code": 428,
         "level": 2,
@@ -3888,7 +3888,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل تک دست سیمکش",
+        "text": "زیربغل تک دست سیمکش",
         "synonyms": [],
         "code": 429,
         "level": 2,
@@ -3897,7 +3897,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم اسمیت",
+        "text": "زیربغل خم اسمیت",
         "synonyms": [],
         "code": 430,
         "level": 3,
@@ -3906,7 +3906,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم اسمیت تک",
+        "text": "زیربغل خم اسمیت تک",
         "synonyms": [],
         "code": 431,
         "level": 3,
@@ -3915,7 +3915,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم با کش",
+        "text": "زیربغل خم با کش",
         "synonyms": [],
         "code": 432,
         "level": 2,
@@ -3924,7 +3924,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تک دست با کش",
+        "text": "زیربغل خم تک دست با کش",
         "synonyms": [],
         "code": 433,
         "level": 2,
@@ -3933,7 +3933,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تک دست دمبل روی نیمکت",
+        "text": "زیربغل خم تک دست دمبل روی نیمکت",
         "synonyms": [],
         "code": 434,
         "level": 2,
@@ -3942,7 +3942,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تناوبی لیفت جلوبازو جفت",
+        "text": "زیربغل خم تناوبی لیفت جلوبازو جفت",
         "synonyms": [],
         "code": 435,
         "level": 2,
@@ -3951,7 +3951,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تی بار تک دست به پهلو",
+        "text": "زیربغل خم تی بار تک دست به پهلو",
         "synonyms": [],
         "code": 436,
         "level": 2,
@@ -3960,7 +3960,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تی بار دست باز",
+        "text": "زیربغل خم تی بار دست باز",
         "synonyms": [],
         "code": 437,
         "level": 2,
@@ -3969,7 +3969,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تی بار دست جمع",
+        "text": "زیربغل خم تی بار دست جمع",
         "synonyms": [],
         "code": 438,
         "level": 2,
@@ -3978,7 +3978,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تی بار دست موازی",
+        "text": "زیربغل خم تی بار دست موازی",
         "synonyms": [],
         "code": 439,
         "level": 2,
@@ -3987,7 +3987,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم تی بار هالتر",
+        "text": "زیربغل خم تی بار هالتر",
         "synonyms": [],
         "code": 440,
         "level": 2,
@@ -3996,7 +3996,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم جفت تناوبی",
+        "text": "زیربغل خم جفت تناوبی",
         "synonyms": [],
         "code": 441,
         "level": 2,
@@ -4005,7 +4005,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم دمبل تک دست",
+        "text": "زیربغل خم دمبل تک دست",
         "synonyms": [],
         "code": 442,
         "level": 2,
@@ -4014,7 +4014,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم دمبل جفت تناوبی",
+        "text": "زیربغل خم دمبل جفت تناوبی",
         "synonyms": [],
         "code": 443,
         "level": 2,
@@ -4023,7 +4023,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم دمبل جفت دست",
+        "text": "زیربغل خم دمبل جفت دست",
         "synonyms": [],
         "code": 444,
         "level": 2,
@@ -4032,7 +4032,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم دمبل جفت روی میز شیبدار",
+        "text": "زیربغل خم دمبل جفت روی میز شیبدار",
         "synonyms": [],
         "code": 445,
         "level": 2,
@@ -4041,7 +4041,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم دمبل جفت نشسته",
+        "text": "زیربغل خم دمبل جفت نشسته",
         "synonyms": [],
         "code": 446,
         "level": 2,
@@ -4050,7 +4050,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم سیمکش",
+        "text": "زیربغل خم سیمکش",
         "synonyms": [],
         "code": 447,
         "level": 2,
@@ -4059,7 +4059,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم سیمکش تک دست",
+        "text": "زیربغل خم سیمکش تک دست",
         "synonyms": [],
         "code": 448,
         "level": 2,
@@ -4068,7 +4068,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم میله EZ دست باز",
+        "text": "زیربغل خم میله EZ دست باز",
         "synonyms": [],
         "code": 449,
         "level": 2,
@@ -4077,7 +4077,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم میله EZ دست جمع",
+        "text": "زیربغل خم میله EZ دست جمع",
         "synonyms": [],
         "code": 450,
         "level": 2,
@@ -4086,7 +4086,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم هالتر",
+        "text": "زیربغل خم هالتر",
         "synonyms": [],
         "code": 451,
         "level": 2,
@@ -4095,7 +4095,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل خم هالتر مچ برعکس",
+        "text": "زیربغل خم هالتر مچ برعکس",
         "synonyms": [],
         "code": 452,
         "level": 2,
@@ -4104,7 +4104,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل دست موازی با کش",
+        "text": "زیربغل دست موازی با کش",
         "synonyms": [],
         "code": 453,
         "level": 2,
@@ -4113,7 +4113,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل دمبل خم در حالت شنا",
+        "text": "زیربغل دمبل خم در حالت شنا",
         "synonyms": [],
         "code": 454,
         "level": 2,
@@ -4122,7 +4122,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل دمبل زانو خم زیر بدن",
+        "text": "زیربغل دمبل زانو خم زیر بدن",
         "synonyms": [],
         "code": 455,
         "level": 2,
@@ -4131,7 +4131,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست باز پشت",
+        "text": "زیربغل سیمکش دست باز پشت",
         "synonyms": [],
         "code": 456,
         "level": 2,
@@ -4140,7 +4140,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست باز پشت یکطرفه",
+        "text": "زیربغل سیمکش دست باز پشت یکطرفه",
         "synonyms": [],
         "code": 457,
         "level": 3,
@@ -4149,7 +4149,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست باز جلو",
+        "text": "زیربغل سیمکش دست باز جلو",
         "synonyms": [],
         "code": 458,
         "level": 2,
@@ -4158,7 +4158,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست باز جلو یکطرفه",
+        "text": "زیربغل سیمکش دست باز جلو یکطرفه",
         "synonyms": [],
         "code": 459,
         "level": 3,
@@ -4167,7 +4167,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست باز موازی",
+        "text": "زیربغل سیمکش دست باز موازی",
         "synonyms": [],
         "code": 460,
         "level": 3,
@@ -4176,7 +4176,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست جمع",
+        "text": "زیربغل سیمکش دست جمع",
         "synonyms": [],
         "code": 461,
         "level": 2,
@@ -4185,7 +4185,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست جمع مچ معکوس",
+        "text": "زیربغل سیمکش دست جمع مچ معکوس",
         "synonyms": [],
         "code": 462,
         "level": 2,
@@ -4194,7 +4194,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست صاف V",
+        "text": "زیربغل سیمکش دست صاف V",
         "synonyms": [],
         "code": 463,
         "level": 3,
@@ -4203,7 +4203,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست صاف جمع",
+        "text": "زیربغل سیمکش دست صاف جمع",
         "synonyms": [],
         "code": 464,
         "level": 2,
@@ -4212,7 +4212,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دست صاف طناب",
+        "text": "زیربغل سیمکش دست صاف طناب",
         "synonyms": [],
         "code": 465,
         "level": 2,
@@ -4221,7 +4221,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش دوبل",
+        "text": "زیربغل سیمکش دوبل",
         "synonyms": [],
         "code": 466,
         "level": 2,
@@ -4230,7 +4230,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل سیمکش طناب از پشت",
+        "text": "زیربغل سیمکش طناب از پشت",
         "synonyms": [],
         "code": 467,
         "level": 3,
@@ -4239,7 +4239,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل کش دست صاف",
+        "text": "زیربغل کش دست صاف",
         "synonyms": [],
         "code": 468,
         "level": 2,
@@ -4248,7 +4248,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل کش دست صاف باز",
+        "text": "زیربغل کش دست صاف باز",
         "synonyms": [],
         "code": 469,
         "level": 2,
@@ -4257,7 +4257,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل کش ضربدری",
+        "text": "زیربغل کش ضربدری",
         "synonyms": [],
         "code": 470,
         "level": 2,
@@ -4266,7 +4266,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل لت پروانه خوابیده",
+        "text": "زیربغل لت پروانه خوابیده",
         "synonyms": [],
         "code": 471,
         "level": 1,
@@ -4275,7 +4275,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل لت خوابیده با کش",
+        "text": "زیربغل لت خوابیده با کش",
         "synonyms": [],
         "code": 472,
         "level": 1,
@@ -4284,7 +4284,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل لت دست باز با کش",
+        "text": "زیربغل لت دست باز با کش",
         "synonyms": [],
         "code": 473,
         "level": 2,
@@ -4293,7 +4293,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل لت دست جمع با کش",
+        "text": "زیربغل لت دست جمع با کش",
         "synonyms": [],
         "code": 474,
         "level": 2,
@@ -4302,7 +4302,7 @@
         "url2": null
     },
     {
-        "main_name": "زیربغل لت مچ معکوس با کش",
+        "text": "زیربغل لت مچ معکوس با کش",
         "synonyms": [],
         "code": 475,
         "level": 3,
@@ -4311,7 +4311,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرسینه دمبل",
+        "text": "زیرسینه دمبل",
         "synonyms": [],
         "code": 476,
         "level": 2,
@@ -4320,7 +4320,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرسینه دمبل جمع",
+        "text": "زیرسینه دمبل جمع",
         "synonyms": [],
         "code": 477,
         "level": 2,
@@ -4329,7 +4329,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پا تناوبی نشسته با دمبل",
+        "text": "زیرشکم پا تناوبی نشسته با دمبل",
         "synonyms": [],
         "code": 478,
         "level": 3,
@@ -4338,7 +4338,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پا جمع",
+        "text": "زیرشکم پا جمع",
         "synonyms": [],
         "code": 479,
         "level": 1,
@@ -4347,7 +4347,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پا جمع با کش",
+        "text": "زیرشکم پا جمع با کش",
         "synonyms": [],
         "code": 480,
         "level": 2,
@@ -4356,7 +4356,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پا جمع روی نیمکت",
+        "text": "زیرشکم پا جمع روی نیمکت",
         "synonyms": [],
         "code": 481,
         "level": 1,
@@ -4365,7 +4365,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پا صاف",
+        "text": "زیرشکم پا صاف",
         "synonyms": [],
         "code": 482,
         "level": 1,
@@ -4374,7 +4374,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پارالل پا خم",
+        "text": "زیرشکم پارالل پا خم",
         "synonyms": [],
         "code": 483,
         "level": 2,
@@ -4383,7 +4383,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پارالل پا صاف",
+        "text": "زیرشکم پارالل پا صاف",
         "synonyms": [],
         "code": 484,
         "level": 3,
@@ -4392,7 +4392,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پارالل دوچرخه",
+        "text": "زیرشکم پارالل دوچرخه",
         "synonyms": [],
         "code": 485,
         "level": 2,
@@ -4401,7 +4401,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پارالل قیچی",
+        "text": "زیرشکم پارالل قیچی",
         "synonyms": [],
         "code": 486,
         "level": 3,
@@ -4410,7 +4410,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پارالل مورب",
+        "text": "زیرشکم پارالل مورب",
         "synonyms": [],
         "code": 487,
         "level": 3,
@@ -4419,7 +4419,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم پاصاف روی نیمکت",
+        "text": "زیرشکم پاصاف روی نیمکت",
         "synonyms": [],
         "code": 488,
         "level": 1,
@@ -4428,7 +4428,7 @@
         "url2": null
     },
     {
-        "main_name": "زیرشکم قیچی",
+        "text": "زیرشکم قیچی",
         "synonyms": [],
         "code": 489,
         "level": 1,
@@ -4437,7 +4437,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد پشت میز",
+        "text": "ساعد پشت میز",
         "synonyms": [],
         "code": 490,
         "level": 1,
@@ -4446,7 +4446,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد تک دست با کش",
+        "text": "ساعد تک دست با کش",
         "synonyms": [],
         "code": 491,
         "level": 1,
@@ -4455,7 +4455,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد جفت دست با کش",
+        "text": "ساعد جفت دست با کش",
         "synonyms": [],
         "code": 492,
         "level": 1,
@@ -4464,7 +4464,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد جلوبازو مچ معکوس سیمکش",
+        "text": "ساعد جلوبازو مچ معکوس سیمکش",
         "synonyms": [],
         "code": 493,
         "level": 2,
@@ -4473,7 +4473,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد دستگاه",
+        "text": "ساعد دستگاه",
         "synonyms": [],
         "code": 494,
         "level": 1,
@@ -4482,7 +4482,7 @@
         "url2": "https://fitshim.com/workouts/forearm/forearm-machine-curl/"
     },
     {
-        "main_name": "ساعد دمبل",
+        "text": "ساعد دمبل",
         "synonyms": [],
         "code": 495,
         "level": 2,
@@ -4491,7 +4491,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد دمبل تک",
+        "text": "ساعد دمبل تک",
         "synonyms": [],
         "code": 496,
         "level": 1,
@@ -4500,7 +4500,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد دمبل چرخشی",
+        "text": "ساعد دمبل چرخشی",
         "synonyms": [],
         "code": 497,
         "level": 2,
@@ -4509,7 +4509,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد سیمکش",
+        "text": "ساعد سیمکش",
         "synonyms": [],
         "code": 498,
         "level": 3,
@@ -4518,7 +4518,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد سیمکش از پشت",
+        "text": "ساعد سیمکش از پشت",
         "synonyms": [],
         "code": 499,
         "level": 3,
@@ -4527,7 +4527,7 @@
         "url2": null
     },
     {
-        "main_name": "ساعد هالتر",
+        "text": "ساعد هالتر",
         "synonyms": [
             "جلو بازو هالتر دست برعکس"
         ],
@@ -4538,7 +4538,7 @@
         "url2": "https://fitshim.com/workouts/forearm/barbell-reverse-curl/"
     },
     {
-        "main_name": "ساعد هالتر از پشت",
+        "text": "ساعد هالتر از پشت",
         "synonyms": [],
         "code": 501,
         "level": 3,
@@ -4547,7 +4547,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق اسکوات",
+        "text": "ساق اسکوات",
         "synonyms": [],
         "code": 502,
         "level": 3,
@@ -4556,7 +4556,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده",
+        "text": "ساق ایستاده",
         "synonyms": [],
         "code": 503,
         "level": 1,
@@ -4565,7 +4565,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده اسمیت",
+        "text": "ساق ایستاده اسمیت",
         "synonyms": [],
         "code": 504,
         "level": 2,
@@ -4574,7 +4574,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده با دمبل",
+        "text": "ساق ایستاده با دمبل",
         "synonyms": [],
         "code": 505,
         "level": 2,
@@ -4583,7 +4583,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده پشت میز",
+        "text": "ساق ایستاده پشت میز",
         "synonyms": [],
         "code": 506,
         "level": 1,
@@ -4592,7 +4592,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده پنجه بیرون",
+        "text": "ساق ایستاده پنجه بیرون",
         "synonyms": [],
         "code": 507,
         "level": 1,
@@ -4601,7 +4601,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده پنجه بیرون با دمبل",
+        "text": "ساق ایستاده پنجه بیرون با دمبل",
         "synonyms": [],
         "code": 508,
         "level": 1,
@@ -4610,7 +4610,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده پنجه داخل",
+        "text": "ساق ایستاده پنجه داخل",
         "synonyms": [],
         "code": 509,
         "level": 1,
@@ -4619,7 +4619,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده پنجه داخل با دمبل",
+        "text": "ساق ایستاده پنجه داخل با دمبل",
         "synonyms": [],
         "code": 510,
         "level": 2,
@@ -4628,7 +4628,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده تک پا",
+        "text": "ساق ایستاده تک پا",
         "synonyms": [],
         "code": 511,
         "level": 2,
@@ -4637,7 +4637,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده دستگاه",
+        "text": "ساق ایستاده دستگاه",
         "synonyms": [],
         "code": 512,
         "level": 2,
@@ -4646,7 +4646,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده دستگاه پنجه بیرون",
+        "text": "ساق ایستاده دستگاه پنجه بیرون",
         "synonyms": [],
         "code": 513,
         "level": 3,
@@ -4655,7 +4655,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق ایستاده دمبل تناوبی",
+        "text": "ساق ایستاده دمبل تناوبی",
         "synonyms": [],
         "code": 514,
         "level": 2,
@@ -4664,7 +4664,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق با کش",
+        "text": "ساق با کش",
         "synonyms": [],
         "code": 515,
         "level": 1,
@@ -4673,7 +4673,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق پرسی",
+        "text": "ساق پرسی",
         "synonyms": [],
         "code": 516,
         "level": 3,
@@ -4682,7 +4682,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق تناوبی",
+        "text": "ساق تناوبی",
         "synonyms": [],
         "code": 517,
         "level": 1,
@@ -4691,7 +4691,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق سومو",
+        "text": "ساق سومو",
         "synonyms": [],
         "code": 518,
         "level": 2,
@@ -4700,7 +4700,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق سومو ایستا",
+        "text": "ساق سومو ایستا",
         "synonyms": [],
         "code": 519,
         "level": 3,
@@ -4709,7 +4709,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق نشسته",
+        "text": "ساق نشسته",
         "synonyms": [],
         "code": 520,
         "level": 1,
@@ -4718,7 +4718,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق نشسته با دمبل",
+        "text": "ساق نشسته با دمبل",
         "synonyms": [],
         "code": 521,
         "level": 1,
@@ -4727,7 +4727,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق نشسته پشت میز",
+        "text": "ساق نشسته پشت میز",
         "synonyms": [],
         "code": 522,
         "level": 1,
@@ -4736,7 +4736,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق نشسته هالتر",
+        "text": "ساق نشسته هالتر",
         "synonyms": [],
         "code": 523,
         "level": 3,
@@ -4745,7 +4745,7 @@
         "url2": null
     },
     {
-        "main_name": "ساق هاگ",
+        "text": "ساق هاگ",
         "synonyms": [],
         "code": 524,
         "level": 2,
@@ -4754,7 +4754,7 @@
         "url2": null
     },
     {
-        "main_name": "سرشانه اسمیت نشسته از پشت",
+        "text": "سرشانه اسمیت نشسته از پشت",
         "synonyms": [],
         "code": 525,
         "level": 2,
@@ -4763,7 +4763,7 @@
         "url2": null
     },
     {
-        "main_name": "سرشانه پل روی دست (ایر)",
+        "text": "سرشانه پل روی دست (ایر)",
         "synonyms": [],
         "code": 526,
         "level": 2,
@@ -4772,7 +4772,7 @@
         "url2": null
     },
     {
-        "main_name": "سگ پرنده",
+        "text": "سگ پرنده",
         "synonyms": [],
         "code": 527,
         "level": 2,
@@ -4781,7 +4781,7 @@
         "url2": null
     },
     {
-        "main_name": "سلام ژاپنی هالتر",
+        "text": "سلام ژاپنی هالتر",
         "synonyms": [],
         "code": 528,
         "level": 3,
@@ -4790,7 +4790,7 @@
         "url2": null
     },
     {
-        "main_name": "سوپرمن",
+        "text": "سوپرمن",
         "synonyms": [],
         "code": 529,
         "level": 3,
@@ -4799,7 +4799,7 @@
         "url2": null
     },
     {
-        "main_name": "سومو اسکوات Tبار",
+        "text": "سومو اسکوات Tبار",
         "synonyms": [],
         "code": 530,
         "level": 3,
@@ -4808,7 +4808,7 @@
         "url2": null
     },
     {
-        "main_name": "سومو اسکوات دمبل",
+        "text": "سومو اسکوات دمبل",
         "synonyms": [
             "داخل پا دمبل  ",
             " اسکوات دمبل پا باز ",
@@ -4821,7 +4821,7 @@
         "url2": "https://fitshim.com/workouts/leg/dumbbell-pile-squat/"
     },
     {
-        "main_name": "سومو اسکوات دمبل روی استپ",
+        "text": "سومو اسکوات دمبل روی استپ",
         "synonyms": [],
         "code": 532,
         "level": 2,
@@ -4830,7 +4830,7 @@
         "url2": null
     },
     {
-        "main_name": "سومو اسکوات نشر جلو تناوبی",
+        "text": "سومو اسکوات نشر جلو تناوبی",
         "synonyms": [],
         "code": 533,
         "level": 2,
@@ -4839,7 +4839,7 @@
         "url2": null
     },
     {
-        "main_name": "سومو درجا",
+        "text": "سومو درجا",
         "synonyms": [],
         "code": 534,
         "level": 1,
@@ -4848,7 +4848,7 @@
         "url2": null
     },
     {
-        "main_name": "سی سی اسکوات",
+        "text": "سی سی اسکوات",
         "synonyms": [],
         "code": 535,
         "level": 3,
@@ -4857,7 +4857,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ",
+        "text": "شراگ",
         "synonyms": [],
         "code": 536,
         "level": 1,
@@ -4866,7 +4866,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ اسمیت",
+        "text": "شراگ اسمیت",
         "synonyms": [],
         "code": 537,
         "level": 2,
@@ -4875,7 +4875,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ اسمیت از پشت",
+        "text": "شراگ اسمیت از پشت",
         "synonyms": [
             "لیفت کول از پشت با اسمیت"
         ],
@@ -4886,7 +4886,7 @@
         "url2": "https://fitshim.com/workouts/traps/sm-reverse-shrug/"
     },
     {
-        "main_name": "شراگ با کش",
+        "text": "شراگ با کش",
         "synonyms": [],
         "code": 539,
         "level": 1,
@@ -4895,7 +4895,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ با کش تک دست",
+        "text": "شراگ با کش تک دست",
         "synonyms": [],
         "code": 540,
         "level": 1,
@@ -4904,7 +4904,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ دمبل ایستاده",
+        "text": "شراگ دمبل ایستاده",
         "synonyms": [],
         "code": 541,
         "level": 2,
@@ -4913,7 +4913,7 @@
         "url2": "https://fitshim.com/workouts/traps/standing-dumbbell-shrug/"
     },
     {
-        "main_name": "شراگ دمبل تک دست ایستاده",
+        "text": "شراگ دمبل تک دست ایستاده",
         "synonyms": [],
         "code": 542,
         "level": 2,
@@ -4922,7 +4922,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ دمبل نشسته",
+        "text": "شراگ دمبل نشسته",
         "synonyms": [
             "لیفت کول دمبل نشسته"
         ],
@@ -4933,7 +4933,7 @@
         "url2": "https://fitshim.com/workouts/traps/seated-dumbbell-shrug/"
     },
     {
-        "main_name": "شراگ صفحه",
+        "text": "شراگ صفحه",
         "synonyms": [],
         "code": 544,
         "level": 1,
@@ -4942,7 +4942,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ هالتر",
+        "text": "شراگ هالتر",
         "synonyms": [],
         "code": 545,
         "level": 2,
@@ -4951,7 +4951,7 @@
         "url2": null
     },
     {
-        "main_name": "شراگ هالتر از پشت",
+        "text": "شراگ هالتر از پشت",
         "synonyms": [
             "کول ایستاده شراگ با هالتر از پشت  ",
             "  لیفت کول هالتر از پشت"
@@ -4963,7 +4963,7 @@
         "url2": "https://fitshim.com/workouts/traps/reverse-barbell-shrug/"
     },
     {
-        "main_name": "شراگ هالتر دست باز",
+        "text": "شراگ هالتر دست باز",
         "synonyms": [],
         "code": 547,
         "level": 2,
@@ -4972,7 +4972,7 @@
         "url2": null
     },
     {
-        "main_name": "شکم با دمبل",
+        "text": "شکم با دمبل",
         "synonyms": [],
         "code": 548,
         "level": 3,
@@ -4981,7 +4981,7 @@
         "url2": null
     },
     {
-        "main_name": "شکم رول",
+        "text": "شکم رول",
         "synonyms": [],
         "code": 549,
         "level": 2,
@@ -4990,7 +4990,7 @@
         "url2": null
     },
     {
-        "main_name": "شکم رول با هالتر",
+        "text": "شکم رول با هالتر",
         "synonyms": [],
         "code": 550,
         "level": 3,
@@ -4999,7 +4999,7 @@
         "url2": null
     },
     {
-        "main_name": "شکم لمس پنجه ها خرچنگی",
+        "text": "شکم لمس پنجه ها خرچنگی",
         "synonyms": [],
         "code": 551,
         "level": 3,
@@ -5008,7 +5008,7 @@
         "url2": null
     },
     {
-        "main_name": "شکم لندماین با هالتر",
+        "text": "شکم لندماین با هالتر",
         "synonyms": [],
         "code": 552,
         "level": 3,
@@ -5017,7 +5017,7 @@
         "url2": null
     },
     {
-        "main_name": "شکم نشسته با کش",
+        "text": "شکم نشسته با کش",
         "synonyms": [],
         "code": 553,
         "level": 3,
@@ -5026,7 +5026,7 @@
         "url2": null
     },
     {
-        "main_name": "شکم نشسته پشت میز",
+        "text": "شکم نشسته پشت میز",
         "synonyms": [],
         "code": 554,
         "level": 2,
@@ -5035,7 +5035,7 @@
         "url2": null
     },
     {
-        "main_name": "شمع",
+        "text": "شمع",
         "synonyms": [],
         "code": 555,
         "level": 3,
@@ -5044,7 +5044,7 @@
         "url2": null
     },
     {
-        "main_name": "شمع پشت میز",
+        "text": "شمع پشت میز",
         "synonyms": [],
         "code": 556,
         "level": 1,
@@ -5053,7 +5053,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا ارتشی",
+        "text": "شنا ارتشی",
         "synonyms": [],
         "code": 557,
         "level": 3,
@@ -5062,7 +5062,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا بلندکردن دست ها",
+        "text": "شنا بلندکردن دست ها",
         "synonyms": [],
         "code": 558,
         "level": 2,
@@ -5071,7 +5071,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا پرشی",
+        "text": "شنا پرشی",
         "synonyms": [],
         "code": 559,
         "level": 3,
@@ -5080,7 +5080,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا پنجه رو بهم",
+        "text": "شنا پنجه رو بهم",
         "synonyms": [],
         "code": 560,
         "level": 2,
@@ -5089,7 +5089,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا تک دست",
+        "text": "شنا تک دست",
         "synonyms": [],
         "code": 561,
         "level": 3,
@@ -5098,7 +5098,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا تک دست به پهلو",
+        "text": "شنا تک دست به پهلو",
         "synonyms": [],
         "code": 562,
         "level": 3,
@@ -5107,7 +5107,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا تک دست روی پله",
+        "text": "شنا تک دست روی پله",
         "synonyms": [],
         "code": 563,
         "level": 2,
@@ -5116,7 +5116,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا جمع شیب مثبت",
+        "text": "شنا جمع شیب مثبت",
         "synonyms": [],
         "code": 564,
         "level": 1,
@@ -5125,7 +5125,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا جمع شیب مثبت لترال",
+        "text": "شنا جمع شیب مثبت لترال",
         "synonyms": [],
         "code": 565,
         "level": 2,
@@ -5134,7 +5134,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا دست باز جلو",
+        "text": "شنا دست باز جلو",
         "synonyms": [],
         "code": 566,
         "level": 3,
@@ -5143,7 +5143,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا دست جمع",
+        "text": "شنا دست جمع",
         "synonyms": [],
         "code": 567,
         "level": 2,
@@ -5152,7 +5152,7 @@
         "url2": "https://fitshim.com/workouts/tricep/close-grip-push-up/"
     },
     {
-        "main_name": "شنا روی پایه",
+        "text": "شنا روی پایه",
         "synonyms": [],
         "code": 568,
         "level": 2,
@@ -5161,7 +5161,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا روی پنجه",
+        "text": "شنا روی پنجه",
         "synonyms": [],
         "code": 569,
         "level": 3,
@@ -5170,7 +5170,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا روی توپ (مدیسن بال)",
+        "text": "شنا روی توپ (مدیسن بال)",
         "synonyms": [],
         "code": 570,
         "level": 3,
@@ -5179,7 +5179,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا زانو خم",
+        "text": "شنا زانو خم",
         "synonyms": [],
         "code": 571,
         "level": 3,
@@ -5188,7 +5188,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا زانو زمین",
+        "text": "شنا زانو زمین",
         "synonyms": [],
         "code": 572,
         "level": 1,
@@ -5197,7 +5197,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا زانو زمین و سرشانه",
+        "text": "شنا زانو زمین و سرشانه",
         "synonyms": [],
         "code": 573,
         "level": 3,
@@ -5206,7 +5206,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا ساعد زانو خم",
+        "text": "شنا ساعد زانو خم",
         "synonyms": [],
         "code": 574,
         "level": 3,
@@ -5215,7 +5215,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا سرشانه",
+        "text": "شنا سرشانه",
         "synonyms": [
             "پایک پوش آپ  ",
             "  شنا پایک  ",
@@ -5228,7 +5228,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/pike-push-up/"
     },
     {
-        "main_name": "شنا سوئدی",
+        "text": "شنا سوئدی",
         "synonyms": [
             "شنا سوئدی روی زمین  ",
             "  شنا دست روی زمین  ",
@@ -5241,7 +5241,7 @@
         "url2": "https://fitshim.com/workouts/chest/push-up/"
     },
     {
-        "main_name": "شنا سوئدی ایستاده",
+        "text": "شنا سوئدی ایستاده",
         "synonyms": [],
         "code": 577,
         "level": 1,
@@ -5250,7 +5250,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا سوئدی با کش",
+        "text": "شنا سوئدی با کش",
         "synonyms": [],
         "code": 578,
         "level": 3,
@@ -5259,7 +5259,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا سوئدی بلند کردن دست ها تناوبی",
+        "text": "شنا سوئدی بلند کردن دست ها تناوبی",
         "synonyms": [],
         "code": 579,
         "level": 3,
@@ -5268,7 +5268,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا سوئدی تکپا حرکت قله",
+        "text": "شنا سوئدی تکپا حرکت قله",
         "synonyms": [],
         "code": 580,
         "level": 3,
@@ -5277,7 +5277,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا سوئدی عنکبوتی تناوبی",
+        "text": "شنا سوئدی عنکبوتی تناوبی",
         "synonyms": [],
         "code": 581,
         "level": 3,
@@ -5286,7 +5286,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا شیب منفی روی پایه",
+        "text": "شنا شیب منفی روی پایه",
         "synonyms": [],
         "code": 582,
         "level": 3,
@@ -5295,7 +5295,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا طرفین",
+        "text": "شنا طرفین",
         "synonyms": [],
         "code": 583,
         "level": 3,
@@ -5304,7 +5304,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا کیک بک پا صاف",
+        "text": "شنا کیک بک پا صاف",
         "synonyms": [],
         "code": 584,
         "level": 2,
@@ -5313,7 +5313,7 @@
         "url2": null
     },
     {
-        "main_name": "شنا هندی",
+        "text": "شنا هندی",
         "synonyms": [],
         "code": 585,
         "level": 1,
@@ -5322,7 +5322,7 @@
         "url2": null
     },
     {
-        "main_name": "شوت",
+        "text": "شوت",
         "synonyms": [],
         "code": 586,
         "level": 1,
@@ -5331,7 +5331,7 @@
         "url2": null
     },
     {
-        "main_name": "شوت با دستگاه",
+        "text": "شوت با دستگاه",
         "synonyms": [],
         "code": 587,
         "level": 1,
@@ -5340,7 +5340,7 @@
         "url2": null
     },
     {
-        "main_name": "شوت با سیمکش",
+        "text": "شوت با سیمکش",
         "synonyms": [],
         "code": 588,
         "level": 2,
@@ -5349,7 +5349,7 @@
         "url2": null
     },
     {
-        "main_name": "شوت با کش",
+        "text": "شوت با کش",
         "synonyms": [],
         "code": 589,
         "level": 2,
@@ -5358,7 +5358,7 @@
         "url2": null
     },
     {
-        "main_name": "شوت و زانو بلند",
+        "text": "شوت و زانو بلند",
         "synonyms": [],
         "code": 590,
         "level": 1,
@@ -5367,7 +5367,7 @@
         "url2": null
     },
     {
-        "main_name": "صاف کردن زانو ایستاده دستگاه",
+        "text": "صاف کردن زانو ایستاده دستگاه",
         "synonyms": [],
         "code": 591,
         "level": 2,
@@ -5376,7 +5376,7 @@
         "url2": null
     },
     {
-        "main_name": "طناب زدن",
+        "text": "طناب زدن",
         "synonyms": [],
         "code": 592,
         "level": 1,
@@ -5385,7 +5385,7 @@
         "url2": null
     },
     {
-        "main_name": "عنکبوتی مورب",
+        "text": "عنکبوتی مورب",
         "synonyms": [],
         "code": 593,
         "level": 2,
@@ -5394,7 +5394,7 @@
         "url2": null
     },
     {
-        "main_name": "فلای بک",
+        "text": "فلای بک",
         "synonyms": [],
         "code": 594,
         "level": 2,
@@ -5403,7 +5403,7 @@
         "url2": null
     },
     {
-        "main_name": "فلای بک با کش",
+        "text": "فلای بک با کش",
         "synonyms": [],
         "code": 595,
         "level": 3,
@@ -5412,7 +5412,7 @@
         "url2": null
     },
     {
-        "main_name": "فلای بک چکشی",
+        "text": "فلای بک چکشی",
         "synonyms": [],
         "code": 596,
         "level": 2,
@@ -5421,7 +5421,7 @@
         "url2": null
     },
     {
-        "main_name": "فلای بک خوابیده",
+        "text": "فلای بک خوابیده",
         "synonyms": [],
         "code": 597,
         "level": 1,
@@ -5430,7 +5430,7 @@
         "url2": null
     },
     {
-        "main_name": "فلای پشت میز",
+        "text": "فلای پشت میز",
         "synonyms": [],
         "code": 598,
         "level": 1,
@@ -5439,7 +5439,7 @@
         "url2": null
     },
     {
-        "main_name": "فلای دستگاه",
+        "text": "فلای دستگاه",
         "synonyms": [
             "فلای دستگاه جفت دست  ",
             "  قفسه دستگاه  ",
@@ -5452,7 +5452,7 @@
         "url2": "https://fitshim.com/workouts/chest/machine-chest-fly/"
     },
     {
-        "main_name": "فلای دستگاه تک",
+        "text": "فلای دستگاه تک",
         "synonyms": [],
         "code": 600,
         "level": 3,
@@ -5461,7 +5461,7 @@
         "url2": null
     },
     {
-        "main_name": "فیس پول با کش",
+        "text": "فیس پول با کش",
         "synonyms": [],
         "code": 601,
         "level": 2,
@@ -5470,7 +5470,7 @@
         "url2": null
     },
     {
-        "main_name": "فیس پول دست باز",
+        "text": "فیس پول دست باز",
         "synonyms": [],
         "code": 602,
         "level": 3,
@@ -5479,7 +5479,7 @@
         "url2": null
     },
     {
-        "main_name": "فیس پول طنابی (سیمکش)",
+        "text": "فیس پول طنابی (سیمکش)",
         "synonyms": [],
         "code": 603,
         "level": 3,
@@ -5488,7 +5488,7 @@
         "url2": null
     },
     {
-        "main_name": "فیله دستگاه",
+        "text": "فیله دستگاه",
         "synonyms": [],
         "code": 604,
         "level": 1,
@@ -5497,7 +5497,7 @@
         "url2": null
     },
     {
-        "main_name": "فیله کمر خوابیده روی تشک",
+        "text": "فیله کمر خوابیده روی تشک",
         "synonyms": [],
         "code": 605,
         "level": 1,
@@ -5506,7 +5506,7 @@
         "url2": null
     },
     {
-        "main_name": "فیله کمر روی توپ",
+        "text": "فیله کمر روی توپ",
         "synonyms": [],
         "code": 606,
         "level": 3,
@@ -5515,7 +5515,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی",
+        "text": "قایقی",
         "synonyms": [],
         "code": 607,
         "level": 2,
@@ -5524,7 +5524,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی ایستاده دست باز با سیمکش",
+        "text": "قایقی ایستاده دست باز با سیمکش",
         "synonyms": [],
         "code": 608,
         "level": 3,
@@ -5533,7 +5533,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی با کش",
+        "text": "قایقی با کش",
         "synonyms": [],
         "code": 609,
         "level": 2,
@@ -5542,7 +5542,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی تک دست",
+        "text": "قایقی تک دست",
         "synonyms": [],
         "code": 610,
         "level": 3,
@@ -5551,7 +5551,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی تک دست با کش",
+        "text": "قایقی تک دست با کش",
         "synonyms": [],
         "code": 611,
         "level": 3,
@@ -5560,7 +5560,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی دست باز",
+        "text": "قایقی دست باز",
         "synonyms": [],
         "code": 612,
         "level": 3,
@@ -5569,7 +5569,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی دست باز موازی",
+        "text": "قایقی دست باز موازی",
         "synonyms": [],
         "code": 613,
         "level": 2,
@@ -5578,7 +5578,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی سیمکش",
+        "text": "قایقی سیمکش",
         "synonyms": [],
         "code": 614,
         "level": 3,
@@ -5587,7 +5587,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی طنابی",
+        "text": "قایقی طنابی",
         "synonyms": [],
         "code": 615,
         "level": 3,
@@ -5596,7 +5596,7 @@
         "url2": null
     },
     {
-        "main_name": "قایقی فیس پول",
+        "text": "قایقی فیس پول",
         "synonyms": [],
         "code": 616,
         "level": 3,
@@ -5605,7 +5605,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه بالاسینه دمبل چکشی",
+        "text": "قفسه بالاسینه دمبل چکشی",
         "synonyms": [],
         "code": 617,
         "level": 2,
@@ -5614,7 +5614,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه زیرسینه دمبل",
+        "text": "قفسه زیرسینه دمبل",
         "synonyms": [],
         "code": 618,
         "level": 2,
@@ -5623,7 +5623,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه سینه تناوبی پرس سینه جمع",
+        "text": "قفسه سینه تناوبی پرس سینه جمع",
         "synonyms": [],
         "code": 619,
         "level": 1,
@@ -5632,7 +5632,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه سینه دمبل",
+        "text": "قفسه سینه دمبل",
         "synonyms": [
             "فلای دمبل  ",
             "  قفسه سینه دمبل جفت خوابیده  ",
@@ -5645,7 +5645,7 @@
         "url2": "https://fitshim.com/workouts/chest/dumbbell-fly/"
     },
     {
-        "main_name": "قفسه سینه دمبل ایستاده",
+        "text": "قفسه سینه دمبل ایستاده",
         "synonyms": [],
         "code": 621,
         "level": 2,
@@ -5654,7 +5654,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه سینه دمبل پرسی",
+        "text": "قفسه سینه دمبل پرسی",
         "synonyms": [],
         "code": 622,
         "level": 2,
@@ -5663,7 +5663,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه سینه دمبل پرسی روی زمین",
+        "text": "قفسه سینه دمبل پرسی روی زمین",
         "synonyms": [],
         "code": 623,
         "level": 2,
@@ -5672,7 +5672,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه سینه دمبل چکشی",
+        "text": "قفسه سینه دمبل چکشی",
         "synonyms": [],
         "code": 624,
         "level": 2,
@@ -5681,7 +5681,7 @@
         "url2": null
     },
     {
-        "main_name": "قفسه سینه دمبل روی زمین",
+        "text": "قفسه سینه دمبل روی زمین",
         "synonyms": [],
         "code": 625,
         "level": 1,
@@ -5690,7 +5690,7 @@
         "url2": "https://fitshim.com/workouts/chest/floor-dumbbell-chest-fly/"
     },
     {
-        "main_name": "قله زانو زمین",
+        "text": "قله زانو زمین",
         "synonyms": [],
         "code": 626,
         "level": 2,
@@ -5699,7 +5699,7 @@
         "url2": null
     },
     {
-        "main_name": "کراس ۹۰ درجه با کش",
+        "text": "کراس ۹۰ درجه با کش",
         "synonyms": [],
         "code": 627,
         "level": 2,
@@ -5708,7 +5708,7 @@
         "url2": null
     },
     {
-        "main_name": "کراس از پایین با کش",
+        "text": "کراس از پایین با کش",
         "synonyms": [],
         "code": 628,
         "level": 3,
@@ -5717,7 +5717,7 @@
         "url2": null
     },
     {
-        "main_name": "کراس اور تک دست",
+        "text": "کراس اور تک دست",
         "synonyms": [],
         "code": 629,
         "level": 3,
@@ -5726,7 +5726,7 @@
         "url2": null
     },
     {
-        "main_name": "کراس اور تک دست با کش",
+        "text": "کراس اور تک دست با کش",
         "synonyms": [],
         "code": 630,
         "level": 2,
@@ -5735,7 +5735,7 @@
         "url2": null
     },
     {
-        "main_name": "کراس جک",
+        "text": "کراس جک",
         "synonyms": [],
         "code": 631,
         "level": 3,
@@ -5744,7 +5744,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ",
+        "text": "کرانچ",
         "synonyms": [],
         "code": 632,
         "level": 1,
@@ -5753,7 +5753,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ ۹۰ درجه بالا پایین کردن دست‌ها",
+        "text": "کرانچ ۹۰ درجه بالا پایین کردن دست‌ها",
         "synonyms": [],
         "code": 633,
         "level": 2,
@@ -5762,7 +5762,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ ایستا",
+        "text": "کرانچ ایستا",
         "synonyms": [],
         "code": 634,
         "level": 2,
@@ -5771,7 +5771,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ ایستا گهواره",
+        "text": "کرانچ ایستا گهواره",
         "synonyms": [],
         "code": 635,
         "level": 2,
@@ -5780,7 +5780,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ با جابجایی توپ",
+        "text": "کرانچ با جابجایی توپ",
         "synonyms": [],
         "code": 636,
         "level": 2,
@@ -5789,7 +5789,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ با دمبل",
+        "text": "کرانچ با دمبل",
         "synonyms": [],
         "code": 637,
         "level": 2,
@@ -5798,7 +5798,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ با کش",
+        "text": "کرانچ با کش",
         "synonyms": [],
         "code": 638,
         "level": 2,
@@ -5807,7 +5807,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پا ۹۰ درجه",
+        "text": "کرانچ پا ۹۰ درجه",
         "synonyms": [],
         "code": 639,
         "level": 1,
@@ -5816,7 +5816,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پا ۹۰ درجه با جابه‌جایی دمبل",
+        "text": "کرانچ پا ۹۰ درجه با جابه‌جایی دمبل",
         "synonyms": [],
         "code": 640,
         "level": 3,
@@ -5825,7 +5825,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پا ۹۰ درجه دست زدنی",
+        "text": "کرانچ پا ۹۰ درجه دست زدنی",
         "synonyms": [],
         "code": 641,
         "level": 2,
@@ -5834,7 +5834,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پا صاف ضربدری",
+        "text": "کرانچ پا صاف ضربدری",
         "synonyms": [],
         "code": 642,
         "level": 2,
@@ -5843,7 +5843,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پا عمود",
+        "text": "کرانچ پا عمود",
         "synonyms": [],
         "code": 643,
         "level": 3,
@@ -5852,7 +5852,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پا عمود با دمبل",
+        "text": "کرانچ پا عمود با دمبل",
         "synonyms": [],
         "code": 644,
         "level": 3,
@@ -5861,7 +5861,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پدال نشسته",
+        "text": "کرانچ پدال نشسته",
         "synonyms": [],
         "code": 645,
         "level": 2,
@@ -5870,7 +5870,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پرتاب توپ دو نفره",
+        "text": "کرانچ پرتاب توپ دو نفره",
         "synonyms": [],
         "code": 646,
         "level": 2,
@@ -5879,7 +5879,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پل",
+        "text": "کرانچ پل",
         "synonyms": [],
         "code": 647,
         "level": 2,
@@ -5888,7 +5888,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ پهلو خوابیده",
+        "text": "کرانچ پهلو خوابیده",
         "synonyms": [],
         "code": 648,
         "level": 2,
@@ -5897,7 +5897,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ تاچ",
+        "text": "کرانچ تاچ",
         "synonyms": [],
         "code": 649,
         "level": 2,
@@ -5906,7 +5906,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ تاچ پا ۹۰ درجه",
+        "text": "کرانچ تاچ پا ۹۰ درجه",
         "synonyms": [],
         "code": 650,
         "level": 3,
@@ -5915,7 +5915,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ دستگاه",
+        "text": "کرانچ دستگاه",
         "synonyms": [],
         "code": 651,
         "level": 2,
@@ -5924,7 +5924,7 @@
         "url2": "https://fitshim.com/workouts/abs/crunch-machine/"
     },
     {
-        "main_name": "کرانچ دوچرخه",
+        "text": "کرانچ دوچرخه",
         "synonyms": [
             "شکم دوچرخه ",
             "  زیر شکم دوچرخه"
@@ -5936,7 +5936,7 @@
         "url2": "https://fitshim.com/workouts/abs/crunch-air-bike/"
     },
     {
-        "main_name": "کرانچ دوچرخه تک تک",
+        "text": "کرانچ دوچرخه تک تک",
         "synonyms": [],
         "code": 653,
         "level": 1,
@@ -5945,7 +5945,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ دوچرخه یک طرفه",
+        "text": "کرانچ دوچرخه یک طرفه",
         "synonyms": [],
         "code": 654,
         "level": 2,
@@ -5954,7 +5954,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ روی توپ",
+        "text": "کرانچ روی توپ",
         "synonyms": [],
         "code": 655,
         "level": 3,
@@ -5963,7 +5963,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ شیبدار مولری",
+        "text": "کرانچ شیبدار مولری",
         "synonyms": [],
         "code": 656,
         "level": 2,
@@ -5972,7 +5972,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ قورباغه ای",
+        "text": "کرانچ قورباغه ای",
         "synonyms": [],
         "code": 657,
         "level": 3,
@@ -5981,7 +5981,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ معکوس",
+        "text": "کرانچ معکوس",
         "synonyms": [
             "کرانچ معکوس"
         ],
@@ -5992,7 +5992,7 @@
         "url2": "https://fitshim.com/workouts/abs/reverse-crunch/"
     },
     {
-        "main_name": "کرانچ معکوس تک‌ پا",
+        "text": "کرانچ معکوس تک‌ پا",
         "synonyms": [],
         "code": 659,
         "level": 3,
@@ -6001,7 +6001,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ مورب با کش",
+        "text": "کرانچ مورب با کش",
         "synonyms": [],
         "code": 660,
         "level": 3,
@@ -6010,7 +6010,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ مورب دستگاه",
+        "text": "کرانچ مورب دستگاه",
         "synonyms": [],
         "code": 661,
         "level": 3,
@@ -6019,7 +6019,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ مورب نشسته با سیمکش",
+        "text": "کرانچ مورب نشسته با سیمکش",
         "synonyms": [],
         "code": 662,
         "level": 3,
@@ -6028,7 +6028,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ نشسته سیمکش",
+        "text": "کرانچ نشسته سیمکش",
         "synonyms": [],
         "code": 663,
         "level": 3,
@@ -6037,7 +6037,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ نیمه مورب با کش",
+        "text": "کرانچ نیمه مورب با کش",
         "synonyms": [],
         "code": 664,
         "level": 2,
@@ -6046,7 +6046,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ و پرش ستاره",
+        "text": "کرانچ و پرش ستاره",
         "synonyms": [],
         "code": 665,
         "level": 3,
@@ -6055,7 +6055,7 @@
         "url2": null
     },
     {
-        "main_name": "کرانچ وی آپ",
+        "text": "کرانچ وی آپ",
         "synonyms": [],
         "code": 666,
         "level": 3,
@@ -6064,7 +6064,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش بازو و زیربغل بالای سر",
+        "text": "کشش بازو و زیربغل بالای سر",
         "synonyms": [],
         "code": 667,
         "level": 1,
@@ -6073,7 +6073,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش بازو و زیربغل پشت سر",
+        "text": "کشش بازو و زیربغل پشت سر",
         "synonyms": [],
         "code": 668,
         "level": 1,
@@ -6082,7 +6082,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش بازو و شانه پشت میز",
+        "text": "کشش بازو و شانه پشت میز",
         "synonyms": [],
         "code": 669,
         "level": 1,
@@ -6091,7 +6091,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش پا خوابیده ضربدری روی هم",
+        "text": "کشش پا خوابیده ضربدری روی هم",
         "synonyms": [],
         "code": 670,
         "level": 1,
@@ -6100,7 +6100,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش چهار سر ایستاده",
+        "text": "کشش چهار سر ایستاده",
         "synonyms": [],
         "code": 671,
         "level": 1,
@@ -6109,7 +6109,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش داخل ران چسباندن کف پاها",
+        "text": "کشش داخل ران چسباندن کف پاها",
         "synonyms": [],
         "code": 672,
         "level": 1,
@@ -6118,7 +6118,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش دست به بالا پشت میز",
+        "text": "کشش دست به بالا پشت میز",
         "synonyms": [],
         "code": 673,
         "level": 1,
@@ -6127,7 +6127,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش دست به جلو پشت میز",
+        "text": "کشش دست به جلو پشت میز",
         "synonyms": [],
         "code": 674,
         "level": 1,
@@ -6136,7 +6136,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش دست و زیربغل پشت میز",
+        "text": "کشش دست و زیربغل پشت میز",
         "synonyms": [],
         "code": 675,
         "level": 1,
@@ -6145,7 +6145,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش زانو داخل شکم تک خوابیده",
+        "text": "کشش زانو داخل شکم تک خوابیده",
         "synonyms": [],
         "code": 676,
         "level": 2,
@@ -6154,7 +6154,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش زانو داخل شکم جفت خوابیده",
+        "text": "کشش زانو داخل شکم جفت خوابیده",
         "synonyms": [],
         "code": 677,
         "level": 2,
@@ -6163,7 +6163,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش زیربغل پشت میز",
+        "text": "کشش زیربغل پشت میز",
         "synonyms": [],
         "code": 678,
         "level": 1,
@@ -6172,7 +6172,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش زیربغل و سینه با دیوار",
+        "text": "کشش زیربغل و سینه با دیوار",
         "synonyms": [],
         "code": 679,
         "level": 1,
@@ -6181,7 +6181,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش ساعد پشت میز",
+        "text": "کشش ساعد پشت میز",
         "synonyms": [],
         "code": 680,
         "level": 1,
@@ -6190,7 +6190,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش سرشانه و سینه از پشت سر",
+        "text": "کشش سرشانه و سینه از پشت سر",
         "synonyms": [],
         "code": 681,
         "level": 2,
@@ -6199,7 +6199,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش سرینی",
+        "text": "کشش سرینی",
         "synonyms": [],
         "code": 682,
         "level": 2,
@@ -6208,7 +6208,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش سینه پشت میز",
+        "text": "کشش سینه پشت میز",
         "synonyms": [],
         "code": 683,
         "level": 1,
@@ -6217,7 +6217,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش عضلات چهارسر در حالت لانگ",
+        "text": "کشش عضلات چهارسر در حالت لانگ",
         "synonyms": [],
         "code": 684,
         "level": 2,
@@ -6226,7 +6226,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش فیله تک پا نشسته",
+        "text": "کشش فیله تک پا نشسته",
         "synonyms": [],
         "code": 685,
         "level": 3,
@@ -6235,7 +6235,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش فیله و پشت پا تک پا نشسته",
+        "text": "کشش فیله و پشت پا تک پا نشسته",
         "synonyms": [],
         "code": 686,
         "level": 2,
@@ -6244,7 +6244,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش فیله و پهلو خوابیده",
+        "text": "کشش فیله و پهلو خوابیده",
         "synonyms": [],
         "code": 687,
         "level": 2,
@@ -6253,7 +6253,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش لگن با چرخش به داخل",
+        "text": "کشش لگن با چرخش به داخل",
         "synonyms": [],
         "code": 688,
         "level": 2,
@@ -6262,7 +6262,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش لگن زانو زده",
+        "text": "کشش لگن زانو زده",
         "synonyms": [],
         "code": 689,
         "level": 2,
@@ -6271,7 +6271,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش همسترینگ ایستاده پشت میز",
+        "text": "کشش همسترینگ ایستاده پشت میز",
         "synonyms": [],
         "code": 690,
         "level": 1,
@@ -6280,7 +6280,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش همسترینگ پشت میز",
+        "text": "کشش همسترینگ پشت میز",
         "synonyms": [],
         "code": 691,
         "level": 1,
@@ -6289,7 +6289,7 @@
         "url2": null
     },
     {
-        "main_name": "کشش همسترینگ و ساق با دیوار",
+        "text": "کشش همسترینگ و ساق با دیوار",
         "synonyms": [],
         "code": 692,
         "level": 1,
@@ -6298,7 +6298,7 @@
         "url2": null
     },
     {
-        "main_name": "کول اسمیت",
+        "text": "کول اسمیت",
         "synonyms": [],
         "code": 693,
         "level": 2,
@@ -6307,7 +6307,7 @@
         "url2": "https://fitshim.com/workouts/traps/smith-machine-upright-row/"
     },
     {
-        "main_name": "کول اسمیت دست باز",
+        "text": "کول اسمیت دست باز",
         "synonyms": [],
         "code": 694,
         "level": 3,
@@ -6316,7 +6316,7 @@
         "url2": "https://fitshim.com/workouts/traps/wg-sm-upright-row/"
     },
     {
-        "main_name": "کول اسمیت دست جمع",
+        "text": "کول اسمیت دست جمع",
         "synonyms": [],
         "code": 695,
         "level": 2,
@@ -6325,7 +6325,7 @@
         "url2": null
     },
     {
-        "main_name": "کول با کش",
+        "text": "کول با کش",
         "synonyms": [],
         "code": 696,
         "level": 2,
@@ -6334,7 +6334,7 @@
         "url2": null
     },
     {
-        "main_name": "کول دمبل",
+        "text": "کول دمبل",
         "synonyms": [
             "کول دمبل ایستاده ",
             "  کول با دمبل جفت دست ",
@@ -6347,7 +6347,7 @@
         "url2": "https://fitshim.com/workouts/traps/dumbbells-upright-row/"
     },
     {
-        "main_name": "کول دمبل اسکوات پرس سرشانه",
+        "text": "کول دمبل اسکوات پرس سرشانه",
         "synonyms": [],
         "code": 698,
         "level": 3,
@@ -6356,7 +6356,7 @@
         "url2": null
     },
     {
-        "main_name": "کول سیمکش",
+        "text": "کول سیمکش",
         "synonyms": [],
         "code": 699,
         "level": 2,
@@ -6365,7 +6365,7 @@
         "url2": null
     },
     {
-        "main_name": "کول سیمکش دست باز",
+        "text": "کول سیمکش دست باز",
         "synonyms": [],
         "code": 700,
         "level": 2,
@@ -6374,7 +6374,7 @@
         "url2": null
     },
     {
-        "main_name": "کول سیمکش دست جمع",
+        "text": "کول سیمکش دست جمع",
         "synonyms": [],
         "code": 701,
         "level": 2,
@@ -6383,7 +6383,7 @@
         "url2": null
     },
     {
-        "main_name": "کول صفحه",
+        "text": "کول صفحه",
         "synonyms": [],
         "code": 702,
         "level": 2,
@@ -6392,7 +6392,7 @@
         "url2": null
     },
     {
-        "main_name": "کول میله EZ",
+        "text": "کول میله EZ",
         "synonyms": [],
         "code": 703,
         "level": 2,
@@ -6401,7 +6401,7 @@
         "url2": null
     },
     {
-        "main_name": "کول هالتر",
+        "text": "کول هالتر",
         "synonyms": [],
         "code": 704,
         "level": 2,
@@ -6410,7 +6410,7 @@
         "url2": null
     },
     {
-        "main_name": "کول هالتر دست باز",
+        "text": "کول هالتر دست باز",
         "synonyms": [],
         "code": 705,
         "level": 2,
@@ -6419,7 +6419,7 @@
         "url2": "https://fitshim.com/workouts/traps/wg-barbell-upright-row/"
     },
     {
-        "main_name": "کول هالتر دست جمع",
+        "text": "کول هالتر دست جمع",
         "synonyms": [],
         "code": 706,
         "level": 2,
@@ -6428,7 +6428,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی",
+        "text": "کوهنوردی",
         "synonyms": [],
         "code": 707,
         "level": 2,
@@ -6437,7 +6437,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی تک پا",
+        "text": "کوهنوردی تک پا",
         "synonyms": [],
         "code": 708,
         "level": 2,
@@ -6446,7 +6446,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی تک پا دمبل تک خم",
+        "text": "کوهنوردی تک پا دمبل تک خم",
         "synonyms": [],
         "code": 709,
         "level": 3,
@@ -6455,7 +6455,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی تک تک",
+        "text": "کوهنوردی تک تک",
         "synonyms": [],
         "code": 710,
         "level": 1,
@@ -6464,7 +6464,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی تناوبی و اسنپ جامپ",
+        "text": "کوهنوردی تناوبی و اسنپ جامپ",
         "synonyms": [],
         "code": 711,
         "level": 2,
@@ -6473,7 +6473,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی روی دمبل",
+        "text": "کوهنوردی روی دمبل",
         "synonyms": [],
         "code": 712,
         "level": 2,
@@ -6482,7 +6482,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی سوپرمن",
+        "text": "کوهنوردی سوپرمن",
         "synonyms": [],
         "code": 713,
         "level": 2,
@@ -6491,7 +6491,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی ضربدری",
+        "text": "کوهنوردی ضربدری",
         "synonyms": [],
         "code": 714,
         "level": 2,
@@ -6500,7 +6500,7 @@
         "url2": null
     },
     {
-        "main_name": "کوهنوردی قله",
+        "text": "کوهنوردی قله",
         "synonyms": [],
         "code": 715,
         "level": 2,
@@ -6509,7 +6509,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک ایستاده پا خم سیمکش",
+        "text": "کیک بک ایستاده پا خم سیمکش",
         "synonyms": [],
         "code": 716,
         "level": 2,
@@ -6518,7 +6518,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک ایستاده پا صاف",
+        "text": "کیک بک ایستاده پا صاف",
         "synonyms": [],
         "code": 717,
         "level": 1,
@@ -6527,7 +6527,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک ایستاده پا صاف دستگاه",
+        "text": "کیک بک ایستاده پا صاف دستگاه",
         "synonyms": [],
         "code": 718,
         "level": 2,
@@ -6536,7 +6536,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک ایستاده پا صاف سیمکش",
+        "text": "کیک بک ایستاده پا صاف سیمکش",
         "synonyms": [],
         "code": 719,
         "level": 2,
@@ -6545,7 +6545,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک پا صاف روی پله",
+        "text": "کیک بک پا صاف روی پله",
         "synonyms": [],
         "code": 720,
         "level": 2,
@@ -6554,7 +6554,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک دانکی پا خم",
+        "text": "کیک بک دانکی پا خم",
         "synonyms": [],
         "code": 721,
         "level": 1,
@@ -6563,7 +6563,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک دانکی پا خم با کش",
+        "text": "کیک بک دانکی پا خم با کش",
         "synonyms": [],
         "code": 722,
         "level": 3,
@@ -6572,7 +6572,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک دانکی پا صاف",
+        "text": "کیک بک دانکی پا صاف",
         "synonyms": [],
         "code": 723,
         "level": 1,
@@ -6581,7 +6581,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک دانکی پا صاف چرخشی",
+        "text": "کیک بک دانکی پا صاف چرخشی",
         "synonyms": [],
         "code": 724,
         "level": 2,
@@ -6590,7 +6590,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک دانکی پا صاف و چرخش لگن به بیرون پا خم",
+        "text": "کیک بک دانکی پا صاف و چرخش لگن به بیرون پا خم",
         "synonyms": [],
         "code": 725,
         "level": 2,
@@ -6599,7 +6599,7 @@
         "url2": null
     },
     {
-        "main_name": "کیک بک دانکی جفت پا پرشی و اسکوات",
+        "text": "کیک بک دانکی جفت پا پرشی و اسکوات",
         "synonyms": [],
         "code": 726,
         "level": 3,
@@ -6608,7 +6608,7 @@
         "url2": null
     },
     {
-        "main_name": "گابلت اسکوات",
+        "text": "گابلت اسکوات",
         "synonyms": [],
         "code": 727,
         "level": 2,
@@ -6617,7 +6617,7 @@
         "url2": null
     },
     {
-        "main_name": "گام به کنار و لمس پا",
+        "text": "گام به کنار و لمس پا",
         "synonyms": [],
         "code": 728,
         "level": 2,
@@ -6626,7 +6626,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ اسکوات با دمبل",
+        "text": "لانگ اسکوات با دمبل",
         "synonyms": [],
         "code": 729,
         "level": 3,
@@ -6635,7 +6635,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ اسکوات با هالتر",
+        "text": "لانگ اسکوات با هالتر",
         "synonyms": [],
         "code": 730,
         "level": 3,
@@ -6644,7 +6644,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ با اسمیت",
+        "text": "لانگ با اسمیت",
         "synonyms": [],
         "code": 731,
         "level": 2,
@@ -6653,7 +6653,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ با کش",
+        "text": "لانگ با کش",
         "synonyms": [],
         "code": 732,
         "level": 2,
@@ -6662,7 +6662,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ بلغاری",
+        "text": "لانگ بلغاری",
         "synonyms": [],
         "code": 733,
         "level": 3,
@@ -6671,7 +6671,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ بلغاری اسمیت",
+        "text": "لانگ بلغاری اسمیت",
         "synonyms": [],
         "code": 734,
         "level": 3,
@@ -6680,7 +6680,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ بلغاری با کش",
+        "text": "لانگ بلغاری با کش",
         "synonyms": [],
         "code": 735,
         "level": 2,
@@ -6689,7 +6689,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ بلغاری پرشی",
+        "text": "لانگ بلغاری پرشی",
         "synonyms": [],
         "code": 736,
         "level": 3,
@@ -6698,7 +6698,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ بلغاری دمبل",
+        "text": "لانگ بلغاری دمبل",
         "synonyms": [],
         "code": 737,
         "level": 2,
@@ -6707,7 +6707,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به پهلو با کش",
+        "text": "لانگ به پهلو با کش",
         "synonyms": [],
         "code": 738,
         "level": 2,
@@ -6716,7 +6716,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به پهلو با هالتر",
+        "text": "لانگ به پهلو با هالتر",
         "synonyms": [],
         "code": 739,
         "level": 3,
@@ -6725,7 +6725,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به پهلو با هالتر روی استپ",
+        "text": "لانگ به پهلو با هالتر روی استپ",
         "synonyms": [],
         "code": 740,
         "level": 3,
@@ -6734,7 +6734,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به پهلو تناوبی با هالتر",
+        "text": "لانگ به پهلو تناوبی با هالتر",
         "synonyms": [],
         "code": 741,
         "level": 3,
@@ -6743,7 +6743,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به پهلو دمبل",
+        "text": "لانگ به پهلو دمبل",
         "synonyms": [],
         "code": 742,
         "level": 2,
@@ -6752,7 +6752,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به پهلو سردادنی",
+        "text": "لانگ به پهلو سردادنی",
         "synonyms": [],
         "code": 743,
         "level": 3,
@@ -6761,7 +6761,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به پهلو نشر",
+        "text": "لانگ به پهلو نشر",
         "synonyms": [],
         "code": 744,
         "level": 2,
@@ -6770,7 +6770,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به جلو دمبل تناوبی",
+        "text": "لانگ به جلو دمبل تناوبی",
         "synonyms": [],
         "code": 745,
         "level": 3,
@@ -6779,7 +6779,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب تناوبی پرس سینه دمبل موازی ایستاده",
+        "text": "لانگ به عقب تناوبی پرس سینه دمبل موازی ایستاده",
         "synonyms": [],
         "code": 746,
         "level": 1,
@@ -6788,7 +6788,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب چرخش کمر",
+        "text": "لانگ به عقب چرخش کمر",
         "synonyms": [],
         "code": 747,
         "level": 2,
@@ -6797,7 +6797,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب دمبل",
+        "text": "لانگ به عقب دمبل",
         "synonyms": [],
         "code": 748,
         "level": 2,
@@ -6806,7 +6806,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب زانو بلند",
+        "text": "لانگ به عقب زانو بلند",
         "synonyms": [],
         "code": 749,
         "level": 2,
@@ -6815,7 +6815,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب سردادنی",
+        "text": "لانگ به عقب سردادنی",
         "synonyms": [],
         "code": 750,
         "level": 3,
@@ -6824,7 +6824,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب قایقی ایستاده",
+        "text": "لانگ به عقب قایقی ایستاده",
         "synonyms": [],
         "code": 751,
         "level": 2,
@@ -6833,7 +6833,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب و چرخش لگن به بیرون",
+        "text": "لانگ به عقب و چرخش لگن به بیرون",
         "synonyms": [],
         "code": 752,
         "level": 1,
@@ -6842,7 +6842,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب و لیفت پشت پا دمبل",
+        "text": "لانگ به عقب و لیفت پشت پا دمبل",
         "synonyms": [],
         "code": 753,
         "level": 2,
@@ -6851,7 +6851,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ به عقب هالتر",
+        "text": "لانگ به عقب هالتر",
         "synonyms": [],
         "code": 754,
         "level": 2,
@@ -6860,7 +6860,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ پرس سرشانه",
+        "text": "لانگ پرس سرشانه",
         "synonyms": [],
         "code": 755,
         "level": 2,
@@ -6869,7 +6869,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ پرشی",
+        "text": "لانگ پرشی",
         "synonyms": [
             "لانچ پرشی  ",
             "  لانجز پرشی  ",
@@ -6882,7 +6882,7 @@
         "url2": "https://fitshim.com/workouts/leg/jumping-lunges/"
     },
     {
-        "main_name": "لانگ تک پا",
+        "text": "لانگ تک پا",
         "synonyms": [],
         "code": 757,
         "level": 1,
@@ -6891,7 +6891,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ تناوبی اسکوات",
+        "text": "لانگ تناوبی اسکوات",
         "synonyms": [],
         "code": 758,
         "level": 2,
@@ -6900,7 +6900,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ تناوبی پله",
+        "text": "لانگ تناوبی پله",
         "synonyms": [],
         "code": 759,
         "level": 2,
@@ -6909,7 +6909,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ دمبل",
+        "text": "لانگ دمبل",
         "synonyms": [],
         "code": 760,
         "level": 2,
@@ -6918,7 +6918,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ راه رفتنی دمبل",
+        "text": "لانگ راه رفتنی دمبل",
         "synonyms": [],
         "code": 761,
         "level": 2,
@@ -6927,7 +6927,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ راه رفتنی زانوبلند",
+        "text": "لانگ راه رفتنی زانوبلند",
         "synonyms": [],
         "code": 762,
         "level": 2,
@@ -6936,7 +6936,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ راه رفتنی کیک بک ایستاده",
+        "text": "لانگ راه رفتنی کیک بک ایستاده",
         "synonyms": [],
         "code": 763,
         "level": 3,
@@ -6945,7 +6945,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ زانو بلند",
+        "text": "لانگ زانو بلند",
         "synonyms": [],
         "code": 764,
         "level": 2,
@@ -6954,7 +6954,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ ضربدری",
+        "text": "لانگ ضربدری",
         "synonyms": [],
         "code": 765,
         "level": 3,
@@ -6963,7 +6963,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ ضربدری اسمیت",
+        "text": "لانگ ضربدری اسمیت",
         "synonyms": [],
         "code": 766,
         "level": 3,
@@ -6972,7 +6972,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ ضربدری به جلو لانگ به عقب",
+        "text": "لانگ ضربدری به جلو لانگ به عقب",
         "synonyms": [],
         "code": 767,
         "level": 2,
@@ -6981,7 +6981,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ ضربدری تناوبی اسکوات تاچ تناوبی دمبل",
+        "text": "لانگ ضربدری تناوبی اسکوات تاچ تناوبی دمبل",
         "synonyms": [],
         "code": 768,
         "level": 3,
@@ -6990,7 +6990,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ ضربدری تناوبی کیک بک ایستاده تناوبی",
+        "text": "لانگ ضربدری تناوبی کیک بک ایستاده تناوبی",
         "synonyms": [],
         "code": 769,
         "level": 3,
@@ -6999,7 +6999,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ ضربدری زانو بلند",
+        "text": "لانگ ضربدری زانو بلند",
         "synonyms": [],
         "code": 770,
         "level": 3,
@@ -7008,7 +7008,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ قیچی",
+        "text": "لانگ قیچی",
         "synonyms": [],
         "code": 771,
         "level": 3,
@@ -7017,7 +7017,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ قیچی اسکوات پروانه",
+        "text": "لانگ قیچی اسکوات پروانه",
         "synonyms": [],
         "code": 772,
         "level": 2,
@@ -7026,7 +7026,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ قیچی چرخش کمر",
+        "text": "لانگ قیچی چرخش کمر",
         "synonyms": [],
         "code": 773,
         "level": 2,
@@ -7035,7 +7035,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ قیچی و پلانک لمس شانه",
+        "text": "لانگ قیچی و پلانک لمس شانه",
         "synonyms": [],
         "code": 774,
         "level": 3,
@@ -7044,7 +7044,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ کیک بک ایستاده پا صاف زانو بلند",
+        "text": "لانگ کیک بک ایستاده پا صاف زانو بلند",
         "synonyms": [],
         "code": 775,
         "level": 2,
@@ -7053,7 +7053,7 @@
         "url2": null
     },
     {
-        "main_name": "لانگ هالتر",
+        "text": "لانگ هالتر",
         "synonyms": [],
         "code": 776,
         "level": 2,
@@ -7062,7 +7062,7 @@
         "url2": null
     },
     {
-        "main_name": "لترال به بیرون لانگ ضربدری",
+        "text": "لترال به بیرون لانگ ضربدری",
         "synonyms": [],
         "code": 777,
         "level": 2,
@@ -7071,7 +7071,7 @@
         "url2": null
     },
     {
-        "main_name": "لگ بک پشت میز",
+        "text": "لگ بک پشت میز",
         "synonyms": [],
         "code": 778,
         "level": 1,
@@ -7080,7 +7080,7 @@
         "url2": null
     },
     {
-        "main_name": "لمس زانوی مخالف و شانه مخالف در حالت شنا",
+        "text": "لمس زانوی مخالف و شانه مخالف در حالت شنا",
         "synonyms": [],
         "code": 779,
         "level": 2,
@@ -7089,7 +7089,7 @@
         "url2": null
     },
     {
-        "main_name": "لمس کردن زانوی مخالف پرش ستاره در حالت شنا",
+        "text": "لمس کردن زانوی مخالف پرش ستاره در حالت شنا",
         "synonyms": [],
         "code": 780,
         "level": 3,
@@ -7098,7 +7098,7 @@
         "url2": null
     },
     {
-        "main_name": "لمس کردن شانه مخالف تناوبی و زانوی مخالف تناوبی در حالت شنا",
+        "text": "لمس کردن شانه مخالف تناوبی و زانوی مخالف تناوبی در حالت شنا",
         "synonyms": [],
         "code": 781,
         "level": 2,
@@ -7107,7 +7107,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت پشت پا اسمیت",
+        "text": "لیفت پشت پا اسمیت",
         "synonyms": [],
         "code": 782,
         "level": 2,
@@ -7116,7 +7116,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت پشت پا دمبل",
+        "text": "لیفت پشت پا دمبل",
         "synonyms": [],
         "code": 783,
         "level": 2,
@@ -7125,7 +7125,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت پشت پا دمبل پا باز",
+        "text": "لیفت پشت پا دمبل پا باز",
         "synonyms": [],
         "code": 784,
         "level": 2,
@@ -7134,7 +7134,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت پشت پا دمبل تک",
+        "text": "لیفت پشت پا دمبل تک",
         "synonyms": [],
         "code": 785,
         "level": 2,
@@ -7143,7 +7143,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت پشت پا دمبل تکان دادنی",
+        "text": "لیفت پشت پا دمبل تکان دادنی",
         "synonyms": [],
         "code": 786,
         "level": 2,
@@ -7152,7 +7152,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت پشت پا سیمکش",
+        "text": "لیفت پشت پا سیمکش",
         "synonyms": [],
         "code": 787,
         "level": 3,
@@ -7161,7 +7161,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت پشت پا هالتر",
+        "text": "لیفت پشت پا هالتر",
         "synonyms": [],
         "code": 788,
         "level": 2,
@@ -7170,7 +7170,7 @@
         "url2": null
     },
     {
-        "main_name": "لیفت سومو هالتر",
+        "text": "لیفت سومو هالتر",
         "synonyms": [],
         "code": 789,
         "level": 3,
@@ -7179,7 +7179,7 @@
         "url2": null
     },
     {
-        "main_name": "مورب ایستاده با کش",
+        "text": "مورب ایستاده با کش",
         "synonyms": [],
         "code": 790,
         "level": 3,
@@ -7188,7 +7188,7 @@
         "url2": null
     },
     {
-        "main_name": "مورب ایستاده سیمکش",
+        "text": "مورب ایستاده سیمکش",
         "synonyms": [],
         "code": 791,
         "level": 3,
@@ -7197,7 +7197,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر Y دمبل",
+        "text": "نشر Y دمبل",
         "synonyms": [],
         "code": 792,
         "level": 3,
@@ -7206,7 +7206,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب با کش",
+        "text": "نشر جانب با کش",
         "synonyms": [],
         "code": 793,
         "level": 2,
@@ -7215,7 +7215,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب پولیکن",
+        "text": "نشر جانب پولیکن",
         "synonyms": [],
         "code": 794,
         "level": 1,
@@ -7224,7 +7224,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب پولیکن با دمبل",
+        "text": "نشر جانب پولیکن با دمبل",
         "synonyms": [],
         "code": 795,
         "level": 3,
@@ -7233,7 +7233,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب تک با کش",
+        "text": "نشر جانب تک با کش",
         "synonyms": [],
         "code": 796,
         "level": 2,
@@ -7242,7 +7242,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دست خم چرخش به بیرون دمبل",
+        "text": "نشر جانب دست خم چرخش به بیرون دمبل",
         "synonyms": [],
         "code": 797,
         "level": 2,
@@ -7251,7 +7251,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دمبل",
+        "text": "نشر جانب دمبل",
         "synonyms": [],
         "code": 798,
         "level": 2,
@@ -7260,7 +7260,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دمبل آرنج ۹۰ درجه",
+        "text": "نشر جانب دمبل آرنج ۹۰ درجه",
         "synonyms": [],
         "code": 799,
         "level": 3,
@@ -7269,7 +7269,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دمبل تک",
+        "text": "نشر جانب دمبل تک",
         "synonyms": [],
         "code": 800,
         "level": 2,
@@ -7278,7 +7278,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دمبل چکشی (شصت بالا)",
+        "text": "نشر جانب دمبل چکشی (شصت بالا)",
         "synonyms": [],
         "code": 801,
         "level": 3,
@@ -7287,7 +7287,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دمبل چکشی (شصت پایین)",
+        "text": "نشر جانب دمبل چکشی (شصت پایین)",
         "synonyms": [],
         "code": 802,
         "level": 3,
@@ -7296,7 +7296,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دمبل شیبدار تک",
+        "text": "نشر جانب دمبل شیبدار تک",
         "synonyms": [],
         "code": 803,
         "level": 3,
@@ -7305,7 +7305,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب دمبل نشسته",
+        "text": "نشر جانب دمبل نشسته",
         "synonyms": [
             "صلیب دمبل نشسته "
         ],
@@ -7316,7 +7316,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/lateral-raise-dbs-sd/"
     },
     {
-        "main_name": "نشر جانب سیمکش از پشت",
+        "text": "نشر جانب سیمکش از پشت",
         "synonyms": [],
         "code": 805,
         "level": 3,
@@ -7325,7 +7325,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جانب سیمکش تک دست",
+        "text": "نشر جانب سیمکش تک دست",
         "synonyms": [],
         "code": 806,
         "level": 3,
@@ -7334,7 +7334,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو تناوبی با کش",
+        "text": "نشر جلو تناوبی با کش",
         "synonyms": [],
         "code": 807,
         "level": 2,
@@ -7343,7 +7343,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو جفت با کش",
+        "text": "نشر جلو جفت با کش",
         "synonyms": [],
         "code": 808,
         "level": 2,
@@ -7352,7 +7352,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو دمبل تناوبی",
+        "text": "نشر جلو دمبل تناوبی",
         "synonyms": [],
         "code": 809,
         "level": 2,
@@ -7361,7 +7361,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو دمبل تناوبی چرخشی",
+        "text": "نشر جلو دمبل تناوبی چرخشی",
         "synonyms": [],
         "code": 810,
         "level": 2,
@@ -7370,7 +7370,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو دمبل جفت دست",
+        "text": "نشر جلو دمبل جفت دست",
         "synonyms": [],
         "code": 811,
         "level": 2,
@@ -7379,7 +7379,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو دمبل جفت دست چرخشی",
+        "text": "نشر جلو دمبل جفت دست چرخشی",
         "synonyms": [],
         "code": 812,
         "level": 2,
@@ -7388,7 +7388,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو دمبل چکشی تناوبی",
+        "text": "نشر جلو دمبل چکشی تناوبی",
         "synonyms": [],
         "code": 813,
         "level": 1,
@@ -7397,7 +7397,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو سیمکش ایستاده",
+        "text": "نشر جلو سیمکش ایستاده",
         "synonyms": [],
         "code": 814,
         "level": 2,
@@ -7406,7 +7406,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو سیمکش تک",
+        "text": "نشر جلو سیمکش تک",
         "synonyms": [],
         "code": 815,
         "level": 2,
@@ -7415,7 +7415,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو صفحه",
+        "text": "نشر جلو صفحه",
         "synonyms": [],
         "code": 816,
         "level": 2,
@@ -7424,7 +7424,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو صفحه شیبدار",
+        "text": "نشر جلو صفحه شیبدار",
         "synonyms": [],
         "code": 817,
         "level": 3,
@@ -7433,7 +7433,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو نشر جانب دمبل",
+        "text": "نشر جلو نشر جانب دمبل",
         "synonyms": [],
         "code": 818,
         "level": 3,
@@ -7442,7 +7442,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو هالتر",
+        "text": "نشر جلو هالتر",
         "synonyms": [],
         "code": 819,
         "level": 2,
@@ -7451,7 +7451,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو هالتر شیبدار",
+        "text": "نشر جلو هالتر شیبدار",
         "synonyms": [],
         "code": 820,
         "level": 3,
@@ -7460,7 +7460,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر جلو هالتر شیبدار مچ معکوس",
+        "text": "نشر جلو هالتر شیبدار مچ معکوس",
         "synonyms": [],
         "code": 821,
         "level": 3,
@@ -7469,7 +7469,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر خم Y دمبل تک دست",
+        "text": "نشر خم Y دمبل تک دست",
         "synonyms": [],
         "code": 822,
         "level": 3,
@@ -7478,7 +7478,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر خم با کش",
+        "text": "نشر خم با کش",
         "synonyms": [],
         "code": 823,
         "level": 2,
@@ -7487,7 +7487,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر خم دمبل",
+        "text": "نشر خم دمبل",
         "synonyms": [
             "نشر پشت جفت دمبل  ",
             "  نشر صلیب دمبل و نشر خم صلیب دمبل ",
@@ -7500,7 +7500,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/dumbbell-bent-over-lateral-raise/"
     },
     {
-        "main_name": "نشر خم دمبل تک دست",
+        "text": "نشر خم دمبل تک دست",
         "synonyms": [],
         "code": 825,
         "level": 2,
@@ -7509,7 +7509,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر خم دمبل چکشی",
+        "text": "نشر خم دمبل چکشی",
         "synonyms": [],
         "code": 826,
         "level": 2,
@@ -7518,7 +7518,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر خم دمبل خوابیده",
+        "text": "نشر خم دمبل خوابیده",
         "synonyms": [],
         "code": 827,
         "level": 1,
@@ -7527,7 +7527,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر خم دمبل خوابیده تک دست",
+        "text": "نشر خم دمبل خوابیده تک دست",
         "synonyms": [],
         "code": 828,
         "level": 2,
@@ -7536,7 +7536,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر خم دمبل نشسته",
+        "text": "نشر خم دمبل نشسته",
         "synonyms": [
             "فلای بک دمبل نشسته ",
             "  فلای معکوس دمبل نشسته  ",
@@ -7549,7 +7549,7 @@
         "url2": "https://fitshim.com/workouts/shoulder/seated-rear-delt-fly-dbs/"
     },
     {
-        "main_name": "نشر دمبل بالای سر",
+        "text": "نشر دمبل بالای سر",
         "synonyms": [],
         "code": 830,
         "level": 2,
@@ -7558,7 +7558,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر سرشانه از پشت هالتر",
+        "text": "نشر سرشانه از پشت هالتر",
         "synonyms": [],
         "code": 831,
         "level": 2,
@@ -7567,7 +7567,7 @@
         "url2": null
     },
     {
-        "main_name": "نشر صلیب دمبل",
+        "text": "نشر صلیب دمبل",
         "synonyms": [],
         "code": 832,
         "level": 3,
@@ -7576,7 +7576,7 @@
         "url2": null
     },
     {
-        "main_name": "نگه داشتن دمبل",
+        "text": "نگه داشتن دمبل",
         "synonyms": [],
         "code": 833,
         "level": 1,
@@ -7585,7 +7585,7 @@
         "url2": null
     },
     {
-        "main_name": "نگه داشتن صفحه",
+        "text": "نگه داشتن صفحه",
         "synonyms": [],
         "code": 834,
         "level": 1,
@@ -7594,7 +7594,7 @@
         "url2": null
     },
     {
-        "main_name": "هاگ پا دستگاه – هک اسکوات",
+        "text": "هاگ پا دستگاه – هک اسکوات",
         "synonyms": [],
         "code": 835,
         "level": 2,
@@ -7603,7 +7603,7 @@
         "url2": null
     },
     {
-        "main_name": "هاگ معکوس – هک اسکوات معکوس",
+        "text": "هاگ معکوس – هک اسکوات معکوس",
         "synonyms": [],
         "code": 836,
         "level": 3,
@@ -7612,7 +7612,7 @@
         "url2": null
     },
     {
-        "main_name": "هاگ نوک پنجه",
+        "text": "هاگ نوک پنجه",
         "synonyms": [],
         "code": 837,
         "level": 3,
@@ -7621,7 +7621,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست",
+        "text": "هیپ تراست",
         "synonyms": [],
         "code": 838,
         "level": 1,
@@ -7630,7 +7630,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست اسمیت",
+        "text": "هیپ تراست اسمیت",
         "synonyms": [],
         "code": 839,
         "level": 1,
@@ -7639,7 +7639,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست تکپا",
+        "text": "هیپ تراست تکپا",
         "synonyms": [],
         "code": 840,
         "level": 2,
@@ -7648,7 +7648,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست تکپا اسمیت",
+        "text": "هیپ تراست تکپا اسمیت",
         "synonyms": [],
         "code": 841,
         "level": 2,
@@ -7657,7 +7657,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست دمبل",
+        "text": "هیپ تراست دمبل",
         "synonyms": [],
         "code": 842,
         "level": 2,
@@ -7666,7 +7666,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست روی توپ",
+        "text": "هیپ تراست روی توپ",
         "synonyms": [],
         "code": 843,
         "level": 1,
@@ -7675,7 +7675,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست نشسته",
+        "text": "هیپ تراست نشسته",
         "synonyms": [],
         "code": 844,
         "level": 1,
@@ -7684,7 +7684,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست نشسته اسمیت",
+        "text": "هیپ تراست نشسته اسمیت",
         "synonyms": [],
         "code": 845,
         "level": 2,
@@ -7693,7 +7693,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست نشسته تکپا",
+        "text": "هیپ تراست نشسته تکپا",
         "synonyms": [],
         "code": 846,
         "level": 2,
@@ -7702,7 +7702,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست نشسته سیمکش",
+        "text": "هیپ تراست نشسته سیمکش",
         "synonyms": [],
         "code": 847,
         "level": 2,
@@ -7711,7 +7711,7 @@
         "url2": null
     },
     {
-        "main_name": "هیپ تراست هالتر",
+        "text": "هیپ تراست هالتر",
         "synonyms": [],
         "code": 848,
         "level": 2,
