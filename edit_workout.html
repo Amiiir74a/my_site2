@@ -214,25 +214,24 @@
         }
 
         document.getElementById('activity').addEventListener('input', function() {
-    const query = this.value.toLowerCase().trim();
-    if (query.length === 0) return; // اگر چیزی تایپ نشده، خروجی خالی باشد
+            const query = this.value.toLowerCase().trim();
+            if (query.length === 0) return; // اگر چیزی تایپ نشده، خروجی خالی باشد
 
-    const queryWords = query.split(/\s+/); // تبدیل متن به آرایه‌ای از کلمات جداگانه
-    const activityList = document.getElementById('activity-list');
-    activityList.innerHTML = '';
+            const queryWords = query.split(/\s+/); // تبدیل متن به آرایه‌ای از کلمات جداگانه
+            const activityList = document.getElementById('activity-list');
+            activityList.innerHTML = '';
 
-    activitiesData.forEach(activity => {
-        const activityText = activity.text.toLowerCase(); // نام حرکت ورزشی
-        const containsAllWords = queryWords.every(word => activityText.includes(word)); // بررسی وجود همه کلمات در متن
+            activitiesData.forEach(activity => {
+                const activityText = activity.text.toLowerCase(); // نام حرکت ورزشی
+                const containsAllWords = queryWords.every(word => activityText.includes(word)); // بررسی وجود همه کلمات در متن
 
-        if (containsAllWords) {
-            const option = document.createElement('option');
-            option.value = activity.text;
-            activityList.appendChild(option);
-        }
-    });
-});
-
+                if (containsAllWords) {
+                    const option = document.createElement('option');
+                    option.value = activity.text;
+                    activityList.appendChild(option);
+                }
+            });
+        });
     </script>
 </body>
 </html>
