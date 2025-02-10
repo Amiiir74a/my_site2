@@ -214,22 +214,25 @@
         }
 
         document.getElementById('activity').addEventListener('input', function() {
-            const queryWords = new Set(this.value.toLowerCase().trim().split(' '));
-            const activityList = document.getElementById('activity-list');
-            activityList.innerHTML = '';
+    const query = this.value.toLowerCase().trim();
+    if (query.length === 0) return; // اگر چیزی تایپ نشده، خروجی خالی باشد
 
-            activitiesData.forEach(activity => {
-                const mainNameWords = new Set(activity.text.toLowerCase().split(' '));
+    const queryWords = query.split(/\s+/); // تبدیل متن به آرایه‌ای از کلمات جداگانه
+    const activityList = document.getElementById('activity-list');
+    activityList.innerHTML = '';
 
-                // Check if all query words exist in the main name words
-                if ([...queryWords].every(word => mainNameWords.has(word))) {
-                    const option = document.createElement('option');
-                    option.value = activity.text;
-                    activityList.appendChild(option);
-                }
-            });
-        });
-        
+    activitiesData.forEach(activity => {
+        const activityText = activity.text.toLowerCase(); // نام حرکت ورزشی
+        const containsAllWords = queryWords.every(word => activityText.includes(word)); // بررسی وجود همه کلمات در متن
+
+        if (containsAllWords) {
+            const option = document.createElement('option');
+            option.value = activity.text;
+            activityList.appendChild(option);
+        }
+    });
+});
+
     </script>
 </body>
 </html>
