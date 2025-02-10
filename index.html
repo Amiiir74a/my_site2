@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صفحه اصلی</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-size: cover;
+            background-position: center;
+        }
+        .button-container {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .modal-content {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="button-container">
@@ -146,9 +164,22 @@
             }
         }
 
+        function setRandomBackground() {
+            fetch('backs.txt')
+                .then(response => response.text())
+                .then(data => {
+                    const lines = data.split('\n').filter(line => line.trim() !== '');
+                    const randomLine = lines[Math.floor(Math.random() * lines.length)];
+                    document.body.style.backgroundImage = `url(${randomLine})`;
+                });
+        }
+
         document.getElementById('confirm-delete-button').onclick = deleteDay;
 
-        document.addEventListener('DOMContentLoaded', loadDays);
+        document.addEventListener('DOMContentLoaded', () => {
+            setRandomBackground();
+            loadDays();
+        });
         
     </script>
     <footer>
