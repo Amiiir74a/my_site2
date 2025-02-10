@@ -214,18 +214,19 @@
         }
 
         document.getElementById('activity').addEventListener('input', function() {
-            const query = this.value.toLowerCase();
+            const query = this.value.toLowerCase().split(' ').sort().join(' ');
             const activityList = document.getElementById('activity-list');
             activityList.innerHTML = '';
             activitiesData.forEach(activity => {
-                const mainName = activity.text.toLowerCase();
-                const synonyms = activity.synonyms.map(synonym => synonym.toLowerCase());
-                if (mainName.includes(query) || synonyms.some(synonym => synonym.includes(query))) {
-                    const option = document.createElement('option');
-                    option.value = activity.text;
-                    activityList.appendChild(option);
-                }
+            const mainName = activity.text.toLowerCase().split(' ').sort().join(' ');
+            const synonyms = activity.synonyms.map(synonym => synonym.toLowerCase().split(' ').sort().join(' '));
+            if (mainName.includes(query) || synonyms.some(synonym => synonym.includes(query))) {
+                const option = document.createElement('option');
+                option.value = activity.text;
+                activityList.appendChild(option);
+            }
             });
+        });
         });
     </script>
 </body>
