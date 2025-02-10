@@ -231,8 +231,7 @@
                     const lines = data.split('\n').filter(line => line.trim() !== '');
                     const randomLine = lines[Math.floor(Math.random() * lines.length)];
                     document.body.style.backgroundImage = `url(${randomLine})`;
-                })
-                .catch(error => console.error('Error loading background image:', error));
+                });
         }
 
         document.getElementById('activity').addEventListener('input', function() {
