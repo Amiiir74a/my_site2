@@ -36,22 +36,8 @@
         </div>
     </div>
 
-    <div id="rename-day-modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeRenameDayModal()">&times;</span>
-            <h2>تغییر نام روز</h2>
-            <label for="new-day-name">نام جدید:</label>
-            <input type="text" id="new-day-name" name="new-day-name">
-            <div class="modal-buttons">
-                <button onclick="confirmRenameDay()" style="background-color: #28a745;">ذخیره</button>
-                <button onclick="closeRenameDayModal()" style="background-color: #007BFF;">انصراف</button>
-            </div>
-        </div>
-    </div>
-
     <script>
         let dayToDelete = null;
-        let dayToRename = null;
 
         function openAddDayModal() {
             const days = JSON.parse(localStorage.getItem('days')) || [];
@@ -76,20 +62,34 @@
             dayToDelete = null;
         }
 
-        function openRenameDayModal(dayNumber) {
-            dayToRename = dayNumber;
-            document.getElementById('rename-day-modal').style.display = 'flex';
-        }
-
-        function closeRenameDayModal() {
-            document.getElementById('rename-day-modal').style.display = 'none';
-            dayToRename = null;
-        }
-
         function addNewDay() {
             const dayName = document.getElementById('day-name').value;
             if (dayName) {
                 const dayNumber = getNextAvailableDayNumber();
+                createDayButton(dayName, dayNumber);
+                saveDay(dayName, dayNumber);
+                closeAddDayModal();
+            }
+        }
+
+        function getNextAvailableDayNumber() {
+            const days = JSON.parse(localStorage.getItem('days')) || [];
+            for (let i = 1; i <= 10; i++) {
+                if (!days.some(day => day.number === i)) {
+                    return i;
+                }
+            }
+            return null;
+        }
+
+        function createDayButton(dayName, dayNumber) {
+            const buttonContainer = document.querySelector('.button-container');
+            const dayDiv = document.createElement('div');
+            dayDiv.className = 'day-div';
+
+            const newButton = document.createElement('button');
+            newButton.textContent = dayName;
+            newButton.onclick = () => location.href = `day${dayNumber}.html`;
 
             const renameButton = document.createElement('button');
             renameButton.textContent = 'R';
