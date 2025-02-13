@@ -192,7 +192,7 @@
                 const validLinks = links.filter(link => link); // Filter out empty links
                 const randomIndex = Math.floor(Math.random() * validLinks.length);
                 const randomLink = validLinks[randomIndex];
-                document.body.style.backgroundImage = `url(${randomLink})`; !important
+                document.body.style.backgroundImage = `url(${randomLink})`;
                 document.body.style.backgroundSize = 'cover';
                 document.body.style.backgroundPosition = 'center';
             } catch (error) {
