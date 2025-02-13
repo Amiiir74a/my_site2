@@ -9,6 +9,9 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px 0; /* اضافه کردن این خط برای فاصله دادن از بالا و پایین */
     max-width: 100%; /* جلوگیری از تجاوز عرضی */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
