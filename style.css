@@ -8,6 +8,7 @@ body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     padding: 20px 0; /* اضافه کردن این خط برای فاصله دادن از بالا و پایین */
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 .activity-form {
@@ -28,6 +30,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     direction: rtl; /* اضافه کردن این خط برای راست‌چین کردن */
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 .activity-form label {
@@ -47,6 +50,7 @@ body {
 .button-row {
     display: flex;
     gap: 10px;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 button {
@@ -92,6 +96,7 @@ button:hover {
     border: 1px solid #888;
     width: 300px;
     direction: rtl;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 .close {
@@ -142,11 +147,13 @@ button:hover {
     padding: 10px;
     background-color: #f0f0f0;
     border-radius: 5px;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 .title-buttons {
     display: flex;
     gap: 10px;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 hr {
@@ -194,6 +201,7 @@ table {
     border-collapse: collapse;
     margin-bottom: 20px;
     direction: rtl;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 th, td {
@@ -277,6 +285,7 @@ footer {
     max-width: 500px;
     width: 90%;
     animation: fadeIn 0.3s ease;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 @keyframes fadeIn {
@@ -298,6 +307,7 @@ footer {
     margin: 10px;
     text-align: center;
     font-size: 16px;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 .info-boxes {
@@ -305,6 +315,7 @@ footer {
     justify-content: space-between;
     gap: 10px;
     margin-top: 20px;
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
 
 @media (max-width: 600px) {
@@ -356,4 +367,12 @@ footer {
         flex-direction: column;
         gap: 5px;
     }
+}
+
+.day1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* مرکز کردن محتوای طولی */
+    align-items: center;
+    min-height: 100vh;
 }
