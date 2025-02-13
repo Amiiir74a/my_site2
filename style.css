@@ -103,7 +103,7 @@ button:hover {
 }
 
 .modal-content input {
-    width: 100%; /* افزایش عرض input */
+    width: 40%; /* افزایش عرض input */
     box-sizing: border-box; /* برای سازگاری با مرورگرهای مختلف */
 }
 
