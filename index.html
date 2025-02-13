@@ -84,6 +84,7 @@
                 const input = document.getElementById('new-day-name');
                 input.value = day.name;
                 input.select();
+                input.setSelectionRange(0, input.value.length);
             }
             document.getElementById('rename-day-modal').style.display = 'flex';
         }
