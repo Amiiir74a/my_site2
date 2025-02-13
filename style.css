@@ -45,6 +45,8 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: right; /* اضافه کردن این خط برای راست‌چین کردن */
+    width: 100%; /* افزایش عرض input */
+    box-sizing: border-box; /* برای سازگاری با مرورگرهای مختلف */
 }
 
 .button-row {
@@ -94,9 +96,15 @@ button:hover {
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 300px;
+    width: 80%; /* کاهش عرض پنجره */
+    max-width: 400px; /* حداکثر عرض پنجره */
     direction: rtl;
     max-width: 100%; /* جلوگیری از تجاوز عرضی */
+}
+
+.modal-content input {
+    width: 100%; /* افزایش عرض input */
+    box-sizing: border-box; /* برای سازگاری با مرورگرهای مختلف */
 }
 
 .close {
