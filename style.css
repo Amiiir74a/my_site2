@@ -243,11 +243,10 @@ footer {
     margin-top: auto;
     text-align: center;
     padding: 10px;
-    background-color: rgba(241, 241, 241, 0.8); /* تغییر این خط برای شفافیت */
+    background-color: #f1f1f1;
     width: 100%;
     position: relative; /* تغییر این خط برای جلوگیری از پنهان شدن */
     bottom: 0;
-    backdrop-filter: blur(10px); /* اضافه کردن این خط برای بلور کردن پس زمینه */
 }
 
 .tooltip-container {
