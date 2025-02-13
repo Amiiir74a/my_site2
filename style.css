@@ -1,12 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between; /* تغییر این خط برای فاصله گذاری بین بالا و پایین */
     align-items: center;
     min-height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    padding: 20px 0; /* اضافه کردن این خط برای فاصله دادن از بالا و پایین */
 }
 
 .container {
@@ -118,6 +119,8 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    margin-top: auto; /* اضافه کردن این خط برای فاصله دادن از بالا */
+    margin-bottom: auto; /* اضافه کردن این خط برای فاصله دادن از پایین */
 }
 
 .add-day-button {
@@ -214,7 +217,7 @@ footer {
     padding: 10px;
     background-color: #f1f1f1;
     width: 100%;
-    position: absolute;
+    position: relative; /* تغییر این خط برای جلوگیری از پنهان شدن */
     bottom: 0;
 }
 
