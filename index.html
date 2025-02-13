@@ -36,8 +36,22 @@
         </div>
     </div>
 
+    <div id="rename-day-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRenameDayModal()">&times;</span>
+            <h2>تغییر نام روز</h2>
+            <label for="new-day-name">نام جدید:</label>
+            <input type="text" id="new-day-name" name="new-day-name">
+            <div class="modal-buttons">
+                <button onclick="confirmRenameDay()" style="background-color: #28a745;">ذخیره</button>
+                <button onclick="closeRenameDayModal()">انصراف</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         let dayToDelete = null;
+        let dayToRename = null;
 
         function openAddDayModal() {
             const days = JSON.parse(localStorage.getItem('days')) || [];
@@ -60,6 +74,16 @@
         function closeDeleteDayModal() {
             document.getElementById('delete-day-modal').style.display = 'none';
             dayToDelete = null;
+        }
+
+        function openRenameDayModal(dayNumber) {
+            dayToRename = dayNumber;
+            document.getElementById('rename-day-modal').style.display = 'flex';
+        }
+
+        function closeRenameDayModal() {
+            document.getElementById('rename-day-modal').style.display = 'none';
+            dayToRename = null;
         }
 
         function addNewDay() {
@@ -123,14 +147,19 @@
         }
 
         function renameDay(dayNumber) {
-            const days = JSON.parse(localStorage.getItem('days')) || [];
-            const dayIndex = days.findIndex(d => d.number === dayNumber);
-            if (dayIndex !== -1) {
-                const newName = prompt('نام جدید را وارد کنید:', days[dayIndex].name);
-                if (newName) {
+            openRenameDayModal(dayNumber);
+        }
+
+        function confirmRenameDay() {
+            const newName = document.getElementById('new-day-name').value;
+            if (newName) {
+                const days = JSON.parse(localStorage.getItem('days')) || [];
+                const dayIndex = days.findIndex(d => d.number === dayToRename);
+                if (dayIndex !== -1) {
                     days[dayIndex].name = newName;
                     localStorage.setItem('days', JSON.stringify(days));
                     loadDays();
+                    closeRenameDayModal();
                 }
             }
         }
