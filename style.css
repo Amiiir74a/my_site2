@@ -7,7 +7,7 @@ body {
     margin: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    padding: 20px 0; /* اضافه کردن این خط برای فاصله دادن از بالا و پایین */
+    padding: 10px 0; /* کاهش فاصله از بالا و پایین */
 }
 
 .container {
@@ -119,8 +119,8 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: auto; /* اضافه کردن این خط برای فاصله دادن از بالا */
-    margin-bottom: auto; /* اضافه کردن این خط برای فاصله دادن از پایین */
+    margin-top: 10px; /* کاهش فاصله از بالا */
+    margin-bottom: 10px; /* کاهش فاصله از پایین */
 }
 
 .add-day-button {
