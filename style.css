@@ -242,7 +242,7 @@ tr:hover {
 footer {
     margin-top: auto;
     text-align: center;
-    padding: 10px; /* کاهش ارتفاع فوتر */
+    padding: 20px; /* کاهش ارتفاع فوتر */
     background-color: #f1f1f1;
     width: 100%;
     position: relative; /* تغییر این خط برای جلوگیری از پنهان شدن */
