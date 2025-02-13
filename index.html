@@ -78,6 +78,13 @@
 
         function openRenameDayModal(dayNumber) {
             dayToRename = dayNumber;
+            const days = JSON.parse(localStorage.getItem('days')) || [];
+            const day = days.find(d => d.number === dayNumber);
+            if (day) {
+                const input = document.getElementById('new-day-name');
+                input.value = day.name;
+                input.select();
+            }
             document.getElementById('rename-day-modal').style.display = 'flex';
         }
 
