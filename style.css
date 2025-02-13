@@ -96,8 +96,8 @@ button:hover {
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* کاهش عرض پنجره */
-    max-width: 400px; /* حداکثر عرض پنجره */
+    width: 40%; /* کاهش عرض پنجره */
+    max-width: 300px; /* حداکثر عرض پنجره */
     direction: rtl;
     max-width: 100%; /* جلوگیری از تجاوز عرضی */
 }
