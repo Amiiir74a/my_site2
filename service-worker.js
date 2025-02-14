@@ -1,7 +1,5 @@
 const CACHE_NAME = 'my-site-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
   '/style.css',
   '/manifest.json',
   // Add other assets you want to cache
