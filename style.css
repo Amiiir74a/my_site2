@@ -243,7 +243,8 @@ footer {
     margin-top: auto;
     text-align: center;
     padding: 5px; /* کاهش ارتفاع فوتر */
-    background-color: #f1f1f1;
+    background-color: rgba(241, 241, 241, 0.8); /* تغییر رنگ پس زمینه به شفاف */
+    backdrop-filter: blur(10px); /* اضافه کردن فیلتر بلور */
     width: 100%;
     position: relative; /* تغییر این خط برای جلوگیری از پنهان شدن */
     bottom: 0;
