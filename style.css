@@ -243,11 +243,13 @@ footer {
     margin-top: auto;
     text-align: center;
     padding: 5px; /* کاهش ارتفاع فوتر */
-    background-color: rgba(241, 241, 241, 0.8); /* تغییر رنگ پس زمینه به شفاف */
+    background-color: rgba(241, 241, 241, 0.23); /* تغییر رنگ پس زمینه به شفاف */
     backdrop-filter: blur(10px); /* اضافه کردن فیلتر بلور */
     width: 100%;
     position: relative; /* تغییر این خط برای جلوگیری از پنهان شدن */
     bottom: 0;
+    margin-bottom: 0; /* اضافه کردن این خط برای چسباندن به پایین صفحه */
+    flex-shrink: 0; /* اضافه کردن این خط برای چسباندن به پایین صفحه */
 }
 
 .tooltip-container {
@@ -387,4 +389,18 @@ footer {
     width: 90%;
     animation: fadeIn 0.3s ease;
     direction: rtl; /* راست‌چین کردن ساختار مودال */
+}
+
+.button-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(241, 241, 241, 0.219); /* رنگ پس زمینه همرنگ فوتر */
+    backdrop-filter: blur(10px); /* اضافه کردن فیلتر بلور */
+    padding: 20px;
+    border-radius: 10px;
+    width: auto; /* عرض متغیر */
+    max-width: 100%; /* جلوگیری از تجاوز عرضی */
+    margin: auto 0; /* مرکز کردن کادر دکمه‌ها به صورت عمودی */
 }
