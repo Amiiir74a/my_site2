@@ -194,8 +194,15 @@
                 const response = await fetch('links.json');
                 const links = await response.json();
                 const validLinks = links.filter(link => link); // Filter out empty links
+                const cachedLinks = JSON.parse(localStorage.getItem('cachedLinks')) || [];
                 const randomIndex = Math.floor(Math.random() * validLinks.length);
                 const randomLink = validLinks[randomIndex];
+
+                if (!cachedLinks.includes(randomLink)) {
+                    cachedLinks.push(randomLink);
+                    localStorage.setItem('cachedLinks', JSON.stringify(cachedLinks));
+                }
+
                 document.body.style.backgroundImage = `url(${randomLink})`;
                 document.body.style.backgroundSize = 'cover';
                 document.body.style.backgroundPosition = 'center';
