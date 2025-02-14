@@ -2,7 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    height: 100%;
     margin: 0;
+    padding: 0;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
@@ -14,6 +16,9 @@ body {
     align-items: center;
     gap: 20px;
     max-width: 100%; /* جلوگیری از تجاوز عرضی */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .activity-form {
